@@ -1291,7 +1291,7 @@
 
     const map = new mapboxgl.Map({
       container: "map",
-      style: "mapbox://styles/mapbox/streets-v12",
+      style: "mapbox://styles/mapbox/light-v11",
       center: [-15, 20],
       zoom: 1.35,
       projection: "mercator",
@@ -1780,7 +1780,7 @@
     }
 
     function unifyWaterColor() {
-      const waterColor = "#9fc7d8";
+      const waterColor = "#b7cfe0";
       const styleLayers = map.getStyle()?.layers || [];
 
       for (const layer of styleLayers) {
@@ -1799,7 +1799,7 @@
     }
 
     function deepenWaterLabelColor() {
-      const labelColor = "#3f6f8e";
+      const labelColor = "#567892";
       const styleLayers = map.getStyle()?.layers || [];
 
       for (const layer of styleLayers) {
@@ -1819,12 +1819,12 @@
 
     function warmLandPaletteSlightly() {
       const layerColors = {
-        land: { property: "background-color", value: "#f0efe8" },
-        landcover: { property: "fill-color", value: "#dde2d0" },
-        "national-park": { property: "fill-color", value: "#d2dbbf" },
-        landuse: { property: "fill-color", value: "#e8e7de" },
-        "land-structure-polygon": { property: "fill-color", value: "#e8e6de" },
-        "land-structure-line": { property: "line-color", value: "#e4e1d8" }
+        land: { property: "background-color", value: "#f3f4f5" },
+        landcover: { property: "fill-color", value: "#e6e8ea" },
+        "national-park": { property: "fill-color", value: "#e1e4e7" },
+        landuse: { property: "fill-color", value: "#eceeef" },
+        "land-structure-polygon": { property: "fill-color", value: "#eceef0" },
+        "land-structure-line": { property: "line-color", value: "#dde1e4" }
       };
 
       for (const [layerId, config] of Object.entries(layerColors)) {
@@ -1862,6 +1862,51 @@
         map.setLayerZoomRange(
           layerId,
           Math.max(layer.minzoom ?? 0, minHighwayZoom),
+          layer.maxzoom
+        );
+      }
+    }
+
+    function delayStreetVisibility() {
+      const minStreetZoom = 11.5;
+      const styleLayers = map.getStyle()?.layers || [];
+      const streetLayerPatterns = [
+        /\broad-(secondary|tertiary)\b/i,
+        /\broad-street\b/i,
+        /\broad-residential\b/i,
+        /\broad-service\b/i,
+        /\broad-minor\b/i,
+        /\bbridge-(secondary|tertiary)\b/i,
+        /\bbridge-street\b/i,
+        /\bbridge-residential\b/i,
+        /\bbridge-service\b/i,
+        /\btunnel-(secondary|tertiary)\b/i,
+        /\btunnel-street\b/i,
+        /\btunnel-residential\b/i,
+        /\btunnel-service\b/i
+      ];
+      const preservedStreetLayerPatterns = [
+        /\bmotorway\b/i,
+        /\btrunk\b/i
+      ];
+
+      for (const layer of styleLayers) {
+        if (layer.type !== "line") {
+          continue;
+        }
+
+        const layerId = String(layer.id || "");
+        if (preservedStreetLayerPatterns.some((pattern) => pattern.test(layerId))) {
+          continue;
+        }
+
+        if (!streetLayerPatterns.some((pattern) => pattern.test(layerId))) {
+          continue;
+        }
+
+        map.setLayerZoomRange(
+          layerId,
+          Math.max(layer.minzoom ?? 0, minStreetZoom),
           layer.maxzoom
         );
       }
@@ -2172,6 +2217,7 @@
         warmLandPaletteSlightly();
         removeMountainShading();
         delayHighwayVisibility();
+        delayStreetVisibility();
         delayStateLabelVisibility();
         delayNonMajorCityLabelVisibility();
         bindLegendToggle();
@@ -2447,5 +2493,3 @@
   </script>
 </body>
 </html>
-
-
