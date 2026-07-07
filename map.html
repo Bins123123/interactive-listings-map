@@ -1291,7 +1291,7 @@
 
     const map = new mapboxgl.Map({
       container: "map",
-      style: "mapbox://styles/mapbox/light-v11",
+      style: "mapbox://styles/mapbox/streets-v12",
       center: [-15, 20],
       zoom: 1.35,
       projection: "mercator",
@@ -1780,7 +1780,7 @@
     }
 
     function unifyWaterColor() {
-      const waterColor = "#b7cfe0";
+      const waterColor = "#9fc7d8";
       const styleLayers = map.getStyle()?.layers || [];
 
       for (const layer of styleLayers) {
@@ -1799,7 +1799,7 @@
     }
 
     function deepenWaterLabelColor() {
-      const labelColor = "#567892";
+      const labelColor = "#3f6f8e";
       const styleLayers = map.getStyle()?.layers || [];
 
       for (const layer of styleLayers) {
@@ -1819,12 +1819,12 @@
 
     function warmLandPaletteSlightly() {
       const layerColors = {
-        land: { property: "background-color", value: "#f3f4f5" },
-        landcover: { property: "fill-color", value: "#e6e8ea" },
-        "national-park": { property: "fill-color", value: "#e1e4e7" },
-        landuse: { property: "fill-color", value: "#eceeef" },
-        "land-structure-polygon": { property: "fill-color", value: "#eceef0" },
-        "land-structure-line": { property: "line-color", value: "#dde1e4" }
+        land: { property: "background-color", value: "#efeee9" },
+        landcover: { property: "fill-color", value: "#dce0d5" },
+        "national-park": { property: "fill-color", value: "#d6dcc8" },
+        landuse: { property: "fill-color", value: "#e6e5de" },
+        "land-structure-polygon": { property: "fill-color", value: "#e5e4dd" },
+        "land-structure-line": { property: "line-color", value: "#dfddd5" }
       };
 
       for (const [layerId, config] of Object.entries(layerColors)) {
