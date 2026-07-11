@@ -1819,12 +1819,12 @@
 
     function warmLandPaletteSlightly() {
       const layerColors = {
-        land: { property: "background-color", value: "#efeee9" },
-        landcover: { property: "fill-color", value: "#dce0d5" },
-        "national-park": { property: "fill-color", value: "#d6dcc8" },
-        landuse: { property: "fill-color", value: "#e6e5de" },
-        "land-structure-polygon": { property: "fill-color", value: "#e5e4dd" },
-        "land-structure-line": { property: "line-color", value: "#dfddd5" }
+        land: { property: "background-color", value: "#f3f1ec" },
+        landcover: { property: "fill-color", value: "#e3e6dc" },
+        "national-park": { property: "fill-color", value: "#dde3d2" },
+        landuse: { property: "fill-color", value: "#ebe9e3" },
+        "land-structure-polygon": { property: "fill-color", value: "#e9e7e1" },
+        "land-structure-line": { property: "line-color", value: "#e4e1da" }
       };
 
       for (const [layerId, config] of Object.entries(layerColors)) {
@@ -1836,13 +1836,80 @@
       }
     }
 
-    function removeMountainShading() {
-      const hillshadeLayer = map.getStyle()?.layers?.find((layer) => layer.id === "hillshade");
-      if (!hillshadeLayer) {
-        return;
-      }
+    function softenLocalRoadColors() {
+      const localRoadColor = "#ece8e1";
+      const styleLayers = map.getStyle()?.layers || [];
+      const localRoadPatterns = [
+        /\broad-street\b/i,
+        /\broad-residential\b/i,
+        /\broad-service\b/i,
+        /\broad-minor\b/i,
+        /\bbridge-street\b/i,
+        /\bbridge-residential\b/i,
+        /\bbridge-service\b/i,
+        /\btunnel-street\b/i,
+        /\btunnel-residential\b/i,
+        /\btunnel-service\b/i
+      ];
 
-      map.setLayoutProperty("hillshade", "visibility", "none");
+      for (const layer of styleLayers) {
+        if (layer.type !== "line") {
+          continue;
+        }
+
+        const layerId = String(layer.id || "");
+        if (!localRoadPatterns.some((pattern) => pattern.test(layerId))) {
+          continue;
+        }
+
+        if (layer.paint?.["line-color"] !== undefined) {
+          map.setPaintProperty(layerId, "line-color", localRoadColor);
+        }
+      }
+    }
+
+    function softenMinorHighwayOpacity() {
+      const minorHighwayOpacity = 0.68;
+      const styleLayers = map.getStyle()?.layers || [];
+      const minorHighwayPatterns = [
+        /\broad-primary\b/i,
+        /\bbridge-primary\b/i,
+        /\btunnel-primary\b/i
+      ];
+
+      for (const layer of styleLayers) {
+        if (layer.type !== "line") {
+          continue;
+        }
+
+        const layerId = String(layer.id || "");
+        if (!minorHighwayPatterns.some((pattern) => pattern.test(layerId))) {
+          continue;
+        }
+
+        if (layer.paint?.["line-opacity"] !== undefined) {
+          map.setPaintProperty(layerId, "line-opacity", minorHighwayOpacity);
+        }
+      }
+    }
+
+    function removeMountainShading() {
+      const styleLayers = map.getStyle()?.layers || [];
+      const shadingPatterns = [
+        /\bhillshade\b/i,
+        /\bterrain\b/i
+      ];
+
+      for (const layer of styleLayers) {
+        const layerId = String(layer.id || "");
+        if (!shadingPatterns.some((pattern) => pattern.test(layerId))) {
+          continue;
+        }
+
+        if (map.getLayer(layerId)) {
+          map.setLayoutProperty(layerId, "visibility", "none");
+        }
+      }
     }
 
     function delayHighwayVisibility() {
@@ -1912,6 +1979,33 @@
       }
     }
 
+    function delayMinorHighwayVisibility() {
+      const minMinorHighwayZoom = 9.5;
+      const styleLayers = map.getStyle()?.layers || [];
+      const minorHighwayPatterns = [
+        /\broad-primary\b/i,
+        /\bbridge-primary\b/i,
+        /\btunnel-primary\b/i
+      ];
+
+      for (const layer of styleLayers) {
+        if (layer.type !== "line") {
+          continue;
+        }
+
+        const layerId = String(layer.id || "");
+        if (!minorHighwayPatterns.some((pattern) => pattern.test(layerId))) {
+          continue;
+        }
+
+        map.setLayerZoomRange(
+          layerId,
+          Math.max(layer.minzoom ?? 0, minMinorHighwayZoom),
+          layer.maxzoom
+        );
+      }
+    }
+
     function delayStateLabelVisibility() {
       const minStateLabelZoom = 4.2;
       const layerId = "state-label";
@@ -1928,7 +2022,7 @@
     }
 
     function delayNonMajorCityLabelVisibility() {
-      const minPlaceZoom = 5.6;
+      const minPlaceZoom = 9;
       const styleLayers = map.getStyle()?.layers || [];
       const delayedPlaceLayerPatterns = [
         /\bsettlement-minor-label\b/i,
@@ -2215,9 +2309,12 @@
         unifyWaterColor();
         deepenWaterLabelColor();
         warmLandPaletteSlightly();
+        softenLocalRoadColors();
+        softenMinorHighwayOpacity();
         removeMountainShading();
         delayHighwayVisibility();
         delayStreetVisibility();
+        delayMinorHighwayVisibility();
         delayStateLabelVisibility();
         delayNonMajorCityLabelVisibility();
         bindLegendToggle();
