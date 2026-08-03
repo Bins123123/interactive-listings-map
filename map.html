@@ -4,10 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' https://api.mapbox.com;
+      style-src 'self' 'unsafe-inline' https://api.mapbox.com;
+      img-src 'self' data: blob: https://*.mapbox.com;
+      connect-src 'self' https://*.mapbox.com;
+      worker-src 'self' blob:;
+      child-src blob:;
+      font-src 'self' data: https://api.mapbox.com;
+      object-src 'none';
+      base-uri 'self';
+      form-action 'none';
+      block-all-mixed-content;
+      upgrade-insecure-requests
+    "
+  >
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Interactive Listings Map</title>
   <link
     href="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css"
     rel="stylesheet"
+    crossorigin="anonymous"
+    referrerpolicy="strict-origin-when-cross-origin"
   >
   <style>
     :root {
@@ -1270,7 +1291,11 @@
     </div>
   </div>
 
-  <script src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"></script>
+  <script
+    src="https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js"
+    crossorigin="anonymous"
+    referrerpolicy="strict-origin-when-cross-origin"
+  ></script>
   <script>
     // Set to true only for local standalone preview outside the dashboard iframe.
     const allowStandalonePreview = false;
@@ -2320,7 +2345,11 @@
         bindLegendToggle();
         bindFilterToggle();
 
-        const response = await fetch("./locations.geojson");
+        const response = await fetch("./locations.geojson", {
+          mode: "same-origin",
+          credentials: "same-origin",
+          referrerPolicy: "strict-origin-when-cross-origin"
+        });
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}`);
         }
