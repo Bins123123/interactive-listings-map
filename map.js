@@ -29,9 +29,6 @@
       touchPitch: false
     });
 
-    // Keep drag-to-pan, but prevent scroll-wheel zoom from hijacking page scroll in embeds.
-    map.scrollZoom.disable();
-
     const navigationControl = new mapboxgl.NavigationControl();
     map.addControl(navigationControl, "top-right");
 
