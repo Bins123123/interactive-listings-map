@@ -181,6 +181,17 @@ function brokerNameCandidates(value) {
   return [...candidates];
 }
 
+function companyEmailCandidates(value) {
+  const parts = normalizeBrokerName(value).split(" ").filter(Boolean);
+  if (parts.length < 2) {
+    return [];
+  }
+
+  const firstInitial = parts[0][0];
+  const lastName = parts[parts.length - 1];
+  return [`${firstInitial}${lastName}@binswanger.com`];
+}
+
 function parseCsv(text) {
   const rows = [];
   let row = [];
@@ -256,6 +267,7 @@ async function loadBrokerEmailLookup(filePath) {
   const exactMatches = new Map();
   const initialLastMatches = new Map();
   const lastNameMatches = new Map();
+  const emailAddresses = new Set();
   for (const row of dataRows) {
     const firstName = String(row[firstNameColumn] || "").trim();
     const lastName = String(row[lastNameColumn] || "").trim();
@@ -264,6 +276,7 @@ async function loadBrokerEmailLookup(filePath) {
     );
     const email = String(row[emailColumn] || "").trim();
     if (brokerName && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      emailAddresses.add(email.toLowerCase());
       addUniqueEmail(exactMatches, brokerName, email);
 
       const nameParts = brokerName.split(" ");
@@ -275,7 +288,7 @@ async function loadBrokerEmailLookup(filePath) {
       }
     }
   }
-  return { exactMatches, initialLastMatches, lastNameMatches };
+  return { exactMatches, initialLastMatches, lastNameMatches, emailAddresses };
 }
 
 function findBrokerEmail(brokerName, brokerEmails) {
@@ -289,6 +302,12 @@ function findBrokerEmail(brokerName, brokerEmails) {
     const initialLastEmail = brokerEmails.initialLastMatches.get(candidate);
     if (initialLastEmail) {
       return initialLastEmail;
+    }
+  }
+
+  for (const candidate of companyEmailCandidates(brokerName)) {
+    if (brokerEmails.emailAddresses.has(candidate)) {
+      return candidate;
     }
   }
 
