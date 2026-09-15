@@ -221,6 +221,42 @@
       "type": "Feature",
       "properties": {
         "Owner": "David Barber",
+        "Property": "Newnan, GA - 95 Innovation Way - Listing 26",
+        "Deal: Deal Name": "Newnan, GA - 95 Innovation Way - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/11/2026",
+        "Listing Expiration Date": "9/10/2027",
+        "Square Footage": "484787",
+        "Acreage": "101.74",
+        "Lease Square Footage": "",
+        "broker_name": "David Barber",
+        "address": "95 Innovation Way, Newnan, GA",
+        "city_state": "Newnan, GA",
+        "street_address": "95 Innovation Way",
+        "deal_name": "Newnan, GA - 95 Innovation Way - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/11/2026",
+        "listing_expiration_date": "9/10/2027",
+        "square_footage": "484787",
+        "acreage": "101.74",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.754215,
+          33.409992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "David Barber",
         "Property": "Thomson, GA - 1241 Harrison Road, SE - Listing 25",
         "Deal: Deal Name": "Thomson, GA - 1241 Harrison Road, SE - Listing 25",
         "Deal: Record Type": "Sale",
@@ -3424,42 +3460,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Doug Kelly",
-        "Property": "North Wales, PA - 1364 Welsh Road - Listing 25",
-        "Deal: Deal Name": "North Wales, PA - 1364 Welsh Road - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "2050000",
-        "Lease Rate": "",
-        "Listing Effective Date": "12/16/2025",
-        "Listing Expiration Date": "6/15/2026",
-        "Square Footage": "28414",
-        "Acreage": "2.63",
-        "Lease Square Footage": "",
-        "broker_name": "Doug Kelly",
-        "address": "1364 Welsh Road, North Wales, PA",
-        "city_state": "North Wales, PA",
-        "street_address": "1364 Welsh Road",
-        "deal_name": "North Wales, PA - 1364 Welsh Road - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "2050000",
-        "lease_rate": "",
-        "listing_effective_date": "12/16/2025",
-        "listing_expiration_date": "6/15/2026",
-        "square_footage": "28414",
-        "acreage": "2.63",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.233933,
-          40.212586
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Owner": "Carson Erard",
         "Property": "Denver, CO - 11001 East 53rd Avenue- Listing 26",
         "Deal: Deal Name": "Denver, CO - 11001 East 53rd Avenue- Listing 26",
@@ -5512,6 +5512,42 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Bob Corr",
+        "Property": "West Deptford, NJ - 1571 Imperial Way - Listing 26",
+        "Deal: Deal Name": "West Deptford, NJ - 1571 Imperial Way - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/1/2026",
+        "Listing Expiration Date": "8/31/2027",
+        "Square Footage": "54000",
+        "Acreage": "",
+        "Lease Square Footage": "",
+        "broker_name": "Bob Corr",
+        "address": "1571 Imperial Way, West Deptford, NJ",
+        "city_state": "West Deptford, NJ",
+        "street_address": "1571 Imperial Way",
+        "deal_name": "West Deptford, NJ - 1571 Imperial Way - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/1/2026",
+        "listing_expiration_date": "8/31/2027",
+        "square_footage": "54000",
+        "acreage": "",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.202151,
+          39.830041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Doug Faris",
         "Property": "Lenoir, NC - 840  SW Complex Street  - Listing 24",
         "Deal: Deal Name": "Lenoir, NC - 840  SW Complex Street  - Listing 24",
@@ -5722,6 +5758,42 @@
         "coordinates": [
           -75.147441,
           39.925719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Feasterville-Trevose, PA - 1701 Loretta Avenue - Listing 26",
+        "Deal: Deal Name": "Feasterville-Trevose, PA - 1701 Loretta Avenue - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/10/2026",
+        "Listing Expiration Date": "3/9/2027",
+        "Square Footage": "7595",
+        "Acreage": "",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "address": "1701 Loretta Avenue, Feasterville-Trevose, PA",
+        "city_state": "Feasterville-Trevose, PA",
+        "street_address": "1701 Loretta Avenue",
+        "deal_name": "Feasterville-Trevose, PA - 1701 Loretta Avenue - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/10/2026",
+        "listing_expiration_date": "3/9/2027",
+        "square_footage": "7595",
+        "acreage": "",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.004703,
+          40.166059
         ]
       }
     },
