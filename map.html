@@ -292,6 +292,35 @@
       color: var(--muted);
     }
 
+    .broker-email-link {
+      display: inline-flex;
+      position: relative;
+      top: 2px;
+      width: 1.05rem;
+      height: 1.05rem;
+      margin-left: 0.28rem;
+      vertical-align: -0.12rem;
+      color: currentColor;
+      text-decoration: none;
+      transition: color 120ms ease;
+    }
+
+    .broker-email-link svg {
+      width: 100%;
+      height: 100%;
+      fill: none;
+      stroke: currentColor;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-width: 1.8;
+    }
+
+    .broker-email-link:hover,
+    .broker-email-link:focus-visible {
+      color: #1677ff;
+      outline: none;
+    }
+
     .error {
       position: fixed;
       top: 16px;

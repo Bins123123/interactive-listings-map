@@ -393,6 +393,7 @@
 
     function popupMarkup(properties) {
       const brokerName = pickFirstNonEmpty(properties, ["broker_name", "Owner"]) || "Unknown Broker";
+      const brokerEmail = pickFirstNonEmpty(properties, ["broker_email"]);
       const markerColor = properties.marker_color || brokerColor(brokerName);
       const address = pickFirstNonEmpty(properties, [
         "address",
@@ -423,8 +424,11 @@
         ? `${acreage} AC`
         : `${squareFootage || "N/A"} SF`;
       const isLease = String(recordType).trim().toLowerCase() === "lease";
+      const brokerValue = brokerEmail
+        ? `${escapeHtml(brokerName)} <a class="broker-email-link" href="mailto:${encodeURIComponent(brokerEmail)}" aria-label="Email ${escapeHtml(brokerName)}" title="Email ${escapeHtml(brokerName)}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m4 7 8 6 8-6"></path></svg></a>`
+        : escapeHtml(brokerName);
       const fields = [
-        ["Broker", brokerName],
+        ["Broker", brokerValue, Boolean(brokerEmail)],
         ["Record Type", recordType],
         ["Asking Price", askingPrice],
         ["Acreage", acreage],
