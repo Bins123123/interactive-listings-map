@@ -5,6 +5,7 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 
 const workbookPath = path.join(__dirname, "test.xlsx");
+const brokerEmailCsvPath = path.join(__dirname, "broker-emails.csv");
 const outputGeoJsonPath = path.join(__dirname, "locations.geojson");
 const failedLogPath = path.join(__dirname, "failed.txt");
 const envPath = path.join(__dirname, ".env");
@@ -48,6 +49,13 @@ function readZipEntry(zipPath, entryPath) {
   return execFileSync("unzip", ["-p", zipPath, entryPath], {
     encoding: "utf8"
   });
+}
+
+function listZipEntries(zipPath) {
+  return execFileSync("unzip", ["-Z1", zipPath], { encoding: "utf8" })
+    .split(/\r?\n/)
+    .map((entry) => entry.trim())
+    .filter(Boolean);
 }
 
 function decodeXml(text) {
@@ -126,6 +134,102 @@ function normalizeHeader(value) {
     .toLowerCase()
     .replace(/\s*\/\s*/g, "/")
     .replace(/\s+/g, " ");
+}
+
+function normalizeBrokerName(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let value = "";
+  let quoted = false;
+
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index];
+    if (char === '"') {
+      if (quoted && text[index + 1] === '"') {
+        value += '"';
+        index += 1;
+      } else {
+        quoted = !quoted;
+      }
+    } else if (char === "," && !quoted) {
+      row.push(value.trim());
+      value = "";
+    } else if ((char === "\n" || char === "\r") && !quoted) {
+      if (char === "\r" && text[index + 1] === "\n") {
+        index += 1;
+      }
+      row.push(value.trim());
+      if (row.some(Boolean)) {
+        rows.push(row);
+      }
+      row = [];
+      value = "";
+    } else {
+      value += char;
+    }
+  }
+
+  row.push(value.trim());
+  if (row.some(Boolean)) {
+    rows.push(row);
+  }
+  return rows;
+}
+
+async function loadBrokerEmailLookup(filePath) {
+  let text;
+  try {
+    text = await fs.readFile(filePath, "utf8");
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      throw new Error("broker-emails.csv is required. Run download-sharepoint-file.js first.");
+    }
+    throw error;
+  }
+
+  const [headers, ...dataRows] = parseCsv(text);
+  const normalizedHeaders = (headers || []).map(normalizeHeader);
+  const brokerColumn = normalizedHeaders.findIndex((header) =>
+    ["broker", "broker name", "name", "owner"].includes(header)
+  );
+  const firstNameColumn = normalizedHeaders.findIndex((header) =>
+    ["first", "first name", "firstname"].includes(header)
+  );
+  const lastNameColumn = normalizedHeaders.findIndex((header) =>
+    ["last", "last name", "lastname"].includes(header)
+  );
+  const emailColumn = normalizedHeaders.findIndex((header) =>
+    ["email", "email address", "broker email"].includes(header)
+  );
+
+  if ((brokerColumn === -1 && (firstNameColumn === -1 || lastNameColumn === -1)) || emailColumn === -1) {
+    throw new Error(
+      "broker-emails.csv must include broker/name or first/last name columns, plus an email column."
+    );
+  }
+
+  const lookup = new Map();
+  for (const row of dataRows) {
+    const brokerName = normalizeBrokerName(
+      brokerColumn === -1
+        ? `${row[firstNameColumn] || ""} ${row[lastNameColumn] || ""}`
+        : row[brokerColumn]
+    );
+    const email = String(row[emailColumn] || "").trim();
+    if (brokerName && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      lookup.set(brokerName, email);
+    }
+  }
+  return lookup;
 }
 
 function findHeaderRow(rows, headerAliases) {
@@ -253,7 +357,7 @@ function validateParsedAddress(rawAddress, parsedAddress) {
   return "";
 }
 
-function buildProperties(rowValues, columnMap, parsedAddress) {
+function buildProperties(rowValues, columnMap, parsedAddress, brokerEmails) {
   const owner = rowValues[columnMap.owner] || "";
   const dealName = rowValues[columnMap.addressDealNumber] || "";
   const recordType = rowValues[columnMap.recordType] || "";
@@ -267,6 +371,7 @@ function buildProperties(rowValues, columnMap, parsedAddress) {
     : "";
   const acreage = columnMap.acreage ? (rowValues[columnMap.acreage] || "") : "";
   const address = `${parsedAddress.streetAddress}, ${parsedAddress.cityState}`;
+  const brokerEmail = brokerEmails.get(normalizeBrokerName(owner)) || "";
 
   return {
     Owner: owner,
@@ -281,6 +386,7 @@ function buildProperties(rowValues, columnMap, parsedAddress) {
     Acreage: acreage,
     "Lease Square Footage": leaseSquareFootage,
     broker_name: owner,
+    broker_email: brokerEmail,
     address,
     city_state: parsedAddress.cityState,
     street_address: parsedAddress.streetAddress,
@@ -326,11 +432,11 @@ async function main() {
     return;
   }
 
-  const sharedStringsXml = readZipEntry(workbookPath, "xl/sharedStrings.xml");
-  const worksheetXml = readZipEntry(workbookPath, "xl/worksheets/sheet1.xml");
+  const brokerEmails = await loadBrokerEmailLookup(brokerEmailCsvPath);
+  console.error(`Loaded ${brokerEmails.size} broker email record(s).`);
 
+  const sharedStringsXml = readZipEntry(workbookPath, "xl/sharedStrings.xml");
   const sharedStrings = parseSharedStrings(sharedStringsXml);
-  const rows = parseWorksheet(worksheetXml, sharedStrings);
 
   const requiredHeaderAliases = {
     owner: ["owner"],
@@ -347,9 +453,25 @@ async function main() {
     acreage: ["acreage"]
   };
 
-  const header = findHeaderRow(rows, requiredHeaderAliases);
+  const worksheetEntries = listZipEntries(workbookPath)
+    .filter((entry) => /^xl\/worksheets\/sheet\d+\.xml$/.test(entry))
+    .sort((left, right) => left.localeCompare(right, undefined, { numeric: true }));
+  let rows = [];
+  let header = null;
+
+  for (const worksheetEntry of worksheetEntries) {
+    const candidateRows = parseWorksheet(readZipEntry(workbookPath, worksheetEntry), sharedStrings);
+    const candidateHeader = findHeaderRow(candidateRows, requiredHeaderAliases);
+    if (candidateHeader) {
+      rows = candidateRows;
+      header = candidateHeader;
+      console.error(`Found listings headers in ${worksheetEntry}, row ${candidateHeader.rowNumber}.`);
+      break;
+    }
+  }
+
   if (!header) {
-    console.error("Could not find the expected header row in test.xlsx.");
+    console.error("Could not find the expected header row in any worksheet in test.xlsx.");
     process.exitCode = 1;
     return;
   }
@@ -394,7 +516,7 @@ async function main() {
 
     const geocodeStreetAddress = getPrimaryGeocodeStreetAddress(parsedAddress.streetAddress);
     const query = `${geocodeStreetAddress}, ${parsedAddress.cityState}`;
-    const properties = buildProperties(row.values, header.columnMap, parsedAddress);
+    const properties = buildProperties(row.values, header.columnMap, parsedAddress, brokerEmails);
     geocodeAttempts += 1;
 
     try {
