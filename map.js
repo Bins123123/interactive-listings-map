@@ -1,18 +1,3 @@
-    // Set to true only for local standalone preview outside the dashboard iframe.
-    const allowStandalonePreview = false;
-
-    if (!allowStandalonePreview && window.top === window.self) {
-      document.body.innerHTML = `
-        <div style="min-height:100vh;display:grid;place-items:center;padding:24px;background:#f7f4ef;color:#1f2a33;font-family:Georgia,'Times New Roman',serif;text-align:center;">
-          <div>
-            <h1 style="margin:0 0 12px;font-size:1.5rem;font-weight:500;">Dashboard Access Only</h1>
-            <p style="margin:0;font-size:1rem;line-height:1.5;">This map must be viewed inside the company dashboard.</p>
-          </div>
-        </div>
-      `;
-      throw new Error("This map must be viewed inside an iframe.");
-    }
-
     mapboxgl.accessToken = "pk.eyJ1Ijoibmljb2xlYmFjaG1hbiIsImEiOiJjbXFoaG1xaDIwYzB1MnJwcGNpcXZ0M2tsIn0.wUaEcYBfV_jOLz9JsyPwgg";
 
     const map = new mapboxgl.Map({
@@ -407,6 +392,7 @@
       const leaseRate = pickFirstNonEmpty(properties, ["lease_rate", "Lease Rate"]);
       const squareFootage = pickFirstNonEmpty(properties, ["square_footage", "Square Footage"]);
       const acreage = pickFirstNonEmpty(properties, ["acreage", "Acreage"]);
+      const popupAcreage = formatPopupAcreage(acreage);
       const leaseSquareFootage = pickFirstNonEmpty(properties, [
         "lease_square_footage",
         "Lease Square Footage"
@@ -421,7 +407,7 @@
       ]);
       const isLandListing = !String(squareFootage).trim() && String(acreage).trim();
       const popupMetaValue = isLandListing
-        ? `${acreage} AC`
+        ? `${popupAcreage} AC`
         : `${squareFootage || "N/A"} SF`;
       const isLease = String(recordType).trim().toLowerCase() === "lease";
       const brokerValue = brokerEmail
@@ -431,7 +417,7 @@
         ["Broker", brokerValue, Boolean(brokerEmail)],
         ["Record Type", recordType],
         ["Asking Price", askingPrice],
-        ["Acreage", acreage],
+        ["Acreage", popupAcreage],
         ["Effective Date", effectiveDate],
         ["Expiration Date", expirationDate]
       ];
@@ -492,6 +478,25 @@
       return `${prefix}${Math.round(number)}`;
     }
 
+    function formatMaxSfLabel(value) {
+      const number = Number(value);
+      if (!Number.isFinite(number)) {
+        return "0";
+      }
+
+      if (Math.abs(number) >= 1000000) {
+        const millions = number / 1000000;
+        return `${Math.abs(millions) < 10 ? millions.toFixed(1).replace(/\.0$/, "") : Math.round(millions)}M`;
+      }
+
+      if (Math.abs(number) >= 1000) {
+        const thousands = Math.round(number / 1000);
+        return thousands >= 1000 ? "1M" : `${thousands}k`;
+      }
+
+      return String(Math.round(number));
+    }
+
     function formatAcreageValue(value) {
       const number = Number(value);
       if (!Number.isFinite(number)) {
@@ -507,6 +512,13 @@
       }
 
       return number.toFixed(number < 10 ? 1 : 0);
+    }
+
+    function formatPopupAcreage(value) {
+      const number = Number(value);
+      return Number.isFinite(number)
+        ? number.toFixed(3).replace(/\.?0+$/, "")
+        : String(value || "N/A");
     }
 
     function unifyWaterColor() {
@@ -938,7 +950,7 @@
       const minLabel = document.getElementById(`filter${kind}MinValue`);
       const maxLabel = document.getElementById(`filter${kind}MaxValue`);
       const minDisplay = kind === "Acreage" ? formatAcreageValue(minValue) : formatCompactNumber(minValue);
-      const maxDisplay = kind === "Acreage" ? formatAcreageValue(maxValue) : formatCompactNumber(maxValue);
+      const maxDisplay = kind === "Acreage" ? formatAcreageValue(maxValue) : formatMaxSfLabel(maxValue);
 
       minLabel.textContent = minDisplay;
       maxLabel.textContent = maxDisplay;
@@ -1319,5 +1331,9 @@
         );
       }
     }
+
+    // Give the controls usable defaults when this file is opened without the
+    // data-serving setup. Loaded listing data replaces these values below.
+    initializeRangeFilters([]);
 
     map.on("load", loadListings);
