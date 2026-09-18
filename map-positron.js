@@ -697,9 +697,9 @@
           "line-color": [
             "match",
             ["get", "class"],
-            "motorway", "#c0c6c0",
-            "trunk", "#d8dbd6",
-            "#d8dbd6"
+            "motorway", "#ccd1cc",
+            "trunk", "#e1e3df",
+            "#e1e3df"
           ],
           "line-width": ["interpolate", ["linear"], ["zoom"], 8, 0.7, 10, 1.55, 14, 3.5, 18, 6.7],
           "line-opacity": 0.8
