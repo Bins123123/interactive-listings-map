@@ -213,34 +213,6 @@
       to { transform: rotate(360deg); }
     }
 
-    .internal-use-overlay {
-      position: fixed;
-      inset: 0;
-      z-index: 100;
-      display: grid;
-      place-items: center;
-      padding: 24px;
-      background: #092331;
-      color: #ffffff;
-      text-align: center;
-    }
-
-    .internal-use-overlay[hidden] {
-      display: none;
-    }
-
-    .internal-use-overlay__message {
-      max-width: 440px;
-      padding: 28px 32px;
-      border: 1px solid rgba(255, 255, 255, 0.28);
-      border-radius: 16px;
-      background: rgba(13, 41, 57, 0.95);
-      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.28);
-      font-size: clamp(20px, 3vw, 30px);
-      font-weight: 700;
-      line-height: 1.25;
-    }
-
     #map .mapboxgl-canvas-container,
     #map .mapboxgl-canvas {
       height: 100%;
@@ -1325,9 +1297,6 @@
   </style>
 </head>
   <body>
-  <div id="internalUseOverlay" class="internal-use-overlay">
-    <div class="internal-use-overlay__message">Internal dashboard use only</div>
-  </div>
   <div class="page">
     <div class="card">
       <header class="page-header">
@@ -1456,12 +1425,6 @@
     crossorigin="anonymous"
     referrerpolicy="strict-origin-when-cross-origin"
   ></script>
-  <script>
-    // Direct visits show the notice. In an iframe, preserve the unobstructed embed.
-    if (window.self !== window.top) {
-      document.getElementById("internalUseOverlay").hidden = true;
-    }
-  </script>
   <script src="./map.js"></script>
 </body>
 </html>
