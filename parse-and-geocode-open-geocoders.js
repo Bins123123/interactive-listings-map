@@ -503,20 +503,71 @@ const US_STATE_CODES = new Set([
   "NV", "NY", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX",
   "UT", "VA", "VI", "VT", "WA", "WI", "WV", "WY"
 ]);
+const MAX_GEOCODER_DISAGREEMENT_METERS = 10_000;
 
 function isUsAddress(cityState) {
   const match = String(cityState || "").trim().match(/,\s*([A-Z]{2})(?:\s+\d{5}(?:-\d{4})?)?$/i);
   return Boolean(match && US_STATE_CODES.has(match[1].toUpperCase()));
 }
 
+function parseUsCityState(cityState) {
+  const match = String(cityState || "")
+    .trim()
+    .match(/^(.*?),\s*([A-Z]{2})(?:\s+\d{5}(?:-\d{4})?)?$/i);
+  if (!match || !US_STATE_CODES.has(match[2].toUpperCase())) {
+    return null;
+  }
+
+  return { city: match[1].trim(), state: match[2].toUpperCase() };
+}
+
+function normalizePlaceName(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/\b(city|township|borough|village|municipality|town)\b/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function placeNamesMatch(first, second) {
+  const left = normalizePlaceName(first);
+  const right = normalizePlaceName(second);
+  return Boolean(left && right && (left === right || left.includes(right) || right.includes(left)));
+}
+
 function sleep(milliseconds) {
   return new Promise((resolve) => setTimeout(resolve, milliseconds));
 }
 
-async function geocodeWithGeocodio(query, geocodioApiKey) {
+function distanceInMeters(first, second) {
+  const [firstLongitude, firstLatitude] = first;
+  const [secondLongitude, secondLatitude] = second;
+  const toRadians = (value) => (value * Math.PI) / 180;
+  const latitudeDelta = toRadians(secondLatitude - firstLatitude);
+  const longitudeDelta = toRadians(secondLongitude - firstLongitude);
+  const value =
+    Math.sin(latitudeDelta / 2) ** 2 +
+    Math.cos(toRadians(firstLatitude)) *
+      Math.cos(toRadians(secondLatitude)) *
+      Math.sin(longitudeDelta / 2) ** 2;
+  return 6_371_008.8 * 2 * Math.atan2(Math.sqrt(value), Math.sqrt(1 - value));
+}
+
+async function geocodeWithGeocodio(streetAddress, cityState, geocodioApiKey) {
+  const requestedPlace = parseUsCityState(cityState);
+  if (!requestedPlace) {
+    throw new Error(`could not split U.S. city/state "${cityState}"`);
+  }
+
   const url = new URL("https://api.geocod.io/v1.9/geocode");
-  url.searchParams.set("q", query);
+  // Supplying structured components prevents a city or state from being
+  // treated as optional text in an otherwise ambiguous address query.
+  url.searchParams.set("street", streetAddress);
+  url.searchParams.set("city", requestedPlace.city);
+  url.searchParams.set("state", requestedPlace.state);
   url.searchParams.set("country", "USA");
+  url.searchParams.set("limit", "5");
   url.searchParams.set("api_key", geocodioApiKey);
 
   const response = await fetch(url);
@@ -525,12 +576,27 @@ async function geocodeWithGeocodio(query, geocodioApiKey) {
   }
 
   const payload = await response.json();
-  const location = payload.results && payload.results[0] && payload.results[0].location;
-  if (!location || !Number.isFinite(location.lng) || !Number.isFinite(location.lat)) {
+  const candidates = (payload.results || []).filter((result) => {
+    const components = result.address_components || {};
+    const location = result.location || {};
+    return (
+      String(components.state || "").toUpperCase() === requestedPlace.state &&
+      placeNamesMatch(components.city, requestedPlace.city) &&
+      Number.isFinite(location.lng) &&
+      Number.isFinite(location.lat)
+    );
+  });
+  if (!candidates.length) {
     return null;
   }
 
-  return [location.lng, location.lat];
+  const result = candidates[0];
+  return {
+    coordinates: [result.location.lng, result.location.lat],
+    zip: result.address_components?.zip || "",
+    accuracy: result.accuracy_type || "",
+    formattedAddress: result.formatted_address || ""
+  };
 }
 
 async function geocodeWithNominatim(query, userAgent) {
@@ -558,6 +624,37 @@ async function geocodeWithNominatim(query, userAgent) {
   }
 
   return [longitude, latitude];
+}
+
+async function geocodeWithCensus(streetAddress, cityState) {
+  const requestedPlace = parseUsCityState(cityState);
+  if (!requestedPlace) {
+    return null;
+  }
+
+  const url = new URL("https://geocoding.geo.census.gov/geocoder/locations/address");
+  url.searchParams.set("street", streetAddress);
+  url.searchParams.set("city", requestedPlace.city);
+  url.searchParams.set("state", requestedPlace.state);
+  url.searchParams.set("benchmark", "Public_AR_Current");
+  url.searchParams.set("format", "json");
+
+  const response = await fetch(url, { signal: AbortSignal.timeout(15_000) });
+  if (!response.ok) {
+    throw new Error(`Census Geocoder returned HTTP ${response.status}`);
+  }
+
+  const payload = await response.json();
+  const match = payload.result?.addressMatches?.[0];
+  const coordinates = match?.coordinates;
+  if (!Number.isFinite(coordinates?.x) || !Number.isFinite(coordinates?.y)) {
+    return null;
+  }
+
+  return {
+    coordinates: [coordinates.x, coordinates.y],
+    matchedAddress: match.matchedAddress || ""
+  };
 }
 
 async function main() {
@@ -665,7 +762,50 @@ async function main() {
     try {
       let coordinates;
       if (isUsAddress(parsedAddress.cityState)) {
-        coordinates = await geocodeWithGeocodio(query, geocodioApiKey);
+        const geocodioResult = await geocodeWithGeocodio(
+          geocodeStreetAddress,
+          parsedAddress.cityState,
+          geocodioApiKey
+        );
+        coordinates = geocodioResult?.coordinates || null;
+        if (geocodioResult) {
+          properties.geocoding_provider = "Geocodio";
+          properties.geocoded_zip = geocodioResult.zip;
+          properties.geocoding_accuracy = geocodioResult.accuracy;
+          properties.geocoded_address = geocodioResult.formattedAddress;
+
+          // Census uses address ranges, so it is a verifier rather than the
+          // final pin source. A very large disagreement catches a wrong-city
+          // or wrong-municipality match that passes text-based validation.
+          try {
+            await sleep(250);
+            const censusResult = await geocodeWithCensus(
+              geocodeStreetAddress,
+              parsedAddress.cityState
+            );
+            if (censusResult) {
+              const censusDistance = distanceInMeters(
+                geocodioResult.coordinates,
+                censusResult.coordinates
+              );
+              properties.census_check = "matched";
+              properties.census_distance_m = Math.round(censusDistance);
+              properties.census_matched_address = censusResult.matchedAddress;
+              if (censusDistance > MAX_GEOCODER_DISAGREEMENT_METERS) {
+                throw new Error(
+                  `Geocodio and Census disagree by ${Math.round(censusDistance)}m for "${query}"`
+                );
+              }
+            } else {
+              properties.census_check = "no_match";
+            }
+          } catch (censusError) {
+            if (String(censusError?.message || "").startsWith("Geocodio and Census disagree")) {
+              throw censusError;
+            }
+            properties.census_check = "unavailable";
+          }
+        }
       } else {
         // The public Nominatim service limits recurring jobs to four requests
         // per minute. This script is sequential, so 15 seconds is sufficient.
@@ -674,6 +814,7 @@ async function main() {
         }
         nominatimRequestCount += 1;
         coordinates = await geocodeWithNominatim(query, nominatimUserAgent);
+        properties.geocoding_provider = "Nominatim";
       }
       if (!coordinates) {
         geocodeFailures += 1;
@@ -681,7 +822,9 @@ async function main() {
           "no geocoding result",
           (geocodeFailureCounts.get("no geocoding result") || 0) + 1
         );
-        failedRows.push(`Row ${row.rowNumber}: no geocoding result for "${query}"`);
+        failedRows.push(
+          `Row ${row.rowNumber}: no city/state-validated geocoding result for "${query}"`
+        );
         continue;
       }
 
