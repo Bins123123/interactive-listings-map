@@ -35,8 +35,8 @@ jobs:
 
       - name: Update locations.geojson
         env:
-          MAPBOX_TOKEN: ${{ secrets.MAPBOX_TOKEN }}
-        run: node parse-and-geocode.js
+          GEOCODIO_API: ${{ secrets.GEOCODIO_API }}
+        run: node parse-and-geocode-open-geocoders.js
 
       - name: Commit and push updated GeoJSON
         run: |
