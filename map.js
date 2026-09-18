@@ -17,6 +17,16 @@
     const navigationControl = new mapboxgl.NavigationControl();
     map.addControl(navigationControl, "top-right");
 
+    function finishLoading() {
+      document.getElementById("mapLoading")?.classList.add("is-hidden");
+
+      // An embedding page cannot tell when the map data and tiles are ready
+      // from the iframe's native load event alone. Let it wait for this signal.
+      if (window.parent !== window) {
+        window.parent.postMessage({ type: "interactive-listings-map-ready" }, "*");
+      }
+    }
+
     function escapeHtml(value) {
       return String(value ?? "")
         .replace(/&/g, "&amp;")
@@ -1324,11 +1334,14 @@
 
         bindFilters();
         fitToFeatures(pointFeatures);
+        // `idle` waits until Mapbox has no pending network requests or renders.
+        map.once("idle", finishLoading);
       } catch (error) {
         console.error("Failed to load listings:", error);
         showError(
           "Could not load locations.geojson. If you opened this file directly in the browser, serve the folder locally with a simple web server first."
         );
+        finishLoading();
       }
     }
 
