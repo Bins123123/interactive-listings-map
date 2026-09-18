@@ -28,7 +28,12 @@
         "listing_expiration_date": "6/22/2027",
         "square_footage": "200000",
         "acreage": "500",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "36505",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "US-43, Axis, AL 36505",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -65,7 +70,14 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "12740",
         "acreage": "410",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "16229",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "130 Club House Dr, Freeport, PA 16229",
+        "census_check": "matched",
+        "census_distance_m": 20,
+        "census_matched_address": "130 CLUB HOUSE DR, FREEPORT, PA, 16229"
       },
       "geometry": {
         "type": "Point",
@@ -102,7 +114,14 @@
         "listing_expiration_date": "3/1/2027",
         "square_footage": "527460",
         "acreage": "173.09",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "12188",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "260 Hudson River Rd, Waterford, NY 12188",
+        "census_check": "matched",
+        "census_distance_m": 253,
+        "census_matched_address": "260 HUDSON RIVER RD, WATERFORD, NY, 12188"
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +158,12 @@
         "listing_expiration_date": "10/21/2026",
         "square_footage": "1033470",
         "acreage": "134",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "17225",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "12000 Molly Pitcher Hwy S, Greencastle, PA 17225",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +200,14 @@
         "listing_expiration_date": "11/21/2026",
         "square_footage": "",
         "acreage": "119.98",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "36582",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "7800 Dauphin Island Pkwy, Theodore, AL 36582",
+        "census_check": "matched",
+        "census_distance_m": 36,
+        "census_matched_address": "7800 DAUPHIN ISLAND PKWY, THEODORE, AL, 36582"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +244,14 @@
         "listing_expiration_date": "10/31/2026",
         "square_footage": "1170972",
         "acreage": "118",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "29360",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "101 Michelin Dr, Laurens, SC 29360",
+        "census_check": "matched",
+        "census_distance_m": 213,
+        "census_matched_address": "101 MICHELIN DR, LAURENS, SC, 29360"
       },
       "geometry": {
         "type": "Point",
@@ -250,7 +288,14 @@
         "listing_expiration_date": "9/10/2027",
         "square_footage": "484787",
         "acreage": "101.74",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "30265",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "95 Innovation Way, Newnan, GA 30265",
+        "census_check": "matched",
+        "census_distance_m": 164,
+        "census_matched_address": "95 INNOVATION WAY, NEWNAN, GA, 30265"
       },
       "geometry": {
         "type": "Point",
@@ -287,7 +332,14 @@
         "listing_expiration_date": "11/20/2026",
         "square_footage": "100600",
         "acreage": "84.2",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "30824",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "1241 Harrison Rd SE, Thomson, GA 30824",
+        "census_check": "matched",
+        "census_distance_m": 94,
+        "census_matched_address": "1241 HARRISON RD SE, THOMSON, GA, 30824"
       },
       "geometry": {
         "type": "Point",
@@ -324,7 +376,14 @@
         "listing_expiration_date": "8/12/2027",
         "square_footage": "",
         "acreage": "73.64",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18942",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "8717 Easton Rd, Ottsville, PA 18942",
+        "census_check": "matched",
+        "census_distance_m": 124,
+        "census_matched_address": "8717 EASTON RD, OTTSVILLE, PA, 18942"
       },
       "geometry": {
         "type": "Point",
@@ -361,7 +420,14 @@
         "listing_expiration_date": "4/12/2027",
         "square_footage": "515654",
         "acreage": "70",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "75092",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1400 W FM-1417, Sherman, TX 75092",
+        "census_check": "matched",
+        "census_distance_m": 606,
+        "census_matched_address": "1400 W FM 1417, SHERMAN, TX, 75092"
       },
       "geometry": {
         "type": "Point",
@@ -398,7 +464,12 @@
         "listing_expiration_date": "12/31/2026",
         "square_footage": "474642",
         "acreage": "69.849999999999994",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "35983",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "400 Industrial Blvd, Leesburg, AL 35983",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -435,7 +506,12 @@
         "listing_expiration_date": "7/31/2027",
         "square_footage": "190500",
         "acreage": "52.6",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "29102",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1000 Bicycle Way, Manning, SC 29102",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -472,7 +548,12 @@
         "listing_expiration_date": "10/13/2026",
         "square_footage": "470000",
         "acreage": "44.37",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "72206",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "8200 Frazier Pike, Little Rock, AR 72206",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -509,7 +590,12 @@
         "listing_expiration_date": "9/9/2027",
         "square_footage": "225000",
         "acreage": "40",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "72370",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2221 E State Highway 198, Osceola, AR 72370",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -546,7 +632,14 @@
         "listing_expiration_date": "10/27/2026",
         "square_footage": "338931",
         "acreage": "37.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "67501",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3401 E 4th Ave, Hutchinson, KS 67501",
+        "census_check": "matched",
+        "census_distance_m": 245,
+        "census_matched_address": "3401 E 4TH AVE, HUTCHINSON, KS, 67501"
       },
       "geometry": {
         "type": "Point",
@@ -583,7 +676,12 @@
         "listing_expiration_date": "6/23/2026",
         "square_footage": "537845",
         "acreage": "35.69",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "72206",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "7103 Zeuber Rd, Little Rock, AR 72206",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -620,7 +718,12 @@
         "listing_expiration_date": "11/20/2026",
         "square_footage": "",
         "acreage": "33.340000000000003",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "54220",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "S 40th St, Manitowoc, WI 54220",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -657,7 +760,14 @@
         "listing_expiration_date": "4/30/2027",
         "square_footage": "",
         "acreage": "32.409999999999997",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19808",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "900 Greenbank Rd, Wilmington, DE 19808",
+        "census_check": "matched",
+        "census_distance_m": 489,
+        "census_matched_address": "900 GREENBANK RD, WILMINGTON, DE, 19808"
       },
       "geometry": {
         "type": "Point",
@@ -694,7 +804,14 @@
         "listing_expiration_date": "10/13/2026",
         "square_footage": "80304",
         "acreage": "31.95",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "16946",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "18385 State Rte 287, Tioga, PA 16946",
+        "census_check": "matched",
+        "census_distance_m": 152,
+        "census_matched_address": "18385 RTE 287, TIOGA, PA, 16946"
       },
       "geometry": {
         "type": "Point",
@@ -731,7 +848,12 @@
         "listing_expiration_date": "2/25/2027",
         "square_footage": "326000",
         "acreage": "30.82",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "12188",
+        "geocoding_accuracy": "place",
+        "geocoded_address": "Waterford, NY 12188",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -768,7 +890,14 @@
         "listing_expiration_date": "3/27/2027",
         "square_footage": "599465",
         "acreage": "27.97",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "72113",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "400 Murphy Dr, Maumelle, AR 72113",
+        "census_check": "matched",
+        "census_distance_m": 236,
+        "census_matched_address": "400 MURPHY DR, MAUMELLE, AR, 72113"
       },
       "geometry": {
         "type": "Point",
@@ -805,7 +934,14 @@
         "listing_expiration_date": "5/6/2027",
         "square_footage": "26615",
         "acreage": "26.7",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18914",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "4355 County Line Rd, Chalfont, PA 18914",
+        "census_check": "matched",
+        "census_distance_m": 295,
+        "census_matched_address": "4355 COUNTY LINE RD, CHALFONT, PA, 18914"
       },
       "geometry": {
         "type": "Point",
@@ -842,7 +978,12 @@
         "listing_expiration_date": "5/27/2027",
         "square_footage": "276500",
         "acreage": "25.08",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "14218",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "231 Ship Canal Pkwy, Buffalo, NY 14218",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -879,7 +1020,14 @@
         "listing_expiration_date": "12/10/2026",
         "square_footage": "135939",
         "acreage": "24.93",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "29379",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "260 Midway Dr, Union, SC 29379",
+        "census_check": "matched",
+        "census_distance_m": 127,
+        "census_matched_address": "260 MIDWAY DR, UNION, SC, 29379"
       },
       "geometry": {
         "type": "Point",
@@ -916,7 +1064,14 @@
         "listing_expiration_date": "7/15/2026",
         "square_footage": "252448",
         "acreage": "24.3",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19526",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "100 Industrial Dr, Hamburg, PA 19526",
+        "census_check": "matched",
+        "census_distance_m": 262,
+        "census_matched_address": "100 INDUSTRIAL DR, HAMBURG, PA, 19526"
       },
       "geometry": {
         "type": "Point",
@@ -953,7 +1108,14 @@
         "listing_expiration_date": "12/31/2026",
         "square_footage": "369270",
         "acreage": "23.57",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "30253",
+        "geocoding_accuracy": "nearest_rooftop_match",
+        "geocoded_address": "56 Liberty Industrial Pkwy, McDonough, GA 30253",
+        "census_check": "matched",
+        "census_distance_m": 149,
+        "census_matched_address": "55 LIBERTY INDUSTRIAL PKWY, MCDONOUGH, GA, 30253"
       },
       "geometry": {
         "type": "Point",
@@ -990,7 +1152,14 @@
         "listing_expiration_date": "12/15/2026",
         "square_footage": "130000",
         "acreage": "21",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "63556",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "832 E 3rd St, Milan, MO 63556",
+        "census_check": "matched",
+        "census_distance_m": 83,
+        "census_matched_address": "832 E 3RD ST, MILAN, MO, 63556"
       },
       "geometry": {
         "type": "Point",
@@ -1027,13 +1196,14 @@
         "listing_expiration_date": "3/30/2027",
         "square_footage": "120553",
         "acreage": "19.77",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Nominatim"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6342975,
-          1.2955319
+          103.6346305,
+          1.2962363
         ]
       }
     },
@@ -1064,7 +1234,14 @@
         "listing_expiration_date": "8/3/2026",
         "square_footage": "271600",
         "acreage": "19.27",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19137",
+        "geocoding_accuracy": "nearest_rooftop_match",
+        "geocoded_address": "4201 N Delaware Ave, Philadelphia, PA 19137",
+        "census_check": "matched",
+        "census_distance_m": 373,
+        "census_matched_address": "4101 N DELAWARE AVE, PHILADELPHIA, PA, 19137"
       },
       "geometry": {
         "type": "Point",
@@ -1101,7 +1278,14 @@
         "listing_expiration_date": "7/23/2026",
         "square_footage": "120000",
         "acreage": "18.68",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "28613",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "1405 Deborah Herman Rd, Conover, NC 28613",
+        "census_check": "matched",
+        "census_distance_m": 1392,
+        "census_matched_address": "1405 DEBORAH HERMAN RD, CONOVER, NC, 28613"
       },
       "geometry": {
         "type": "Point",
@@ -1138,50 +1322,18 @@
         "listing_expiration_date": "5/14/2027",
         "square_footage": "47494",
         "acreage": "18.37",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19106",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "S Christopher Columbus Blvd, Philadelphia, PA 19106",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -75.142023,
           39.943368
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Tim Pennington",
-        "Property": "Weisenberg, PA - 9775 Commerce Circle - Listing 25",
-        "Deal: Deal Name": "Weisenberg, PA - 9775 Commerce Circle - Listing 25",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "7/14/2025",
-        "Listing Expiration Date": "7/13/2026",
-        "Square Footage": "226417",
-        "Acreage": "17.28",
-        "Lease Square Footage": "",
-        "broker_name": "Tim Pennington",
-        "broker_email": "tpennington@binswanger.com",
-        "address": "9775 Commerce Circle, Weisenberg, PA",
-        "city_state": "Weisenberg, PA",
-        "street_address": "9775 Commerce Circle",
-        "deal_name": "Weisenberg, PA - 9775 Commerce Circle - Listing 25",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "7/14/2025",
-        "listing_expiration_date": "7/13/2026",
-        "square_footage": "226417",
-        "acreage": "17.28",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.833451,
-          40.902496
         ]
       }
     },
@@ -1212,7 +1364,12 @@
         "listing_expiration_date": "5/3/2027",
         "square_footage": "72885",
         "acreage": "16.79",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19034",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "7111 E Valley Green Rd, Fort Washington, PA 19034",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -1249,7 +1406,14 @@
         "listing_expiration_date": "2/2/2027",
         "square_footage": "7000",
         "acreage": "16.5",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08105",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "2851 Adams Ave, Camden, NJ 08105",
+        "census_check": "matched",
+        "census_distance_m": 10,
+        "census_matched_address": "2851 ADAMS AVE, CAMDEN, NJ, 08105"
       },
       "geometry": {
         "type": "Point",
@@ -1286,7 +1450,12 @@
         "listing_expiration_date": "2/9/2027",
         "square_footage": "151500",
         "acreage": "15",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19044",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "400 Horsham Rd, Horsham, PA 19044",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -1323,7 +1492,14 @@
         "listing_expiration_date": "11/17/2026",
         "square_footage": "",
         "acreage": "14.93",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "77320",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "835 Farm To Market Rd 2821 E, Huntsville, TX 77320",
+        "census_check": "matched",
+        "census_distance_m": 4421,
+        "census_matched_address": "835 FM 2821 RD W, HUNTSVILLE, TX, 77320"
       },
       "geometry": {
         "type": "Point",
@@ -1360,7 +1536,14 @@
         "listing_expiration_date": "2/5/2027",
         "square_footage": "129304",
         "acreage": "14.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "80504",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "4120 Specialty Pl, Longmont, CO 80504",
+        "census_check": "matched",
+        "census_distance_m": 96,
+        "census_matched_address": "4120 SPECIALTY PL, LONGMONT, CO, 80504"
       },
       "geometry": {
         "type": "Point",
@@ -1397,7 +1580,12 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "",
         "acreage": "14.66",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "23005",
+        "geocoding_accuracy": "place",
+        "geocoded_address": "Ashland, VA 23005",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -1434,7 +1622,14 @@
         "listing_expiration_date": "7/30/2027",
         "square_footage": "54399",
         "acreage": "14.58",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "12188",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "7 School House Ln, Waterford, NY 12188",
+        "census_check": "matched",
+        "census_distance_m": 284,
+        "census_matched_address": "7 SCHOOLHOUSE LN, WATERFORD, NY, 12188"
       },
       "geometry": {
         "type": "Point",
@@ -1471,7 +1666,14 @@
         "listing_expiration_date": "2/11/2027",
         "square_footage": "151220",
         "acreage": "13.69",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18914",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "90 Hamilton St, Chalfont, PA 18914",
+        "census_check": "matched",
+        "census_distance_m": 95,
+        "census_matched_address": "90 HAMILTON ST, CHALFONT, PA, 18914"
       },
       "geometry": {
         "type": "Point",
@@ -1508,50 +1710,20 @@
         "listing_expiration_date": "11/6/2026",
         "square_footage": "240258",
         "acreage": "13.48",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19933",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "7494 Federalsburg Rd, Bridgeville, DE 19933",
+        "census_check": "matched",
+        "census_distance_m": 108,
+        "census_matched_address": "7494 FEDERALSBURG RD, BRIDGEVILLE, DE, 19933"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -75.607974,
           38.741086
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Matthew Fennelly",
-        "Property": "Lawrence Township, NJ - 239-241 Bakers Basin Road - Listing 25",
-        "Deal: Deal Name": "Lawrence Township, NJ - 239-241 Bakers Basin Road - Listing 25",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "12/15/2025",
-        "Listing Expiration Date": "12/14/2026",
-        "Square Footage": "2500",
-        "Acreage": "12.97",
-        "Lease Square Footage": "",
-        "broker_name": "Matthew Fennelly",
-        "broker_email": "MFennelly@binswanger.com",
-        "address": "239-241 Bakers Basin Road, Lawrence Township, NJ",
-        "city_state": "Lawrence Township, NJ",
-        "street_address": "239-241 Bakers Basin Road",
-        "deal_name": "Lawrence Township, NJ - 239-241 Bakers Basin Road - Listing 25",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "12/15/2025",
-        "listing_expiration_date": "12/14/2026",
-        "square_footage": "2500",
-        "acreage": "12.97",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -87.53363,
-          35.13314
         ]
       }
     },
@@ -1582,7 +1754,14 @@
         "listing_expiration_date": "9/24/2026",
         "square_footage": "135000",
         "acreage": "12.26",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "24557",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "281 Industrial Dr, Gretna, VA 24557",
+        "census_check": "matched",
+        "census_distance_m": 123,
+        "census_matched_address": "281 INDUSTRIAL DR, GRETNA, VA, 24557"
       },
       "geometry": {
         "type": "Point",
@@ -1619,7 +1798,12 @@
         "listing_expiration_date": "6/26/2026",
         "square_footage": "",
         "acreage": "12",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "17810",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "198 Enterprise Blvd, Allenwood, PA 17810",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -1656,7 +1840,14 @@
         "listing_expiration_date": "2/25/2027",
         "square_footage": "94660",
         "acreage": "11.37",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08852",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2000 Cornwall Rd, Monmouth Junction, NJ 08852",
+        "census_check": "matched",
+        "census_distance_m": 226,
+        "census_matched_address": "2000 CORNWALL RD, MONMOUTH JUNCTION, NJ, 08852"
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1884,14 @@
         "listing_expiration_date": "8/18/2027",
         "square_footage": "200000",
         "acreage": "11.14",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "29506",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "4501 E Palmetto St, Florence, SC 29506",
+        "census_check": "matched",
+        "census_distance_m": 330,
+        "census_matched_address": "4501 E PALMETTO ST, FLORENCE, SC, 29506"
       },
       "geometry": {
         "type": "Point",
@@ -1730,7 +1928,14 @@
         "listing_expiration_date": "6/1/2027",
         "square_footage": "57783",
         "acreage": "11",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "07660",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "55 Challenger Rd, Ridgefield Park, NJ 07660",
+        "census_check": "matched",
+        "census_distance_m": 114,
+        "census_matched_address": "55 CHALLENGER RD, RIDGEFIELD PARK, NJ, 07660"
       },
       "geometry": {
         "type": "Point",
@@ -1767,7 +1972,12 @@
         "listing_expiration_date": "6/22/2027",
         "square_footage": "100000",
         "acreage": "10.8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "00777",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "Pr- 31, Juncos, PR 00777",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -1804,7 +2014,14 @@
         "listing_expiration_date": "5/18/2027",
         "square_footage": "109498",
         "acreage": "10.73",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "23803",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2340 Washington St 2400, Petersburg, VA 23803",
+        "census_check": "matched",
+        "census_distance_m": 66,
+        "census_matched_address": "2400 E WASHINGTON ST, PETERSBURG, VA, 23803"
       },
       "geometry": {
         "type": "Point",
@@ -1841,7 +2058,14 @@
         "listing_expiration_date": "7/22/2026",
         "square_footage": "",
         "acreage": "10.6",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "36201",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "2412 Eulaton Rd, Anniston, AL 36201",
+        "census_check": "matched",
+        "census_distance_m": 141,
+        "census_matched_address": "2412 EULATON RD, ANNISTON, AL, 36201"
       },
       "geometry": {
         "type": "Point",
@@ -1878,7 +2102,14 @@
         "listing_expiration_date": "3/5/2027",
         "square_footage": "",
         "acreage": "10",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08312",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "932 N Delsea Dr, Clayton, NJ 08312",
+        "census_check": "matched",
+        "census_distance_m": 42,
+        "census_matched_address": "932 N DELSEA DR, CLAYTON, NJ, 08312"
       },
       "geometry": {
         "type": "Point",
@@ -1915,7 +2146,14 @@
         "listing_expiration_date": "4/8/2027",
         "square_footage": "170216",
         "acreage": "10",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "60123",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1400 Abbott Dr, Elgin, IL 60123",
+        "census_check": "matched",
+        "census_distance_m": 183,
+        "census_matched_address": "1400 ABBOTT DR, ELGIN, IL, 60123"
       },
       "geometry": {
         "type": "Point",
@@ -1952,7 +2190,14 @@
         "listing_expiration_date": "10/13/2026",
         "square_footage": "235560",
         "acreage": "9.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "60525",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "7300 Santa Fe Dr, Hodgkins, IL 60525",
+        "census_check": "matched",
+        "census_distance_m": 153,
+        "census_matched_address": "7300 SANTA FE DR, HODGKINS, IL, 60525"
       },
       "geometry": {
         "type": "Point",
@@ -1989,7 +2234,14 @@
         "listing_expiration_date": "8/9/2027",
         "square_footage": "140020",
         "acreage": "9.5500000000000007",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08360",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "18 Burns Ave, Vineland, NJ 08360",
+        "census_check": "matched",
+        "census_distance_m": 149,
+        "census_matched_address": "18 BURNS AVE, VINELAND, NJ, 08360"
       },
       "geometry": {
         "type": "Point",
@@ -2026,7 +2278,12 @@
         "listing_expiration_date": "11/13/2026",
         "square_footage": "56523",
         "acreage": "9.35",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19057",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "US-13, Levittown, PA 19057",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -2063,7 +2320,14 @@
         "listing_expiration_date": "4/30/2027",
         "square_footage": "74707",
         "acreage": "9.1199999999999992",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "38343",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "7 American Woodmark Dr, Humboldt, TN 38343",
+        "census_check": "matched",
+        "census_distance_m": 206,
+        "census_matched_address": "7 AMERICAN WOODMARK DR, HUMBOLDT, TN, 38343"
       },
       "geometry": {
         "type": "Point",
@@ -2100,7 +2364,8 @@
         "listing_expiration_date": "3/1/2027",
         "square_footage": "575000",
         "acreage": "9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Nominatim"
       },
       "geometry": {
         "type": "Point",
@@ -2137,7 +2402,14 @@
         "listing_expiration_date": "2/12/2027",
         "square_footage": "102000",
         "acreage": "8.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "06484",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1 Parrott Dr, Shelton, CT 06484",
+        "census_check": "matched",
+        "census_distance_m": 232,
+        "census_matched_address": "1 PARROTT DR, SHELTON, CT, 06484"
       },
       "geometry": {
         "type": "Point",
@@ -2174,7 +2446,14 @@
         "listing_expiration_date": "5/19/2027",
         "square_footage": "204250",
         "acreage": "8.39",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "47170",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "745 S Gardner St, Scottsburg, IN 47170",
+        "census_check": "matched",
+        "census_distance_m": 84,
+        "census_matched_address": "745 S GARDNER ST, SCOTTSBURG, IN, 47170"
       },
       "geometry": {
         "type": "Point",
@@ -2211,7 +2490,12 @@
         "listing_expiration_date": "10/21/2026",
         "square_footage": "900",
         "acreage": "8.19",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "07470",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "1810 US-202, Wayne, NJ 07470",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -2248,7 +2532,14 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "",
         "acreage": "8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08215",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "30 White Horse Pike, Egg Harbor City, NJ 08215",
+        "census_check": "matched",
+        "census_distance_m": 78,
+        "census_matched_address": "34 WHITE HORSE PIKE, EGG HARBOR CITY, NJ, 08215"
       },
       "geometry": {
         "type": "Point",
@@ -2285,7 +2576,14 @@
         "listing_expiration_date": "10/16/2026",
         "square_footage": "180000",
         "acreage": "8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19147",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "765 South St, Philadelphia, PA 19147",
+        "census_check": "matched",
+        "census_distance_m": 1189,
+        "census_matched_address": "765 S CHRISTOPHER COLUMBUS BLVD, PHILADELPHIA, PA, 19147"
       },
       "geometry": {
         "type": "Point",
@@ -2322,7 +2620,14 @@
         "listing_expiration_date": "12/1/2026",
         "square_footage": "132962",
         "acreage": "7.3",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "06790",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "368 Ella Grasso Ave, Torrington, CT 06790",
+        "census_check": "matched",
+        "census_distance_m": 150,
+        "census_matched_address": "368 ELLA GRASSO AVE, TORRINGTON, CT, 06790"
       },
       "geometry": {
         "type": "Point",
@@ -2359,7 +2664,12 @@
         "listing_expiration_date": "4/4/2027",
         "square_footage": "181012",
         "acreage": "7.24",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19135",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "New State Rd, Philadelphia, PA 19135",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -2396,7 +2706,12 @@
         "listing_expiration_date": "11/3/2026",
         "square_footage": "214891",
         "acreage": "6.7",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19134",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2155 Castor Ave, Philadelphia, PA 19134",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -2433,7 +2748,14 @@
         "listing_expiration_date": "11/17/2026",
         "square_footage": "93020",
         "acreage": "6.66",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19007",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "805 N Wilson Ave, Bristol, PA 19007",
+        "census_check": "matched",
+        "census_distance_m": 166,
+        "census_matched_address": "805 WILSON AVE, BRISTOL, PA, 19007"
       },
       "geometry": {
         "type": "Point",
@@ -2470,7 +2792,12 @@
         "listing_expiration_date": "9/16/2026",
         "square_footage": "128529",
         "acreage": "6.47",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19106",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "S Christopher Columbus Blvd 1300, Philadelphia, PA 19106",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -2507,7 +2834,14 @@
         "listing_expiration_date": "8/1/2026",
         "square_footage": "132000",
         "acreage": "6.13",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19124",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3780 Frankford Ave, Philadelphia, PA 19124",
+        "census_check": "matched",
+        "census_distance_m": 62,
+        "census_matched_address": "3800 FRANKFORD AVE, PHILADELPHIA, PA, 19124"
       },
       "geometry": {
         "type": "Point",
@@ -2544,7 +2878,14 @@
         "listing_expiration_date": "10/31/2026",
         "square_footage": "63000",
         "acreage": "5.84",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08889",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "388 US-22, Whitehouse Station, NJ 08889",
+        "census_check": "matched",
+        "census_distance_m": 252,
+        "census_matched_address": "388 US HWY 22, WHITEHOUSE, NJ, 08888"
       },
       "geometry": {
         "type": "Point",
@@ -2581,7 +2922,14 @@
         "listing_expiration_date": "12/22/2026",
         "square_footage": "30458",
         "acreage": "5.52",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "23005",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "12075 Harley Club Dr, Ashland, VA 23005",
+        "census_check": "matched",
+        "census_distance_m": 683,
+        "census_matched_address": "12075 HARLEY CLUB DR, ASHLAND, VA, 23005"
       },
       "geometry": {
         "type": "Point",
@@ -2618,7 +2966,14 @@
         "listing_expiration_date": "10/1/2026",
         "square_footage": "26620",
         "acreage": "5.34",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08822",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "8 Minneakoning Rd, Flemington, NJ 08822",
+        "census_check": "matched",
+        "census_distance_m": 75,
+        "census_matched_address": "8 MINNEAKONING RD, FLEMINGTON, NJ, 08822"
       },
       "geometry": {
         "type": "Point",
@@ -2655,7 +3010,12 @@
         "listing_expiration_date": "6/16/2027",
         "square_footage": "34000",
         "acreage": "5.1100000000000003",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "24579",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "70 Douglas Way, Natural Bridge Station, VA 24579",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -2692,7 +3052,14 @@
         "listing_expiration_date": "2/17/2027",
         "square_footage": "45460",
         "acreage": "5",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19116",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1771 Tomlinson Rd, Philadelphia, PA 19116",
+        "census_check": "matched",
+        "census_distance_m": 226,
+        "census_matched_address": "1771 TOMLINSON RD, PHILADELPHIA, PA, 19116"
       },
       "geometry": {
         "type": "Point",
@@ -2729,7 +3096,14 @@
         "listing_expiration_date": "10/15/2026",
         "square_footage": "29550",
         "acreage": "4.67",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "31217",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2225 Ronald Ave, Macon, GA 31217",
+        "census_check": "matched",
+        "census_distance_m": 42,
+        "census_matched_address": "2225 RONALD AVE, MACON, GA, 31217"
       },
       "geometry": {
         "type": "Point",
@@ -2766,50 +3140,20 @@
         "listing_expiration_date": "1/5/2027",
         "square_footage": "252000",
         "acreage": "4.5199999999999996",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19120",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "300 E Godfrey Ave, Philadelphia, PA 19120",
+        "census_check": "matched",
+        "census_distance_m": 99,
+        "census_matched_address": "300 E GODFREY AVE, PHILADELPHIA, PA, 19120"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -75.109676,
           40.042246
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Jeff Binswanger",
-        "Property": "Medley, FL - 7321 NW 75th Street - Listing 25",
-        "Deal: Deal Name": "Medley, FL - 7321 NW 75th Street - Listing 25",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "14.95",
-        "Listing Effective Date": "7/11/2025",
-        "Listing Expiration Date": "7/10/2026",
-        "Square Footage": "119008",
-        "Acreage": "4.41",
-        "Lease Square Footage": "",
-        "broker_name": "Jeff Binswanger",
-        "broker_email": "",
-        "address": "7321 NW 75th Street, Medley, FL",
-        "city_state": "Medley, FL",
-        "street_address": "7321 NW 75th Street",
-        "deal_name": "Medley, FL - 7321 NW 75th Street - Listing 25",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "14.95",
-        "listing_effective_date": "7/11/2025",
-        "listing_expiration_date": "7/10/2026",
-        "square_footage": "119008",
-        "acreage": "4.41",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.963934,
-          28.134858
         ]
       }
     },
@@ -2840,7 +3184,14 @@
         "listing_expiration_date": "12/17/2026",
         "square_footage": "67000",
         "acreage": "4.1900000000000004",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08085",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "313 Church St, Swedesboro, NJ 08085",
+        "census_check": "matched",
+        "census_distance_m": 78,
+        "census_matched_address": "313 CHURCH ST, SWEDESBORO, NJ, 08085"
       },
       "geometry": {
         "type": "Point",
@@ -2877,7 +3228,14 @@
         "listing_expiration_date": "7/30/2027",
         "square_footage": "4879",
         "acreage": "4.04",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19153",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3200 S 70th St, Philadelphia, PA 19153",
+        "census_check": "matched",
+        "census_distance_m": 105,
+        "census_matched_address": "3200 S 70TH ST, PHILADELPHIA, PA, 19153"
       },
       "geometry": {
         "type": "Point",
@@ -2914,50 +3272,20 @@
         "listing_expiration_date": "2/11/2027",
         "square_footage": "22000",
         "acreage": "4",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08031",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "960 Creek Rd, Bellmawr, NJ 08031",
+        "census_check": "matched",
+        "census_distance_m": 74,
+        "census_matched_address": "960 CREEK RD, BELLMAWR, NJ, 08031"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -75.116089,
           39.867796
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Jonathan Elkins",
-        "Property": "New Hartford, CT - 8 Wickett Street - Listing 25",
-        "Deal: Deal Name": "New Hartford, CT - 8 Wickett Street - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "9/9/2025",
-        "Listing Expiration Date": "3/8/2027",
-        "Square Footage": "55026",
-        "Acreage": "4",
-        "Lease Square Footage": "",
-        "broker_name": "Jonathan Elkins",
-        "broker_email": "JElkins@binswanger.com",
-        "address": "8 Wickett Street, New Hartford, CT",
-        "city_state": "New Hartford, CT",
-        "street_address": "8 Wickett Street",
-        "deal_name": "New Hartford, CT - 8 Wickett Street - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "9/9/2025",
-        "listing_expiration_date": "3/8/2027",
-        "square_footage": "55026",
-        "acreage": "4",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -72.965023,
-          41.874998
         ]
       }
     },
@@ -2988,7 +3316,12 @@
         "listing_expiration_date": "8/20/2027",
         "square_footage": "24400",
         "acreage": "3.72",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18974",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1537 Campus Dr, Warminster, PA 18974",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -3025,50 +3358,20 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "9800",
         "acreage": "3.7",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19007",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2705 Old Rodgers Rd, Bristol, PA 19007",
+        "census_check": "matched",
+        "census_distance_m": 122,
+        "census_matched_address": "2705 OLD RODGERS RD, BRISTOL, PA, 19007"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -74.877873,
           40.120332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Michael Torsiello",
-        "Property": "Hamilton, NJ - 14-16 Thomas J. Rhodes Drive - Listing 26",
-        "Deal: Deal Name": "Hamilton, NJ - 14-16 Thomas J. Rhodes Drive - Listing 26",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "6/11/2026",
-        "Listing Expiration Date": "12/10/2026",
-        "Square Footage": "45878",
-        "Acreage": "3.62",
-        "Lease Square Footage": "",
-        "broker_name": "Michael Torsiello",
-        "broker_email": "mtorsiello@binswanger.com",
-        "address": "14-16 Thomas J. Rhodes Drive, Hamilton, NJ",
-        "city_state": "Hamilton, NJ",
-        "street_address": "14-16 Thomas J. Rhodes Drive",
-        "deal_name": "Hamilton, NJ - 14-16 Thomas J. Rhodes Drive - Listing 26",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "6/11/2026",
-        "listing_expiration_date": "12/10/2026",
-        "square_footage": "45878",
-        "acreage": "3.62",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.062846,
-          40.225526
         ]
       }
     },
@@ -3099,7 +3402,14 @@
         "listing_expiration_date": "1/29/2027",
         "square_footage": "",
         "acreage": "3.54",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19146",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3145 Grays Ferry Ave, Philadelphia, PA 19146",
+        "census_check": "matched",
+        "census_distance_m": 96,
+        "census_matched_address": "3145 GRAYS FERRY AVE, PHILADELPHIA, PA, 19146"
       },
       "geometry": {
         "type": "Point",
@@ -3136,7 +3446,14 @@
         "listing_expiration_date": "12/31/2026",
         "square_footage": "",
         "acreage": "3.42",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19061",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "650 Penn Ave, Marcus Hook, PA 19061",
+        "census_check": "matched",
+        "census_distance_m": 69,
+        "census_matched_address": "650 PENN AVE, MARCUS HOOK, PA, 19061"
       },
       "geometry": {
         "type": "Point",
@@ -3173,7 +3490,14 @@
         "listing_expiration_date": "12/17/2026",
         "square_footage": "81322",
         "acreage": "3.22",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19468",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "18 Railroad St, Royersford, PA 19468",
+        "census_check": "matched",
+        "census_distance_m": 56,
+        "census_matched_address": "18 RAILROAD ST, ROYERSFORD, PA, 19468"
       },
       "geometry": {
         "type": "Point",
@@ -3210,7 +3534,14 @@
         "listing_expiration_date": "7/30/2026",
         "square_footage": "20682",
         "acreage": "3.13",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18017",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "330 Stoke Park Rd, Bethlehem, PA 18017",
+        "census_check": "matched",
+        "census_distance_m": 106,
+        "census_matched_address": "330 STOKE PARK RD, BETHLEHEM, PA, 18017"
       },
       "geometry": {
         "type": "Point",
@@ -3247,7 +3578,14 @@
         "listing_expiration_date": "2/23/2027",
         "square_footage": "",
         "acreage": "3.13",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19720",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "317 Old State Rd, New Castle, DE 19720",
+        "census_check": "matched",
+        "census_distance_m": 72,
+        "census_matched_address": "317 OLD STATE RD, NEW CASTLE, DE, 19720"
       },
       "geometry": {
         "type": "Point",
@@ -3284,7 +3622,14 @@
         "listing_expiration_date": "12/14/2026",
         "square_footage": "13516",
         "acreage": "3.1",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "85120",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "870 W Apache Trl, Apache Junction, AZ 85120",
+        "census_check": "matched",
+        "census_distance_m": 92,
+        "census_matched_address": "870 W APACHE TRL, APACHE JUNCTION, AZ, 85120"
       },
       "geometry": {
         "type": "Point",
@@ -3321,7 +3666,14 @@
         "listing_expiration_date": "7/15/2027",
         "square_footage": "6067",
         "acreage": "3.02",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19122",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "265-99 W Berks St, Philadelphia, PA 19122",
+        "census_check": "matched",
+        "census_distance_m": 74,
+        "census_matched_address": "265 W BERKS ST, PHILADELPHIA, PA, 19122"
       },
       "geometry": {
         "type": "Point",
@@ -3358,7 +3710,14 @@
         "listing_expiration_date": "8/20/2027",
         "square_footage": "2702",
         "acreage": "2.98",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18974",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1550 Mearns Rd, Warminster, PA 18974",
+        "census_check": "matched",
+        "census_distance_m": 158,
+        "census_matched_address": "1550 MEARNS RD, WARMINSTER, PA, 18974"
       },
       "geometry": {
         "type": "Point",
@@ -3395,7 +3754,14 @@
         "listing_expiration_date": "8/26/2026",
         "square_footage": "39415",
         "acreage": "2.94",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "06705",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "122 Ave of Industry, Waterbury, CT 06705",
+        "census_check": "matched",
+        "census_distance_m": 50,
+        "census_matched_address": "122 AVE OF INDUSTRY, WATERBURY, CT, 06705"
       },
       "geometry": {
         "type": "Point",
@@ -3432,7 +3798,12 @@
         "listing_expiration_date": "8/23/2026",
         "square_footage": "55000",
         "acreage": "2.89",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19013",
+        "geocoding_accuracy": "nearest_rooftop_match",
+        "geocoded_address": "626 W Front St, Chester, PA 19013",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -3469,7 +3840,14 @@
         "listing_expiration_date": "6/22/2026",
         "square_footage": "35000",
         "acreage": "2.81",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19123",
+        "geocoding_accuracy": "nearest_rooftop_match",
+        "geocoded_address": "913-29 Wallace St, Philadelphia, PA 19123",
+        "census_check": "matched",
+        "census_distance_m": 42,
+        "census_matched_address": "929 WALLACE ST, PHILADELPHIA, PA, 19123"
       },
       "geometry": {
         "type": "Point",
@@ -3506,7 +3884,14 @@
         "listing_expiration_date": "8/31/2026",
         "square_footage": "",
         "acreage": "2.8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08753",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1730 Hooper Ave, Toms River, NJ 08753",
+        "census_check": "matched",
+        "census_distance_m": 422,
+        "census_matched_address": "1730 HOOPER AVE, TOMS RIVER, NJ, 08753"
       },
       "geometry": {
         "type": "Point",
@@ -3543,7 +3928,14 @@
         "listing_expiration_date": "1/5/2027",
         "square_footage": "47898",
         "acreage": "2.4287999999999998",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "80239",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "11001 E 53rd Ave 26, Denver, CO 80239",
+        "census_check": "matched",
+        "census_distance_m": 51,
+        "census_matched_address": "11001 E 53RD AVE, DENVER, CO, 80239"
       },
       "geometry": {
         "type": "Point",
@@ -3580,7 +3972,14 @@
         "listing_expiration_date": "9/14/2027",
         "square_footage": "10000",
         "acreage": "2.36",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19146",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3111 Grays Ferry Ave, Philadelphia, PA 19146",
+        "census_check": "matched",
+        "census_distance_m": 61,
+        "census_matched_address": "3111 GRAYS FERRY AVE, PHILADELPHIA, PA, 19146"
       },
       "geometry": {
         "type": "Point",
@@ -3617,7 +4016,14 @@
         "listing_expiration_date": "8/25/2026",
         "square_footage": "24000",
         "acreage": "2.2000000000000002",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18974",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "120 Industrial Dr, Warminster, PA 18974",
+        "census_check": "matched",
+        "census_distance_m": 90,
+        "census_matched_address": "130 INDUSTRIAL DR, WARMINSTER, PA, 18974"
       },
       "geometry": {
         "type": "Point",
@@ -3654,7 +4060,14 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "85064",
         "acreage": "2.04",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19124",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3700-40 Kensington Ave, Philadelphia, PA 19124",
+        "census_check": "matched",
+        "census_distance_m": 128,
+        "census_matched_address": "3700 KENSINGTON AVE, PHILADELPHIA, PA, 19124"
       },
       "geometry": {
         "type": "Point",
@@ -3691,7 +4104,14 @@
         "listing_expiration_date": "11/30/2026",
         "square_footage": "40000",
         "acreage": "2",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19137",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2701 Bridge St, Philadelphia, PA 19137",
+        "census_check": "matched",
+        "census_distance_m": 19,
+        "census_matched_address": "2701 BRIDGE ST, PHILADELPHIA, PA, 19137"
       },
       "geometry": {
         "type": "Point",
@@ -3728,7 +4148,14 @@
         "listing_expiration_date": "9/1/2026",
         "square_footage": "21252",
         "acreage": "2",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18974",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "125 Industrial Dr, Warminster, PA 18974",
+        "census_check": "matched",
+        "census_distance_m": 98,
+        "census_matched_address": "125 INDUSTRIAL DR, WARMINSTER, PA, 18974"
       },
       "geometry": {
         "type": "Point",
@@ -3765,7 +4192,14 @@
         "listing_expiration_date": "3/17/2027",
         "square_footage": "22000",
         "acreage": "1.97",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "07080",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3301 S Clinton Ave, Bldg B, South Plainfield, NJ 07080",
+        "census_check": "matched",
+        "census_distance_m": 79,
+        "census_matched_address": "3393 S CLINTON AVE, SOUTH PLAINFIELD, NJ, 07080"
       },
       "geometry": {
         "type": "Point",
@@ -3802,7 +4236,14 @@
         "listing_expiration_date": "12/2/2026",
         "square_footage": "32000",
         "acreage": "1.91",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08030",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "410 Jersey Ave, Gloucester City, NJ 08030",
+        "census_check": "matched",
+        "census_distance_m": 8,
+        "census_matched_address": "410 JERSEY AVE, GLOUCESTER CITY, NJ, 08030"
       },
       "geometry": {
         "type": "Point",
@@ -3839,7 +4280,12 @@
         "listing_expiration_date": "11/17/2026",
         "square_footage": "40000",
         "acreage": "1.62",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19146",
+        "geocoding_accuracy": "nearest_rooftop_match",
+        "geocoded_address": "1505 South St, Philadelphia, PA 19146",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -3876,7 +4322,14 @@
         "listing_expiration_date": "2/11/2027",
         "square_footage": "",
         "acreage": "1.53",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19154",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "599 Franklin Mills Cir, Philadelphia, PA 19154",
+        "census_check": "matched",
+        "census_distance_m": 481,
+        "census_matched_address": "599 FRANKLIN MILLS CIR, PHILADELPHIA, PA, 19154"
       },
       "geometry": {
         "type": "Point",
@@ -3913,7 +4366,14 @@
         "listing_expiration_date": "9/11/2026",
         "square_footage": "20090",
         "acreage": "1.53",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19101",
+        "geocoding_accuracy": "place",
+        "geocoded_address": "Philadelphia, PA 19101",
+        "census_check": "matched",
+        "census_distance_m": 5230,
+        "census_matched_address": "15 ASHMEAD PL S, PHILADELPHIA, PA, 19144"
       },
       "geometry": {
         "type": "Point",
@@ -3950,50 +4410,20 @@
         "listing_expiration_date": "7/26/2027",
         "square_footage": "16913",
         "acreage": "1.53",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19153",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "6717-21 Essington Ave, Philadelphia, PA 19153",
+        "census_check": "matched",
+        "census_distance_m": 206,
+        "census_matched_address": "6717 ESSINGTON AVE, PHILADELPHIA, PA, 19153"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -75.22363,
           39.911433
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Nicholas Giganti",
-        "Property": "Chester, PA - 1118 Edgmont Avenue - Listing 26",
-        "Deal: Deal Name": "Chester, PA - 1118 Edgmont Avenue - Listing 26",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "6/17/2026",
-        "Listing Expiration Date": "6/16/2027",
-        "Square Footage": "14022",
-        "Acreage": "1.49",
-        "Lease Square Footage": "",
-        "broker_name": "Nicholas Giganti",
-        "broker_email": "ngiganti@binswanger.com",
-        "address": "1118 Edgmont Avenue, Chester, PA",
-        "city_state": "Chester, PA",
-        "street_address": "1118 Edgmont Avenue",
-        "deal_name": "Chester, PA - 1118 Edgmont Avenue - Listing 26",
-        "record_type": "Sale",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "6/17/2026",
-        "listing_expiration_date": "6/16/2027",
-        "square_footage": "14022",
-        "acreage": "1.49",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.361431,
-          39.855746
         ]
       }
     },
@@ -4024,7 +4454,14 @@
         "listing_expiration_date": "7/5/2026",
         "square_footage": "40136",
         "acreage": "1.48",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19140",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "4001-11 N American St, Philadelphia, PA 19140",
+        "census_check": "matched",
+        "census_distance_m": 61,
+        "census_matched_address": "4001 N AMERICAN ST, PHILADELPHIA, PA, 19140"
       },
       "geometry": {
         "type": "Point",
@@ -4061,50 +4498,20 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "",
         "acreage": "1.37",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08230",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "40 Butter Rd, Ocean View, NJ 08230",
+        "census_check": "matched",
+        "census_distance_m": 144,
+        "census_matched_address": "40 BUTTER RD, OCEAN VIEW, NJ, 08230"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -74.678911,
           39.238647
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Bob Corr",
-        "Property": "Collingdale, PA - 109 Willow Avenue - Listing 25",
-        "Deal: Deal Name": "Collingdale, PA - 109 Willow Avenue - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "2200000",
-        "Lease Rate": "",
-        "Listing Effective Date": "10/29/2025",
-        "Listing Expiration Date": "10/28/2026",
-        "Square Footage": "26045",
-        "Acreage": "1.329",
-        "Lease Square Footage": "",
-        "broker_name": "Bob Corr",
-        "broker_email": "Rcorr@binswanger.com",
-        "address": "109 Willow Avenue, Collingdale, PA",
-        "city_state": "Collingdale, PA",
-        "street_address": "109 Willow Avenue",
-        "deal_name": "Collingdale, PA - 109 Willow Avenue - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "2200000",
-        "lease_rate": "",
-        "listing_effective_date": "10/29/2025",
-        "listing_expiration_date": "10/28/2026",
-        "square_footage": "26045",
-        "acreage": "1.329",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.173594,
-          40.483972
         ]
       }
     },
@@ -4135,7 +4542,14 @@
         "listing_expiration_date": "8/2/2027",
         "square_footage": "34155",
         "acreage": "1.32",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19446",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "201 Kriebel Ave, Lansdale, PA 19446",
+        "census_check": "matched",
+        "census_distance_m": 136,
+        "census_matched_address": "201 KRIEBEL AVE, LANSDALE, PA, 19446"
       },
       "geometry": {
         "type": "Point",
@@ -4172,7 +4586,12 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "9000",
         "acreage": "1.18",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18947",
+        "geocoding_accuracy": "place",
+        "geocoded_address": "Tinicum, PA 18947",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -4209,7 +4628,14 @@
         "listing_expiration_date": "2/2/2027",
         "square_footage": "68430",
         "acreage": "1.18",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19140",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2066 W Hunting Park Ave, Philadelphia, PA 19140",
+        "census_check": "matched",
+        "census_distance_m": 94,
+        "census_matched_address": "2066 W HUNTING PARK AVE, PHILADELPHIA, PA, 19140"
       },
       "geometry": {
         "type": "Point",
@@ -4246,7 +4672,14 @@
         "listing_expiration_date": "11/8/2026",
         "square_footage": "62220",
         "acreage": "1.07",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19111",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "505 Knorr St, Philadelphia, PA 19111",
+        "census_check": "matched",
+        "census_distance_m": 72,
+        "census_matched_address": "505 KNORR ST, PHILADELPHIA, PA, 19111"
       },
       "geometry": {
         "type": "Point",
@@ -4283,7 +4716,14 @@
         "listing_expiration_date": "8/10/2027",
         "square_footage": "12000",
         "acreage": "1.04",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18976",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "590 Kansas Rd, Warrington, PA 18976",
+        "census_check": "matched",
+        "census_distance_m": 25,
+        "census_matched_address": "590 KANSAS RD, WARRINGTON, PA, 18976"
       },
       "geometry": {
         "type": "Point",
@@ -4320,7 +4760,14 @@
         "listing_expiration_date": "12/1/2026",
         "square_footage": "53616",
         "acreage": "1.036",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19132",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3497 Ridge Ave, Philadelphia, PA 19132",
+        "census_check": "matched",
+        "census_distance_m": 37,
+        "census_matched_address": "3497 RIDGE AVE, PHILADELPHIA, PA, 19132"
       },
       "geometry": {
         "type": "Point",
@@ -4357,7 +4804,14 @@
         "listing_expiration_date": "6/22/2026",
         "square_footage": "4723",
         "acreage": "0.98",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19406",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "400 E Dekalb Pike, King of Prussia, PA 19406",
+        "census_check": "matched",
+        "census_distance_m": 1903,
+        "census_matched_address": "400 W DEKALB PIKE, KING OF PRUSSIA, PA, 19406"
       },
       "geometry": {
         "type": "Point",
@@ -4394,7 +4848,14 @@
         "listing_expiration_date": "3/2/2027",
         "square_footage": "3700",
         "acreage": "0.92",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19107",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "205 N Broad St, Philadelphia, PA 19107",
+        "census_check": "matched",
+        "census_distance_m": 31,
+        "census_matched_address": "205 N BROAD ST, PHILADELPHIA, PA, 19107"
       },
       "geometry": {
         "type": "Point",
@@ -4431,7 +4892,14 @@
         "listing_expiration_date": "2/10/2027",
         "square_footage": "31552",
         "acreage": "0.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19144",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "4647-61 Stenton Ave, Philadelphia, PA 19144",
+        "census_check": "matched",
+        "census_distance_m": 32,
+        "census_matched_address": "4647 STENTON AVE, PHILADELPHIA, PA, 19144"
       },
       "geometry": {
         "type": "Point",
@@ -4468,7 +4936,14 @@
         "listing_expiration_date": "9/8/2026",
         "square_footage": "10347",
         "acreage": "0.88",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19152",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "8130 Roosevelt Blvd, Philadelphia, PA 19152",
+        "census_check": "matched",
+        "census_distance_m": 84,
+        "census_matched_address": "8130 ROOSEVELT BLVD, PHILADELPHIA, PA, 19152"
       },
       "geometry": {
         "type": "Point",
@@ -4505,7 +4980,12 @@
         "listing_expiration_date": "9/30/2026",
         "square_footage": "12273",
         "acreage": "0.8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19057",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "US-13, Levittown, PA 19057",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -4542,7 +5022,12 @@
         "listing_expiration_date": "6/28/2027",
         "square_footage": "9020",
         "acreage": "0.79300000000000004",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19153",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "8400-10 Enterprise Ave, Philadelphia, PA 19153",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -4579,7 +5064,12 @@
         "listing_expiration_date": "2/2/2027",
         "square_footage": "50126",
         "acreage": "0.77",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19140",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "1241 E Erie Ave, Philadelphia, PA 19140",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -4616,7 +5106,14 @@
         "listing_expiration_date": "7/31/2026",
         "square_footage": "",
         "acreage": "0.76",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "07728",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1 Bannard St, Freehold, NJ 07728",
+        "census_check": "matched",
+        "census_distance_m": 81,
+        "census_matched_address": "1 BANNARD ST, FREEHOLD, NJ, 07728"
       },
       "geometry": {
         "type": "Point",
@@ -4653,7 +5150,14 @@
         "listing_expiration_date": "2/2/2027",
         "square_footage": "37183",
         "acreage": "0.75",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19140",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1901 W Tioga St, Philadelphia, PA 19140",
+        "census_check": "matched",
+        "census_distance_m": 46,
+        "census_matched_address": "1901 W TIOGA ST, PHILADELPHIA, PA, 19140"
       },
       "geometry": {
         "type": "Point",
@@ -4690,7 +5194,12 @@
         "listing_expiration_date": "8/11/2026",
         "square_footage": "6235",
         "acreage": "0.63",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19146",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "1530 South St, Philadelphia, PA 19146",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -4727,7 +5236,14 @@
         "listing_expiration_date": "11/3/2026",
         "square_footage": "12213",
         "acreage": "0.63",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19122",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1701 Germantown Ave, Philadelphia, PA 19122",
+        "census_check": "matched",
+        "census_distance_m": 43,
+        "census_matched_address": "1701 GERMANTOWN AVE, PHILADELPHIA, PA, 19122"
       },
       "geometry": {
         "type": "Point",
@@ -4764,7 +5280,12 @@
         "listing_expiration_date": "12/3/2026",
         "square_footage": "8070",
         "acreage": "0.62",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19406",
+        "geocoding_accuracy": "nearest_rooftop_match",
+        "geocoded_address": "197 Boro Line Rd, King of Prussia, PA 19406",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -4801,7 +5322,14 @@
         "listing_expiration_date": "8/11/2027",
         "square_footage": "32815",
         "acreage": "0.6",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19134",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2221 E Clearfield St, Philadelphia, PA 19134",
+        "census_check": "matched",
+        "census_distance_m": 42,
+        "census_matched_address": "2221 E CLEARFIELD ST, PHILADELPHIA, PA, 19134"
       },
       "geometry": {
         "type": "Point",
@@ -4838,7 +5366,12 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "9172",
         "acreage": "0.56999999999999995",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18947",
+        "geocoding_accuracy": "place",
+        "geocoded_address": "Tinicum, PA 18947",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -4875,7 +5408,14 @@
         "listing_expiration_date": "7/18/2026",
         "square_footage": "",
         "acreage": "0.53",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19130",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1540 Hamilton St, Philadelphia, PA 19130",
+        "census_check": "matched",
+        "census_distance_m": 75,
+        "census_matched_address": "1540 HAMILTON ST, PHILADELPHIA, PA, 19130"
       },
       "geometry": {
         "type": "Point",
@@ -4912,50 +5452,20 @@
         "listing_expiration_date": "9/8/2027",
         "square_footage": "32096",
         "acreage": "0.52",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19134",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2111-41 E Rush St, Philadelphia, PA 19134",
+        "census_check": "matched",
+        "census_distance_m": 47,
+        "census_matched_address": "2111 E RUSH ST, PHILADELPHIA, PA, 19134"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -75.117784,
           39.98739
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Doug Kelly",
-        "Property": "East Norriton, PA - 342 West Germantown Pike - Listing 26",
-        "Deal: Deal Name": "East Norriton, PA - 342 West Germantown Pike - Listing 26",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "5/6/2026",
-        "Listing Expiration Date": "5/5/2027",
-        "Square Footage": "15837",
-        "Acreage": "0.5",
-        "Lease Square Footage": "",
-        "broker_name": "Doug Kelly",
-        "broker_email": "dkelly@binswanger.com",
-        "address": "342 West Germantown Pike, East Norriton, PA",
-        "city_state": "East Norriton, PA",
-        "street_address": "342 West Germantown Pike",
-        "deal_name": "East Norriton, PA - 342 West Germantown Pike - Listing 26",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "5/6/2026",
-        "listing_expiration_date": "5/5/2027",
-        "square_footage": "15837",
-        "acreage": "0.5",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.331732,
-          40.148064
         ]
       }
     },
@@ -4986,7 +5496,14 @@
         "listing_expiration_date": "10/5/2026",
         "square_footage": "9000",
         "acreage": "0.5",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19124",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3720 Jasper St, Philadelphia, PA 19124",
+        "census_check": "matched",
+        "census_distance_m": 55,
+        "census_matched_address": "3720 JASPER ST, PHILADELPHIA, PA, 19124"
       },
       "geometry": {
         "type": "Point",
@@ -5023,7 +5540,14 @@
         "listing_expiration_date": "11/25/2026",
         "square_footage": "39204",
         "acreage": "0.47",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19134",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3108 E Thompson St, Philadelphia, PA 19134",
+        "census_check": "matched",
+        "census_distance_m": 60,
+        "census_matched_address": "3130 E THOMPSON ST, PHILADELPHIA, PA, 19134"
       },
       "geometry": {
         "type": "Point",
@@ -5060,7 +5584,14 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "28262",
         "acreage": "0.46",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19130",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "490 N Broad St, Philadelphia, PA 19130",
+        "census_check": "matched",
+        "census_distance_m": 65,
+        "census_matched_address": "490 N BROAD ST, PHILADELPHIA, PA, 19130"
       },
       "geometry": {
         "type": "Point",
@@ -5097,7 +5628,14 @@
         "listing_expiration_date": "7/22/2026",
         "square_footage": "6000",
         "acreage": "0.45",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19464",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "19 Lemon St, Pottstown, PA 19464",
+        "census_check": "matched",
+        "census_distance_m": 22,
+        "census_matched_address": "19 LEMON ST, POTTSTOWN, PA, 19464"
       },
       "geometry": {
         "type": "Point",
@@ -5134,7 +5672,14 @@
         "listing_expiration_date": "5/25/2027",
         "square_footage": "",
         "acreage": "0.44",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19122",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "212 Diamond St, Philadelphia, PA 19122",
+        "census_check": "matched",
+        "census_distance_m": 64,
+        "census_matched_address": "212 DIAMOND ST, PHILADELPHIA, PA, 19122"
       },
       "geometry": {
         "type": "Point",
@@ -5171,7 +5716,12 @@
         "listing_expiration_date": "11/20/2026",
         "square_footage": "",
         "acreage": "0.43",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "54220",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "Dewey St, Manitowoc, WI 54220",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -5208,7 +5758,14 @@
         "listing_expiration_date": "4/27/2027",
         "square_footage": "8295",
         "acreage": "0.39",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19148",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "3632 S 3rd St, Philadelphia, PA 19148",
+        "census_check": "matched",
+        "census_distance_m": 89,
+        "census_matched_address": "3632 S 3RD ST, PHILADELPHIA, PA, 19148"
       },
       "geometry": {
         "type": "Point",
@@ -5245,7 +5802,14 @@
         "listing_expiration_date": "7/18/2026",
         "square_footage": "",
         "acreage": "0.39",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19130",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "513 N 15th St 26, Philadelphia, PA 19130",
+        "census_check": "matched",
+        "census_distance_m": 82,
+        "census_matched_address": "513 N 15TH ST, PHILADELPHIA, PA, 19130"
       },
       "geometry": {
         "type": "Point",
@@ -5282,7 +5846,12 @@
         "listing_expiration_date": "1/28/2027",
         "square_footage": "7434",
         "acreage": "0.24",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "18947",
+        "geocoding_accuracy": "place",
+        "geocoded_address": "Tinicum, PA 18947",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -5319,7 +5888,14 @@
         "listing_expiration_date": "3/27/2027",
         "square_footage": "4800",
         "acreage": "0.24",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19129",
+        "geocoding_accuracy": "nearest_rooftop_match",
+        "geocoded_address": "4254-56 Ridge Ave, Philadelphia, PA 19129",
+        "census_check": "matched",
+        "census_distance_m": 25,
+        "census_matched_address": "4254 RIDGE AVE, PHILADELPHIA, PA, 19129"
       },
       "geometry": {
         "type": "Point",
@@ -5356,7 +5932,14 @@
         "listing_expiration_date": "1/6/2027",
         "square_footage": "16500",
         "acreage": "0.19",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19122",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "2131-35 N American St, Philadelphia, PA 19122",
+        "census_check": "matched",
+        "census_distance_m": 3641,
+        "census_matched_address": "35 N AMERICAN ST, PHILADELPHIA, PA, 19106"
       },
       "geometry": {
         "type": "Point",
@@ -5393,7 +5976,14 @@
         "listing_expiration_date": "2/17/2027",
         "square_footage": "40000",
         "acreage": "0.06",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19044",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "255 Business Center Dr, Horsham, PA 19044",
+        "census_check": "matched",
+        "census_distance_m": 195,
+        "census_matched_address": "255 BUS CENTER DR, HORSHAM, PA, 19044"
       },
       "geometry": {
         "type": "Point",
@@ -5430,7 +6020,12 @@
         "listing_expiration_date": "2/11/2027",
         "square_footage": "1073",
         "acreage": "0.04",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19125",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "825-29 Aramingo Ave, Philadelphia, PA 19125",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -5467,7 +6062,14 @@
         "listing_expiration_date": "12/15/2026",
         "square_footage": "1410",
         "acreage": "0.03",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19148",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1209-11 Mifflin St, Philadelphia, PA 19148",
+        "census_check": "matched",
+        "census_distance_m": 11,
+        "census_matched_address": "1209 MIFFLIN ST, PHILADELPHIA, PA, 19148"
       },
       "geometry": {
         "type": "Point",
@@ -5504,7 +6106,14 @@
         "listing_expiration_date": "1/30/2027",
         "square_footage": "2664",
         "acreage": "0.03",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19107",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "251 S 12th St, Philadelphia, PA 19107",
+        "census_check": "matched",
+        "census_distance_m": 19,
+        "census_matched_address": "251 S 12TH ST, PHILADELPHIA, PA, 19107"
       },
       "geometry": {
         "type": "Point",
@@ -5541,7 +6150,12 @@
         "listing_expiration_date": "3/9/2027",
         "square_footage": "277237",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "31305",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1111 Magnolia Bluff Way, Darien, GA 31305",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -5578,7 +6192,14 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "1300000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "36804",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1800 Crawford Rd, Opelika, AL 36804",
+        "census_check": "matched",
+        "census_distance_m": 260,
+        "census_matched_address": "1800 CRAWFORD RD, OPELIKA, AL, 36804"
       },
       "geometry": {
         "type": "Point",
@@ -5615,50 +6236,18 @@
         "listing_expiration_date": "10/31/2026",
         "square_footage": "812000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "43822",
+        "geocoding_accuracy": "nearest_rooftop_match",
+        "geocoded_address": "5686 Eco Pkwy, Frazeysburg, OH 43822",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -82.082344,
           40.13923
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Bob Corr",
-        "Property": "West Deptford, NJ - 1571 Imperial Way - Listing 26",
-        "Deal: Deal Name": "West Deptford, NJ - 1571 Imperial Way - Listing 26",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "9/1/2026",
-        "Listing Expiration Date": "8/31/2027",
-        "Square Footage": "54000",
-        "Acreage": "",
-        "Lease Square Footage": "",
-        "broker_name": "Bob Corr",
-        "broker_email": "Rcorr@binswanger.com",
-        "address": "1571 Imperial Way, West Deptford, NJ",
-        "city_state": "West Deptford, NJ",
-        "street_address": "1571 Imperial Way",
-        "deal_name": "West Deptford, NJ - 1571 Imperial Way - Listing 26",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "9/1/2026",
-        "listing_expiration_date": "8/31/2027",
-        "square_footage": "54000",
-        "acreage": "",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.976987,
-          33.756997
         ]
       }
     },
@@ -5689,7 +6278,12 @@
         "listing_expiration_date": "9/2/2026",
         "square_footage": "492000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "28645",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "840 Complex Southwest St, Lenoir, NC 28645",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -5726,7 +6320,14 @@
         "listing_expiration_date": "7/29/2026",
         "square_footage": "108960",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "27028",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "212 Quality Dr, Mocksville, NC 27028",
+        "census_check": "matched",
+        "census_distance_m": 282,
+        "census_matched_address": "212 QUALITY DR, MOCKSVILLE, NC, 27028"
       },
       "geometry": {
         "type": "Point",
@@ -5763,7 +6364,14 @@
         "listing_expiration_date": "1/13/2027",
         "square_footage": "7342",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19103",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "100-20 N 18th St, Philadelphia, PA 19103",
+        "census_check": "matched",
+        "census_distance_m": 52,
+        "census_matched_address": "100 N 18TH ST, PHILADELPHIA, PA, 19103"
       },
       "geometry": {
         "type": "Point",
@@ -5800,7 +6408,14 @@
         "listing_expiration_date": "9/2/2026",
         "square_footage": "6796",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19428",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "407 Alan Wood Rd, Conshohocken, PA 19428",
+        "census_check": "matched",
+        "census_distance_m": 329,
+        "census_matched_address": "407 ALAN WOOD RD, CONSHOHOCKEN, PA, 19428"
       },
       "geometry": {
         "type": "Point",
@@ -5837,7 +6452,12 @@
         "listing_expiration_date": "10/21/2026",
         "square_footage": "130000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19112",
+        "geocoding_accuracy": "street_center",
+        "geocoded_address": "League Island Blvd, Philadelphia, PA 19112",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -5874,7 +6494,14 @@
         "listing_expiration_date": "11/13/2026",
         "square_footage": "53584",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19147",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1300 S Front St, Philadelphia, PA 19147",
+        "census_check": "matched",
+        "census_distance_m": 22,
+        "census_matched_address": "1344 S FRONT ST, PHILADELPHIA, PA, 19147"
       },
       "geometry": {
         "type": "Point",
@@ -5911,7 +6538,14 @@
         "listing_expiration_date": "3/9/2027",
         "square_footage": "7595",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19053",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1701 Loretta Ave, Feasterville Trevose, PA 19053",
+        "census_check": "matched",
+        "census_distance_m": 61,
+        "census_matched_address": "1701 LORETTA AVE, FEASTERVILLE TREVOSE, PA, 19053"
       },
       "geometry": {
         "type": "Point",
@@ -5948,7 +6582,12 @@
         "listing_expiration_date": "8/18/2026",
         "square_footage": "150000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "84116",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1195 N 6550 W, Salt Lake City, UT 84116",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -5985,7 +6624,14 @@
         "listing_expiration_date": "1/22/2027",
         "square_footage": "512728",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "74804",
+        "geocoding_accuracy": "range_interpolation",
+        "geocoded_address": "41501 Wolverine Rd, Shawnee, OK 74804",
+        "census_check": "matched",
+        "census_distance_m": 641,
+        "census_matched_address": "41501 WOLVERINE RD, SHAWNEE, OK, 74804"
       },
       "geometry": {
         "type": "Point",
@@ -6022,7 +6668,14 @@
         "listing_expiration_date": "3/13/2027",
         "square_footage": "88000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19030",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "250 Canal Rd, Fairless Hills, PA 19030",
+        "census_check": "matched",
+        "census_distance_m": 148,
+        "census_matched_address": "250 CANAL RD, FAIRLESS HILLS, PA, 19030"
       },
       "geometry": {
         "type": "Point",
@@ -6059,7 +6712,14 @@
         "listing_expiration_date": "6/4/2027",
         "square_footage": "66314",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "06902",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "62 Southfield Ave, Stamford, CT 06902",
+        "census_check": "matched",
+        "census_distance_m": 128,
+        "census_matched_address": "62 SOUTHFIELD AVE, STAMFORD, CT, 06902"
       },
       "geometry": {
         "type": "Point",
@@ -6096,7 +6756,12 @@
         "listing_expiration_date": "1/5/2027",
         "square_footage": "145000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "00646",
+        "geocoding_accuracy": "place",
+        "geocoded_address": "Dorado, PR 00646",
+        "census_check": "no_match"
       },
       "geometry": {
         "type": "Point",
@@ -6133,7 +6798,14 @@
         "listing_expiration_date": "7/22/2027",
         "square_footage": "3116",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "19106",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "11-15 N 2nd St, Philadelphia, PA 19106",
+        "census_check": "matched",
+        "census_distance_m": 19,
+        "census_matched_address": "11 N 2ND ST, PHILADELPHIA, PA, 19106"
       },
       "geometry": {
         "type": "Point",
@@ -6170,7 +6842,14 @@
         "listing_expiration_date": "5/21/2027",
         "square_footage": "",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "geocoding_provider": "Geocodio",
+        "geocoded_zip": "08638",
+        "geocoding_accuracy": "rooftop",
+        "geocoded_address": "1659 Calhoun St, Trenton, NJ 08638",
+        "census_check": "matched",
+        "census_distance_m": 116,
+        "census_matched_address": "1659 CALHOUN ST, TRENTON, NJ, 08638"
       },
       "geometry": {
         "type": "Point",
