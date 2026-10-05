@@ -271,7 +271,7 @@
         "Lease Rate": "",
         "Listing Effective Date": "11/21/2025",
         "Listing Expiration Date": "11/20/2026",
-        "Square Footage": "100600",
+        "Square Footage": "123770",
         "Acreage": "84.2",
         "Lease Square Footage": "",
         "broker_name": "David Barber",
@@ -285,7 +285,7 @@
         "lease_rate": "",
         "listing_effective_date": "11/21/2025",
         "listing_expiration_date": "11/20/2026",
-        "square_footage": "100600",
+        "square_footage": "123770",
         "acreage": "84.2",
         "lease_square_footage": ""
       },
@@ -383,7 +383,7 @@
         "Listing Effective Date": "9/11/2023",
         "Listing Expiration Date": "12/31/2026",
         "Square Footage": "474642",
-        "Acreage": "69.849999999999994",
+        "Acreage": "69.85",
         "Lease Square Footage": "",
         "broker_name": "David Barber",
         "broker_email": "DBarber@binswanger.com",
@@ -397,7 +397,7 @@
         "listing_effective_date": "9/11/2023",
         "listing_expiration_date": "12/31/2026",
         "square_footage": "474642",
-        "acreage": "69.849999999999994",
+        "acreage": "69.85",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -559,43 +559,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Holmes Davis",
-        "Property": "Little Rock, AR - 7103 Zeuber Road - Listing 25",
-        "Deal: Deal Name": "Little Rock, AR - 7103 Zeuber Road - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "45500000",
-        "Lease Rate": "",
-        "Listing Effective Date": "1/24/2025",
-        "Listing Expiration Date": "6/23/2026",
-        "Square Footage": "537845",
-        "Acreage": "35.69",
-        "Lease Square Footage": "",
-        "broker_name": "Holmes Davis",
-        "broker_email": "hdavis@binswanger.com",
-        "address": "7103 Zeuber Road, Little Rock, AR",
-        "city_state": "Little Rock, AR",
-        "street_address": "7103 Zeuber Road",
-        "deal_name": "Little Rock, AR - 7103 Zeuber Road - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "45500000",
-        "lease_rate": "",
-        "listing_effective_date": "1/24/2025",
-        "listing_expiration_date": "6/23/2026",
-        "square_footage": "537845",
-        "acreage": "35.69",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.200425,
-          34.696795
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Owner": "Zach Binswanger",
         "Property": "Manitowoc, WI - Parcel 836-204-040 - Listing 25",
         "Deal: Deal Name": "Manitowoc, WI - Parcel 836-204-040 - Listing 25",
@@ -605,7 +568,7 @@
         "Listing Effective Date": "11/21/2025",
         "Listing Expiration Date": "11/20/2026",
         "Square Footage": "",
-        "Acreage": "33.340000000000003",
+        "Acreage": "33.34",
         "Lease Square Footage": "",
         "broker_name": "Zach Binswanger",
         "broker_email": "zbinswanger@binswanger.com",
@@ -619,7 +582,7 @@
         "listing_effective_date": "11/21/2025",
         "listing_expiration_date": "11/20/2026",
         "square_footage": "",
-        "acreage": "33.340000000000003",
+        "acreage": "33.34",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -642,7 +605,7 @@
         "Listing Effective Date": "5/1/2026",
         "Listing Expiration Date": "4/30/2027",
         "Square Footage": "",
-        "Acreage": "32.409999999999997",
+        "Acreage": "32.41",
         "Lease Square Footage": "",
         "broker_name": "Nicholas Giganti",
         "broker_email": "ngiganti@binswanger.com",
@@ -656,7 +619,7 @@
         "listing_effective_date": "5/1/2026",
         "listing_expiration_date": "4/30/2027",
         "square_footage": "",
-        "acreage": "32.409999999999997",
+        "acreage": "32.41",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -708,8 +671,8 @@
       "type": "Feature",
       "properties": {
         "Owner": "Tim Pennington",
-        "Property": "Waterford, NY - 1 O'Connor Drive - Listing 26",
-        "Deal: Deal Name": "Waterford, NY - 1 O'Connor Drive - Listing 26",
+        "Property": "Waterford, NY - 1 O&apos;Connor Drive - Listing 26",
+        "Deal: Deal Name": "Waterford, NY - 1 O&apos;Connor Drive - Listing 26",
         "Deal: Record Type": "Sale",
         "Asking Price": "",
         "Lease Rate": "",
@@ -720,10 +683,10 @@
         "Lease Square Footage": "",
         "broker_name": "Tim Pennington",
         "broker_email": "tpennington@binswanger.com",
-        "address": "1 O'Connor Drive, Waterford, NY",
+        "address": "1 O&apos;Connor Drive, Waterford, NY",
         "city_state": "Waterford, NY",
-        "street_address": "1 O'Connor Drive",
-        "deal_name": "Waterford, NY - 1 O'Connor Drive - Listing 26",
+        "street_address": "1 O&apos;Connor Drive",
+        "deal_name": "Waterford, NY - 1 O&apos;Connor Drive - Listing 26",
         "record_type": "Sale",
         "asking_price": "",
         "lease_rate": "",
@@ -736,8 +699,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.691186,
-          42.786739
+          -73.691816,
+          42.787327
         ]
       }
     },
@@ -1188,6 +1151,43 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Nicholas Maras",
+        "Property": "Trainer, PA - 3280 & 3300 West 4th Street and 3616 & 0 Post Road - Listing 26",
+        "Deal: Deal Name": "Trainer, PA - 3280 & 3300 West 4th Street and 3616 & 0 Post Road - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/28/2026",
+        "Listing Expiration Date": "3/27/2027",
+        "Square Footage": "",
+        "Acreage": "17.25",
+        "Lease Square Footage": "",
+        "broker_name": "Nicholas Maras",
+        "broker_email": "NMaras@binswanger.com",
+        "address": "3280 & 3300 West 4th Street and 3616 & 0 Post Road, Trainer, PA",
+        "city_state": "Trainer, PA",
+        "street_address": "3280 & 3300 West 4th Street and 3616 & 0 Post Road",
+        "deal_name": "Trainer, PA - 3280 & 3300 West 4th Street and 3616 & 0 Post Road - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/28/2026",
+        "listing_expiration_date": "3/27/2027",
+        "square_footage": "",
+        "acreage": "17.25",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.414354,
+          39.827355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Doug Kelly",
         "Property": "Fort Washington, PA - 7111 Valley Green Road - Listing 26",
         "Deal: Deal Name": "Fort Washington, PA - 7111 Valley Green Road - Listing 26",
@@ -1256,6 +1256,43 @@
         "coordinates": [
           -75.095463,
           39.961904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "John Harris",
+        "Property": "Shelton, CT - 1 Bic Way - Listing 26",
+        "Deal: Deal Name": "Shelton, CT - 1 Bic Way - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/23/2026",
+        "Listing Expiration Date": "9/22/2027",
+        "Square Footage": "152842",
+        "Acreage": "15.85",
+        "Lease Square Footage": "",
+        "broker_name": "John Harris",
+        "broker_email": "jharris@binswanger.com",
+        "address": "1 Bic Way, Shelton, CT",
+        "city_state": "Shelton, CT",
+        "street_address": "1 Bic Way",
+        "deal_name": "Shelton, CT - 1 Bic Way - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/23/2026",
+        "listing_expiration_date": "9/22/2027",
+        "square_footage": "152842",
+        "acreage": "15.85",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.135549,
+          41.273189
         ]
       }
     },
@@ -1565,7 +1602,7 @@
         "Asking Price": "7250000",
         "Lease Rate": "",
         "Listing Effective Date": "9/24/2025",
-        "Listing Expiration Date": "9/24/2026",
+        "Listing Expiration Date": "9/24/2027",
         "Square Footage": "135000",
         "Acreage": "12.26",
         "Lease Square Footage": "",
@@ -1579,7 +1616,7 @@
         "asking_price": "7250000",
         "lease_rate": "",
         "listing_effective_date": "9/24/2025",
-        "listing_expiration_date": "9/24/2026",
+        "listing_expiration_date": "9/24/2027",
         "square_footage": "135000",
         "acreage": "12.26",
         "lease_square_footage": ""
@@ -1589,43 +1626,6 @@
         "coordinates": [
           -79.375077,
           36.947416
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Tim Pennington",
-        "Property": "Allenwood, PA - 198 Enterprise Boulevard - Listing 25",
-        "Deal: Deal Name": "Allenwood, PA - 198 Enterprise Boulevard - Listing 25",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "6/27/2025",
-        "Listing Expiration Date": "6/26/2026",
-        "Square Footage": "",
-        "Acreage": "12",
-        "Lease Square Footage": "",
-        "broker_name": "Tim Pennington",
-        "broker_email": "tpennington@binswanger.com",
-        "address": "198 Enterprise Boulevard, Allenwood, PA",
-        "city_state": "Allenwood, PA",
-        "street_address": "198 Enterprise Boulevard",
-        "deal_name": "Allenwood, PA - 198 Enterprise Boulevard - Listing 25",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "6/27/2025",
-        "listing_expiration_date": "6/26/2026",
-        "square_footage": "",
-        "acreage": "12",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.901238,
-          41.114191
         ]
       }
     },
@@ -1974,7 +1974,7 @@
         "Listing Effective Date": "8/10/2026",
         "Listing Expiration Date": "8/9/2027",
         "Square Footage": "140020",
-        "Acreage": "9.5500000000000007",
+        "Acreage": "9.55",
         "Lease Square Footage": "",
         "broker_name": "Jason Ostach",
         "broker_email": "jostach@binswanger.com",
@@ -1988,7 +1988,7 @@
         "listing_effective_date": "8/10/2026",
         "listing_expiration_date": "8/9/2027",
         "square_footage": "140020",
-        "acreage": "9.5500000000000007",
+        "acreage": "9.55",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -2048,7 +2048,7 @@
         "Listing Effective Date": "4/23/2026",
         "Listing Expiration Date": "4/30/2027",
         "Square Footage": "74707",
-        "Acreage": "9.1199999999999992",
+        "Acreage": "9.12",
         "Lease Square Footage": "",
         "broker_name": "Crawford Standard",
         "broker_email": "cstandard@binswanger.com",
@@ -2062,7 +2062,7 @@
         "listing_effective_date": "4/23/2026",
         "listing_expiration_date": "4/30/2027",
         "square_footage": "74707",
-        "acreage": "9.1199999999999992",
+        "acreage": "9.12",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -2216,8 +2216,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.13785,
-          40.984789
+          -74.137869,
+          40.984761
         ]
       }
     },
@@ -2677,7 +2677,7 @@
         "Listing Effective Date": "6/17/2026",
         "Listing Expiration Date": "6/16/2027",
         "Square Footage": "34000",
-        "Acreage": "5.1100000000000003",
+        "Acreage": "5.11",
         "Lease Square Footage": "",
         "broker_name": "Doug Faris",
         "broker_email": "DFaris@binswanger.com",
@@ -2691,7 +2691,7 @@
         "listing_effective_date": "6/17/2026",
         "listing_expiration_date": "6/16/2027",
         "square_footage": "34000",
-        "acreage": "5.1100000000000003",
+        "acreage": "5.11",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -2788,7 +2788,7 @@
         "Listing Effective Date": "1/6/2026",
         "Listing Expiration Date": "1/5/2027",
         "Square Footage": "252000",
-        "Acreage": "4.5199999999999996",
+        "Acreage": "4.52",
         "Lease Square Footage": "",
         "broker_name": "Chris Pennington",
         "broker_email": "Cpennington@binswanger.com",
@@ -2802,7 +2802,7 @@
         "listing_effective_date": "1/6/2026",
         "listing_expiration_date": "1/5/2027",
         "square_footage": "252000",
-        "acreage": "4.5199999999999996",
+        "acreage": "4.52",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -2853,6 +2853,43 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Tim Pennington",
+        "Property": "Gilbertsville, PA - 174 Holly Road - Listing 26",
+        "Deal: Deal Name": "Gilbertsville, PA - 174 Holly Road - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "7/14/2026",
+        "Listing Expiration Date": "7/13/2027",
+        "Square Footage": "43000",
+        "Acreage": "4.27",
+        "Lease Square Footage": "",
+        "broker_name": "Tim Pennington",
+        "broker_email": "tpennington@binswanger.com",
+        "address": "174 Holly Road, Gilbertsville, PA",
+        "city_state": "Gilbertsville, PA",
+        "street_address": "174 Holly Road",
+        "deal_name": "Gilbertsville, PA - 174 Holly Road - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "7/14/2026",
+        "listing_expiration_date": "7/13/2027",
+        "square_footage": "43000",
+        "acreage": "4.27",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.62014,
+          40.33332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Michael Torsiello",
         "Property": "Swedesboro, NJ - 313 Church Street - Listing 26",
         "Deal: Deal Name": "Swedesboro, NJ - 313 Church Street - Listing 26",
@@ -2862,7 +2899,7 @@
         "Listing Effective Date": "6/18/2026",
         "Listing Expiration Date": "12/17/2026",
         "Square Footage": "67000",
-        "Acreage": "4.1900000000000004",
+        "Acreage": "4.19",
         "Lease Square Footage": "",
         "broker_name": "Michael Torsiello",
         "broker_email": "mtorsiello@binswanger.com",
@@ -2876,7 +2913,7 @@
         "listing_effective_date": "6/18/2026",
         "listing_expiration_date": "12/17/2026",
         "square_footage": "67000",
-        "acreage": "4.1900000000000004",
+        "acreage": "4.19",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -3482,43 +3519,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Jason Kramer",
-        "Property": "Philadelphia, PA - 913-929 Wallace Street - Listing 25",
-        "Deal: Deal Name": "Philadelphia, PA - 913-929 Wallace Street - Listing 25",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "16",
-        "Listing Effective Date": "9/23/2025",
-        "Listing Expiration Date": "6/22/2026",
-        "Square Footage": "35000",
-        "Acreage": "2.81",
-        "Lease Square Footage": "",
-        "broker_name": "Jason Kramer",
-        "broker_email": "jkramer@binswanger.com",
-        "address": "913-929 Wallace Street, Philadelphia, PA",
-        "city_state": "Philadelphia, PA",
-        "street_address": "913-929 Wallace Street",
-        "deal_name": "Philadelphia, PA - 913-929 Wallace Street - Listing 25",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "16",
-        "listing_effective_date": "9/23/2025",
-        "listing_expiration_date": "6/22/2026",
-        "square_footage": "35000",
-        "acreage": "2.81",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.160071,
-          39.965079
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Owner": "Bob Corr",
         "Property": "Toms River, NJ - 1730 Hooper Avenue - Listing 25",
         "Deal: Deal Name": "Toms River, NJ - 1730 Hooper Avenue - Listing 25",
@@ -3565,7 +3565,7 @@
         "Listing Effective Date": "1/6/2026",
         "Listing Expiration Date": "1/5/2027",
         "Square Footage": "47898",
-        "Acreage": "2.4287999999999998",
+        "Acreage": "2.4288",
         "Lease Square Footage": "",
         "broker_name": "Carson Erard",
         "broker_email": "cerard@binswanger.com",
@@ -3579,7 +3579,7 @@
         "listing_effective_date": "1/6/2026",
         "listing_expiration_date": "1/5/2027",
         "square_footage": "47898",
-        "acreage": "2.4287999999999998",
+        "acreage": "2.4288",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -3639,7 +3639,7 @@
         "Listing Effective Date": "4/27/2026",
         "Listing Expiration Date": "8/25/2026",
         "Square Footage": "24000",
-        "Acreage": "2.2000000000000002",
+        "Acreage": "2.2",
         "Lease Square Footage": "",
         "broker_name": "Matt Corrigan",
         "broker_email": "MCorrigan@binswanger.com",
@@ -3653,7 +3653,7 @@
         "listing_effective_date": "4/27/2026",
         "listing_expiration_date": "8/25/2026",
         "square_footage": "24000",
-        "acreage": "2.2000000000000002",
+        "acreage": "2.2",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -3927,43 +3927,6 @@
       "type": "Feature",
       "properties": {
         "Owner": "Chris Pennington",
-        "Property": "Philadelphia, PA - 5140 Germantown Pike & 15 South Ashmead Place - Listing 25",
-        "Deal: Deal Name": "Philadelphia, PA - 5140 Germantown Pike & 15 South Ashmead Place - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "3150000",
-        "Lease Rate": "",
-        "Listing Effective Date": "9/12/2025",
-        "Listing Expiration Date": "9/11/2026",
-        "Square Footage": "20090",
-        "Acreage": "1.53",
-        "Lease Square Footage": "",
-        "broker_name": "Chris Pennington",
-        "broker_email": "Cpennington@binswanger.com",
-        "address": "5140 Germantown Pike & 15 South Ashmead Place, Philadelphia, PA",
-        "city_state": "Philadelphia, PA",
-        "street_address": "5140 Germantown Pike & 15 South Ashmead Place",
-        "deal_name": "Philadelphia, PA - 5140 Germantown Pike & 15 South Ashmead Place - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "3150000",
-        "lease_rate": "",
-        "listing_effective_date": "9/12/2025",
-        "listing_expiration_date": "9/11/2026",
-        "square_footage": "20090",
-        "acreage": "1.53",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.16752,
-          40.03088
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Chris Pennington",
         "Property": "Philadelphia, PA - 6717-21 Essington Avenue - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 6717-21 Essington Avenue - Listing 26",
         "Deal: Record Type": "Lease",
@@ -4031,43 +3994,6 @@
         "coordinates": [
           -75.361425,
           39.855772
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Chris Pennington",
-        "Property": "Philadelphia, PA - 4001 North American Street - Listing 26",
-        "Deal: Deal Name": "Philadelphia, PA - 4001 North American Street - Listing 26",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "1/6/2026",
-        "Listing Expiration Date": "7/5/2026",
-        "Square Footage": "40136",
-        "Acreage": "1.48",
-        "Lease Square Footage": "",
-        "broker_name": "Chris Pennington",
-        "broker_email": "Cpennington@binswanger.com",
-        "address": "4001 North American Street, Philadelphia, PA",
-        "city_state": "Philadelphia, PA",
-        "street_address": "4001 North American Street",
-        "deal_name": "Philadelphia, PA - 4001 North American Street - Listing 26",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "1/6/2026",
-        "listing_expiration_date": "7/5/2026",
-        "square_footage": "40136",
-        "acreage": "1.48",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.13125,
-          40.012018
         ]
       }
     },
@@ -4259,6 +4185,43 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 6940 State Road - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 6940 State Road - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/29/2026",
+        "Listing Expiration Date": "3/28/2027",
+        "Square Footage": "7600",
+        "Acreage": "1.11",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "6940 State Road, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "6940 State Road",
+        "deal_name": "Philadelphia, PA - 6940 State Road - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/29/2026",
+        "listing_expiration_date": "3/28/2027",
+        "square_footage": "7600",
+        "acreage": "1.11",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.038426,
+          40.022838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Jason Ostach",
         "Property": "Philadelphia, PA - 505 Knorr Street - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 505 Knorr Street - Listing 26",
@@ -4290,6 +4253,43 @@
         "coordinates": [
           -75.089799,
           40.054381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 7520-50 State Road - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 7520-50 State Road - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/2/2026",
+        "Listing Expiration Date": "10/1/2027",
+        "Square Footage": "53800",
+        "Acreage": "1.05",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "7520-50 State Road, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "7520-50 State Road",
+        "deal_name": "Philadelphia, PA - 7520-50 State Road - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/2/2026",
+        "listing_expiration_date": "10/1/2027",
+        "square_footage": "53800",
+        "acreage": "1.05",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.02667,
+          40.02961
         ]
       }
     },
@@ -4370,37 +4370,37 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Tim Pennington",
-        "Property": "King of Prussia, PA - 400 E DeKalb Pike - Listing 25",
-        "Deal: Deal Name": "King of Prussia, PA - 400 E DeKalb Pike - Listing 25",
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 901-925 North Delaware Avenue - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 901-925 North Delaware Avenue - Listing 26",
         "Deal: Record Type": "Sale",
         "Asking Price": "",
         "Lease Rate": "",
-        "Listing Effective Date": "12/23/2025",
-        "Listing Expiration Date": "6/22/2026",
-        "Square Footage": "4723",
-        "Acreage": "0.98",
+        "Listing Effective Date": "9/16/2026",
+        "Listing Expiration Date": "3/15/2027",
+        "Square Footage": "45600",
+        "Acreage": "1",
         "Lease Square Footage": "",
-        "broker_name": "Tim Pennington",
-        "broker_email": "tpennington@binswanger.com",
-        "address": "400 E DeKalb Pike, King of Prussia, PA",
-        "city_state": "King of Prussia, PA",
-        "street_address": "400 E DeKalb Pike",
-        "deal_name": "King of Prussia, PA - 400 E DeKalb Pike - Listing 25",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "901-925 North Delaware Avenue, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "901-925 North Delaware Avenue",
+        "deal_name": "Philadelphia, PA - 901-925 North Delaware Avenue - Listing 26",
         "record_type": "Sale",
         "asking_price": "",
         "lease_rate": "",
-        "listing_effective_date": "12/23/2025",
-        "listing_expiration_date": "6/22/2026",
-        "square_footage": "4723",
-        "acreage": "0.98",
+        "listing_effective_date": "9/16/2026",
+        "listing_expiration_date": "3/15/2027",
+        "square_footage": "45600",
+        "acreage": "1",
         "lease_square_footage": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.35321,
-          40.09886
+          -74.98991,
+          40.043155
         ]
       }
     },
@@ -4518,43 +4518,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Jason Ostach",
-        "Property": "Levittown, PA - 8100 Route 13 - Listing 26",
-        "Deal: Deal Name": "Levittown, PA - 8100 Route 13 - Listing 26",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "1950000",
-        "Lease Rate": "",
-        "Listing Effective Date": "4/1/2026",
-        "Listing Expiration Date": "9/30/2026",
-        "Square Footage": "12273",
-        "Acreage": "0.8",
-        "Lease Square Footage": "",
-        "broker_name": "Jason Ostach",
-        "broker_email": "jostach@binswanger.com",
-        "address": "8100 Route 13, Levittown, PA",
-        "city_state": "Levittown, PA",
-        "street_address": "8100 Route 13",
-        "deal_name": "Levittown, PA - 8100 Route 13 - Listing 26",
-        "record_type": "Sale",
-        "asking_price": "1950000",
-        "lease_rate": "",
-        "listing_effective_date": "4/1/2026",
-        "listing_expiration_date": "9/30/2026",
-        "square_footage": "12273",
-        "acreage": "0.8",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.820281,
-          40.138041
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Owner": "Michael Pennington",
         "Property": "Philadelphia, PA - 8400 Enterprise Avenue - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 8400 Enterprise Avenue - Listing 26",
@@ -4564,7 +4527,7 @@
         "Listing Effective Date": "6/29/2026",
         "Listing Expiration Date": "6/28/2027",
         "Square Footage": "9020",
-        "Acreage": "0.79300000000000004",
+        "Acreage": "0.793",
         "Lease Square Footage": "",
         "broker_name": "Michael Pennington",
         "broker_email": "Mpennington@binswanger.com",
@@ -4578,7 +4541,7 @@
         "listing_effective_date": "6/29/2026",
         "listing_expiration_date": "6/28/2027",
         "square_footage": "9020",
-        "acreage": "0.79300000000000004",
+        "acreage": "0.793",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -4851,6 +4814,80 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 4343-4355 Torresdale Avenue - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 4343-4355 Torresdale Avenue - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "1599000",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/11/2026",
+        "Listing Expiration Date": "3/10/2027",
+        "Square Footage": "6335",
+        "Acreage": "0.59",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "4343-4355 Torresdale Avenue, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "4343-4355 Torresdale Avenue",
+        "deal_name": "Philadelphia, PA - 4343-4355 Torresdale Avenue - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "1599000",
+        "lease_rate": "",
+        "listing_effective_date": "9/11/2026",
+        "listing_expiration_date": "3/10/2027",
+        "square_footage": "6335",
+        "acreage": "0.59",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.039043,
+          40.028117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Michael Torsiello",
+        "Property": "Lawrenceville, NJ - 1100 Lenox Drive - Listing 26",
+        "Deal: Deal Name": "Lawrenceville, NJ - 1100 Lenox Drive - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/1/2026",
+        "Listing Expiration Date": "8/31/2027",
+        "Square Footage": "77000",
+        "Acreage": "0.57",
+        "Lease Square Footage": "",
+        "broker_name": "Michael Torsiello",
+        "broker_email": "mtorsiello@binswanger.com",
+        "address": "1100 Lenox Drive, Lawrenceville, NJ",
+        "city_state": "Lawrenceville, NJ",
+        "street_address": "1100 Lenox Drive",
+        "deal_name": "Lawrenceville, NJ - 1100 Lenox Drive - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/1/2026",
+        "listing_expiration_date": "8/31/2027",
+        "square_footage": "77000",
+        "acreage": "0.57",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.70519,
+          40.29132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Nicholas Maras",
         "Property": "Tinicum, PA - 218 Putcan Avenue - Listing 25",
         "Deal: Deal Name": "Tinicum, PA - 218 Putcan Avenue - Listing 25",
@@ -4860,7 +4897,7 @@
         "Listing Effective Date": "6/6/2025",
         "Listing Expiration Date": "1/8/2027",
         "Square Footage": "9172",
-        "Acreage": "0.56999999999999995",
+        "Acreage": "0.57",
         "Lease Square Footage": "",
         "broker_name": "Nicholas Maras",
         "broker_email": "NMaras@binswanger.com",
@@ -4874,7 +4911,7 @@
         "listing_effective_date": "6/6/2025",
         "listing_expiration_date": "1/8/2027",
         "square_footage": "9172",
-        "acreage": "0.56999999999999995",
+        "acreage": "0.57",
         "lease_square_footage": ""
       },
       "geometry": {
@@ -5030,6 +5067,43 @@
         "coordinates": [
           -75.099099,
           40.003225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Nicholas Giganti",
+        "Property": "Philadelphia, PA - 1511-15 & 1517 Spruce Street - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 1511-15 & 1517 Spruce Street - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/18/2026",
+        "Listing Expiration Date": "3/17/2027",
+        "Square Footage": "96000",
+        "Acreage": "0.48",
+        "Lease Square Footage": "",
+        "broker_name": "Nicholas Giganti",
+        "broker_email": "ngiganti@binswanger.com",
+        "address": "1511-15 & 1517 Spruce Street, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "1511-15 & 1517 Spruce Street",
+        "deal_name": "Philadelphia, PA - 1511-15 & 1517 Spruce Street - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/18/2026",
+        "listing_expiration_date": "3/17/2027",
+        "square_footage": "96000",
+        "acreage": "0.48",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.16697,
+          39.94766
         ]
       }
     },
@@ -5295,6 +5369,43 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 1428 Callowhill Street - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 1428 Callowhill Street - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "4250000",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/1/2026",
+        "Listing Expiration Date": "3/31/2027",
+        "Square Footage": "",
+        "Acreage": "0.27",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "1428 Callowhill Street, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "1428 Callowhill Street",
+        "deal_name": "Philadelphia, PA - 1428 Callowhill Street - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "4250000",
+        "lease_rate": "",
+        "listing_effective_date": "10/1/2026",
+        "listing_expiration_date": "3/31/2027",
+        "square_footage": "",
+        "acreage": "0.27",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.163409,
+          39.959533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Nicholas Maras",
         "Property": "Tinicum, PA - 0 Erickson Avenue - Listing 25",
         "Deal: Deal Name": "Tinicum, PA - 0 Erickson Avenue - Listing 25",
@@ -5369,6 +5480,43 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 1517 South 33rd Street - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 1517 South 33rd Street - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "2800000",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/3/2026",
+        "Listing Expiration Date": "9/2/2027",
+        "Square Footage": "6900",
+        "Acreage": "0.19",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "1517 South 33rd Street, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "1517 South 33rd Street",
+        "deal_name": "Philadelphia, PA - 1517 South 33rd Street - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "2800000",
+        "lease_rate": "",
+        "listing_effective_date": "9/3/2026",
+        "listing_expiration_date": "9/2/2027",
+        "square_footage": "6900",
+        "acreage": "0.19",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.19888,
+          39.934895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Nicholas Giganti",
         "Property": "Philadelphia, PA - 2131-35 North American Street - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 2131-35 North American Street - Listing 26",
@@ -5437,43 +5585,6 @@
         "coordinates": [
           -75.148785,
           40.167734
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Jason Ostach",
-        "Property": "Philadelphia, PA - 825-29 Aramingo Avenue - Listing 26",
-        "Deal: Deal Name": "Philadelphia, PA - 825-29 Aramingo Avenue - Listing 26",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "675000",
-        "Lease Rate": "",
-        "Listing Effective Date": "2/12/2026",
-        "Listing Expiration Date": "2/11/2027",
-        "Square Footage": "1073",
-        "Acreage": "0.04",
-        "Lease Square Footage": "",
-        "broker_name": "Jason Ostach",
-        "broker_email": "jostach@binswanger.com",
-        "address": "825-29 Aramingo Avenue, Philadelphia, PA",
-        "city_state": "Philadelphia, PA",
-        "street_address": "825-29 Aramingo Avenue",
-        "deal_name": "Philadelphia, PA - 825-29 Aramingo Avenue - Listing 26",
-        "record_type": "Sale",
-        "asking_price": "675000",
-        "lease_rate": "",
-        "listing_effective_date": "2/12/2026",
-        "listing_expiration_date": "2/11/2027",
-        "square_footage": "1073",
-        "acreage": "0.04",
-        "lease_square_footage": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.12353,
-          39.97331
         ]
       }
     },
@@ -5770,6 +5881,43 @@
         "coordinates": [
           -80.60514,
           35.935844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Doug Faris",
+        "Property": "Ridgeway, VA - 802 Frith Drive - Listing 26",
+        "Deal: Deal Name": "Ridgeway, VA - 802 Frith Drive - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/22/2026",
+        "Listing Expiration Date": "9/21/2027",
+        "Square Footage": "628000",
+        "Acreage": "",
+        "Lease Square Footage": "",
+        "broker_name": "Doug Faris",
+        "broker_email": "DFaris@binswanger.com",
+        "address": "802 Frith Drive, Ridgeway, VA",
+        "city_state": "Ridgeway, VA",
+        "street_address": "802 Frith Drive",
+        "deal_name": "Ridgeway, VA - 802 Frith Drive - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/22/2026",
+        "listing_expiration_date": "9/21/2027",
+        "square_footage": "628000",
+        "acreage": "",
+        "lease_square_footage": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.85387,
+          36.647849
         ]
       }
     },
