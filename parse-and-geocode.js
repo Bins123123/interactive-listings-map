@@ -69,10 +69,10 @@ function decodeXml(text) {
 
 function parseSharedStrings(xml) {
   const sharedStrings = [];
-  const matches = xml.matchAll(/<si\b[^>]*>([\s\S]*?)<\/si>/g);
+  const matches = xml.matchAll(/<(?:[A-Za-z_][\w.-]*:)?si\b[^>]*>([\s\S]*?)<\/(?:[A-Za-z_][\w.-]*:)?si>/g);
 
   for (const match of matches) {
-    const textParts = [...match[1].matchAll(/<t\b[^>]*>([\s\S]*?)<\/t>/g)]
+    const textParts = [...match[1].matchAll(/<(?:[A-Za-z_][\w.-]*:)?t\b[^>]*>([\s\S]*?)<\/(?:[A-Za-z_][\w.-]*:)?t>/g)]
       .map((part) => decodeXml(part[1]));
     sharedStrings.push(textParts.join(""));
   }
@@ -87,13 +87,13 @@ function columnLetters(cellRef) {
 
 function parseWorksheet(xml, sharedStrings) {
   const rows = [];
-  const rowMatches = xml.matchAll(/<row\b[^>]*r="(\d+)"[^>]*>([\s\S]*?)<\/row>/g);
+  const rowMatches = xml.matchAll(/<(?:[A-Za-z_][\w.-]*:)?row\b[^>]*r="(\d+)"[^>]*>([\s\S]*?)<\/(?:[A-Za-z_][\w.-]*:)?row>/g);
 
   for (const rowMatch of rowMatches) {
     const rowNumber = Number(rowMatch[1]);
     const rowXml = rowMatch[2];
     const values = {};
-    const cellMatches = rowXml.matchAll(/<c\b([^>]*?)\/>|<c\b([^>]*?)>([\s\S]*?)<\/c>/g);
+    const cellMatches = rowXml.matchAll(/<(?:[A-Za-z_][\w.-]*:)?c\b([^>]*?)\/>|<(?:[A-Za-z_][\w.-]*:)?c\b([^>]*?)>([\s\S]*?)<\/(?:[A-Za-z_][\w.-]*:)?c>/g);
 
     for (const cellMatch of cellMatches) {
       const attributes = cellMatch[1] || cellMatch[2] || "";
@@ -107,8 +107,8 @@ function parseWorksheet(xml, sharedStrings) {
       const col = columnLetters(ref);
       const typeMatch = attributes.match(/\bt="([^"]+)"/);
       const type = typeMatch ? typeMatch[1] : "";
-      const valueMatch = body.match(/<v>([\s\S]*?)<\/v>/);
-      const inlineMatch = body.match(/<t\b[^>]*>([\s\S]*?)<\/t>/);
+      const valueMatch = body.match(/<(?:[A-Za-z_][\w.-]*:)?v\b[^>]*>([\s\S]*?)<\/(?:[A-Za-z_][\w.-]*:)?v>/);
+      const inlineMatch = body.match(/<(?:[A-Za-z_][\w.-]*:)?t\b[^>]*>([\s\S]*?)<\/(?:[A-Za-z_][\w.-]*:)?t>/);
 
       let value = "";
       if (type === "s" && valueMatch) {
@@ -691,3 +691,4 @@ main().catch((error) => {
   console.error(error.message);
   process.exitCode = 1;
 });
+
