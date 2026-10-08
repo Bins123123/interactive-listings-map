@@ -7,6 +7,7 @@ const path = require("node:path");
 const workbookPath = path.join(__dirname, "test.xlsx");
 const brokerEmailCsvPath = path.join(__dirname, "broker-emails.csv");
 const outputGeoJsonPath = path.join(__dirname, "locations.geojson");
+const propertyListingsPath = path.join(__dirname, "properties.json");
 const failedLogPath = path.join(__dirname, "failed.txt");
 const envPath = path.join(__dirname, ".env");
 
@@ -511,6 +512,170 @@ async function geocodeAddress(query, mapboxToken) {
   return feature.center;
 }
 
+async function loadPropertyListings(filePath) {
+  const contents = await fs.readFile(filePath, "utf8");
+  const listings = JSON.parse(contents);
+
+  if (!Array.isArray(listings)) {
+    throw new Error("properties.json must contain an array.");
+  }
+
+  return listings;
+}
+
+const ADDRESS_REPLACEMENTS = new Map([
+  ["street", "st"], ["st", "st"],
+  ["avenue", "ave"], ["ave", "ave"],
+  ["road", "rd"], ["rd", "rd"],
+  ["boulevard", "blvd"], ["blvd", "blvd"],
+  ["drive", "dr"], ["dr", "dr"],
+  ["highway", "hwy"], ["hwy", "hwy"],
+  ["lane", "ln"], ["ln", "ln"],
+  ["court", "ct"], ["ct", "ct"],
+  ["place", "pl"], ["pl", "pl"],
+  ["parkway", "pkwy"], ["pkwy", "pkwy"],
+  ["north", "n"], ["south", "s"],
+  ["east", "e"], ["west", "w"],
+  ["northeast", "ne"], ["northwest", "nw"],
+  ["southeast", "se"], ["southwest", "sw"]
+]);
+
+function normalizeAddress(value) {
+  return String(value || "")
+    .replace(/&apos;/gi, "'")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((word) => ADDRESS_REPLACEMENTS.get(word) || word)
+    .join(" ");
+}
+
+function listingKind(value) {
+  return String(value || "").trim().toLowerCase() === "sale" ? "sale" : "lease";
+}
+
+function extractNumberRanges(value) {
+  return [...String(value || "").matchAll(/\b(\d+)(?:\s*[-–]\s*(\d+))?\b/g)]
+    .map((match) => {
+      const start = Number(match[1]);
+      let end = Number(match[2] || match[1]);
+
+      // Converts abbreviated ranges such as 4343-55 into 4343-4355.
+      if (end < start && match[2]) {
+        const startText = String(start);
+        const endText = String(end);
+        end = Number(`${startText.slice(0, startText.length - endText.length)}${endText}`);
+      }
+
+      return [start, end];
+    });
+}
+
+function rangesOverlap(leftAddress, rightAddress) {
+  const leftRanges = extractNumberRanges(leftAddress);
+  const rightRanges = extractNumberRanges(rightAddress);
+
+  return leftRanges.some(([leftStart, leftEnd]) =>
+    rightRanges.some(([rightStart, rightEnd]) =>
+      Math.max(leftStart, rightStart) <= Math.min(leftEnd, rightEnd)
+    )
+  );
+}
+
+function streetWithoutNumbers(value) {
+  return normalizeAddress(value)
+    .replace(/\b\d+\b/g, " ")
+    .replace(/\b(and|land|listing)\b/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function levenshteinSimilarity(left, right) {
+  const a = String(left || "");
+  const b = String(right || "");
+
+  if (!a && !b) return 1;
+  if (!a || !b) return 0;
+
+  const row = Array.from({ length: b.length + 1 }, (_, index) => index);
+
+  for (let aIndex = 1; aIndex <= a.length; aIndex += 1) {
+    let diagonal = row[0];
+    row[0] = aIndex;
+
+    for (let bIndex = 1; bIndex <= b.length; bIndex += 1) {
+      const oldValue = row[bIndex];
+      const substitution = a[aIndex - 1] === b[bIndex - 1] ? 0 : 1;
+      row[bIndex] = Math.min(row[bIndex] + 1, row[bIndex - 1] + 1, diagonal + substitution);
+      diagonal = oldValue;
+    }
+  }
+
+  return 1 - row[b.length] / Math.max(a.length, b.length);
+}
+
+function distanceMeters(coordinates, listing) {
+  const [longitude, latitude] = coordinates;
+  const listingLatitude = Number(listing.latitude);
+  const listingLongitude = Number(listing.longitude);
+
+  if (![longitude, latitude, listingLatitude, listingLongitude].every(Number.isFinite)) {
+    return Infinity;
+  }
+
+  const radians = (degrees) => (degrees * Math.PI) / 180;
+  const earthRadiusMeters = 6_371_000;
+  const latitudeDifference = radians(listingLatitude - latitude);
+  const longitudeDifference = radians(listingLongitude - longitude);
+  const a =
+    Math.sin(latitudeDifference / 2) ** 2 +
+    Math.cos(radians(latitude)) *
+      Math.cos(radians(listingLatitude)) *
+      Math.sin(longitudeDifference / 2) ** 2;
+
+  return earthRadiusMeters * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+function findListingUrl(featureProperties, coordinates, listings) {
+  const sourceAddress = featureProperties.street_address || "";
+  const sourceType = listingKind(featureProperties.record_type);
+  const compatibleListings = listings.filter(
+    (listing) => listingKind(listing.listing_type) === sourceType
+  );
+
+  const exactMatch = compatibleListings.find(
+    (listing) => normalizeAddress(listing.address) === normalizeAddress(sourceAddress)
+  );
+  if (exactMatch) return exactMatch.url || "";
+
+  const rangeMatch = compatibleListings.find(
+    (listing) =>
+      streetWithoutNumbers(listing.address) === streetWithoutNumbers(sourceAddress) &&
+      rangesOverlap(listing.address, sourceAddress)
+  );
+  if (rangeMatch) return rangeMatch.url || "";
+
+  const textMatch = compatibleListings
+    .map((listing) => ({
+      listing,
+      score: levenshteinSimilarity(
+        normalizeAddress(sourceAddress),
+        normalizeAddress(listing.address)
+      )
+    }))
+    .filter(({ listing, score }) => score >= 0.88 && rangesOverlap(sourceAddress, listing.address))
+    .sort((left, right) => right.score - left.score)[0];
+  if (textMatch) return textMatch.listing.url || "";
+
+  const nearestMatch = compatibleListings
+    .map((listing) => ({ listing, distance: distanceMeters(coordinates, listing) }))
+    .filter(({ distance }) => distance <= 250)
+    .sort((left, right) => left.distance - right.distance)[0];
+
+  return nearestMatch ? (nearestMatch.listing.url || "") : "";
+}
+
 async function main() {
   await loadEnvFile(envPath);
 
@@ -523,6 +688,8 @@ async function main() {
 
   const brokerEmails = await loadBrokerEmailLookup(brokerEmailCsvPath);
   console.error(`Loaded ${brokerEmails.exactMatches.size} broker email record(s).`);
+  const propertyListings = await loadPropertyListings(propertyListingsPath);
+  console.error(`Loaded ${propertyListings.length} property listing record(s).`);
 
   const sharedStringsXml = readZipEntry(workbookPath, "xl/sharedStrings.xml");
   const sharedStrings = parseSharedStrings(sharedStringsXml);
@@ -620,6 +787,8 @@ async function main() {
         continue;
       }
 
+      properties.listing_url = findListingUrl(properties, coordinates, propertyListings);
+
       features.push({
         type: "Feature",
         properties,
@@ -691,4 +860,3 @@ main().catch((error) => {
   console.error(error.message);
   process.exitCode = 1;
 });
-
