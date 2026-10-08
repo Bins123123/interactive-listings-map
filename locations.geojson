@@ -28,7 +28,8 @@
         "listing_expiration_date": "6/22/2027",
         "square_footage": "200000",
         "acreage": "500",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=12650-highway-43N"
       },
       "geometry": {
         "type": "Point",
@@ -65,7 +66,8 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "12740",
         "acreage": "410",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1600550-sale"
       },
       "geometry": {
         "type": "Point",
@@ -102,7 +104,8 @@
         "listing_expiration_date": "3/1/2027",
         "square_footage": "527460",
         "acreage": "173.09",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -139,7 +142,8 @@
         "listing_expiration_date": "10/21/2026",
         "square_footage": "1033470",
         "acreage": "134",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -176,7 +180,8 @@
         "listing_expiration_date": "11/21/2026",
         "square_footage": "",
         "acreage": "119.98",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=7800-dauphin-island"
       },
       "geometry": {
         "type": "Point",
@@ -213,7 +218,8 @@
         "listing_expiration_date": "10/31/2026",
         "square_footage": "1170972",
         "acreage": "118",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=101-Michelin-Dr-lease"
       },
       "geometry": {
         "type": "Point",
@@ -250,7 +256,8 @@
         "listing_expiration_date": "9/10/2027",
         "square_footage": "484787",
         "acreage": "101.74",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -287,7 +294,8 @@
         "listing_expiration_date": "11/20/2026",
         "square_footage": "123770",
         "acreage": "84.2",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1241-Harrison-Road"
       },
       "geometry": {
         "type": "Point",
@@ -324,7 +332,8 @@
         "listing_expiration_date": "8/12/2027",
         "square_footage": "",
         "acreage": "73.64",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1682905-sale"
       },
       "geometry": {
         "type": "Point",
@@ -361,7 +370,8 @@
         "listing_expiration_date": "4/12/2027",
         "square_footage": "515654",
         "acreage": "70",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1400-fm-1417-sherman"
       },
       "geometry": {
         "type": "Point",
@@ -398,7 +408,8 @@
         "listing_expiration_date": "12/31/2026",
         "square_footage": "474642",
         "acreage": "69.85",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=400-Industrial-Boulevard"
       },
       "geometry": {
         "type": "Point",
@@ -435,7 +446,8 @@
         "listing_expiration_date": "7/31/2027",
         "square_footage": "190500",
         "acreage": "52.6",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Manning-SC-Sale"
       },
       "geometry": {
         "type": "Point",
@@ -472,7 +484,8 @@
         "listing_expiration_date": "10/13/2026",
         "square_footage": "470000",
         "acreage": "44.37",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=8200-frazier-pike"
       },
       "geometry": {
         "type": "Point",
@@ -509,7 +522,8 @@
         "listing_expiration_date": "9/9/2027",
         "square_footage": "225000",
         "acreage": "40",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=2221-e-state-highway"
       },
       "geometry": {
         "type": "Point",
@@ -546,7 +560,8 @@
         "listing_expiration_date": "10/27/2026",
         "square_footage": "338931",
         "acreage": "37.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=3401-E-4th-ave"
       },
       "geometry": {
         "type": "Point",
@@ -583,7 +598,8 @@
         "listing_expiration_date": "11/20/2026",
         "square_footage": "",
         "acreage": "33.34",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -620,7 +636,8 @@
         "listing_expiration_date": "4/30/2027",
         "square_footage": "",
         "acreage": "32.41",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1644170-sale"
       },
       "geometry": {
         "type": "Point",
@@ -657,7 +674,8 @@
         "listing_expiration_date": "10/13/2026",
         "square_footage": "80304",
         "acreage": "31.95",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1567292-sale"
       },
       "geometry": {
         "type": "Point",
@@ -694,7 +712,8 @@
         "listing_expiration_date": "2/25/2027",
         "square_footage": "326000",
         "acreage": "30.82",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -731,7 +750,8 @@
         "listing_expiration_date": "3/27/2027",
         "square_footage": "599465",
         "acreage": "27.97",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Maumelle-AR"
       },
       "geometry": {
         "type": "Point",
@@ -768,7 +788,8 @@
         "listing_expiration_date": "5/6/2027",
         "square_footage": "26615",
         "acreage": "26.7",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=4355-county-line-rd-chalfont-PA"
       },
       "geometry": {
         "type": "Point",
@@ -805,7 +826,8 @@
         "listing_expiration_date": "5/27/2027",
         "square_footage": "276500",
         "acreage": "25.08",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1661547-lease"
       },
       "geometry": {
         "type": "Point",
@@ -842,7 +864,8 @@
         "listing_expiration_date": "12/10/2026",
         "square_footage": "135939",
         "acreage": "24.93",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Union-sale"
       },
       "geometry": {
         "type": "Point",
@@ -879,7 +902,8 @@
         "listing_expiration_date": "7/15/2026",
         "square_footage": "252448",
         "acreage": "24.3",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1537666-sale"
       },
       "geometry": {
         "type": "Point",
@@ -916,7 +940,8 @@
         "listing_expiration_date": "12/31/2026",
         "square_footage": "369270",
         "acreage": "23.57",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -953,7 +978,8 @@
         "listing_expiration_date": "12/15/2026",
         "square_footage": "130000",
         "acreage": "21",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1600505-sale"
       },
       "geometry": {
         "type": "Point",
@@ -990,7 +1016,8 @@
         "listing_expiration_date": "3/30/2027",
         "square_footage": "120553",
         "acreage": "19.77",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=10-Tuas-bay-lane"
       },
       "geometry": {
         "type": "Point",
@@ -1027,7 +1054,8 @@
         "listing_expiration_date": "8/3/2026",
         "square_footage": "271600",
         "acreage": "19.27",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=4101-N-Delaware-Avenue"
       },
       "geometry": {
         "type": "Point",
@@ -1064,7 +1092,8 @@
         "listing_expiration_date": "7/23/2026",
         "square_footage": "120000",
         "acreage": "18.68",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1405DeborahHermanRd"
       },
       "geometry": {
         "type": "Point",
@@ -1101,7 +1130,8 @@
         "listing_expiration_date": "5/14/2027",
         "square_footage": "47494",
         "acreage": "18.37",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1647457-lease"
       },
       "geometry": {
         "type": "Point",
@@ -1138,7 +1168,8 @@
         "listing_expiration_date": "7/13/2026",
         "square_footage": "226417",
         "acreage": "17.28",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1516357-lease"
       },
       "geometry": {
         "type": "Point",
@@ -1175,7 +1206,8 @@
         "listing_expiration_date": "3/27/2027",
         "square_footage": "",
         "acreage": "17.25",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1212,7 +1244,8 @@
         "listing_expiration_date": "5/3/2027",
         "square_footage": "72885",
         "acreage": "16.79",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=7111-E-Valley-Green-Road"
       },
       "geometry": {
         "type": "Point",
@@ -1249,7 +1282,8 @@
         "listing_expiration_date": "2/2/2027",
         "square_footage": "7000",
         "acreage": "16.5",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=2851-adams-ave"
       },
       "geometry": {
         "type": "Point",
@@ -1286,7 +1320,8 @@
         "listing_expiration_date": "9/22/2027",
         "square_footage": "152842",
         "acreage": "15.85",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1323,7 +1358,8 @@
         "listing_expiration_date": "2/9/2027",
         "square_footage": "151500",
         "acreage": "15",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1360,7 +1396,8 @@
         "listing_expiration_date": "11/17/2026",
         "square_footage": "",
         "acreage": "14.93",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1583396-sale"
       },
       "geometry": {
         "type": "Point",
@@ -1397,7 +1434,8 @@
         "listing_expiration_date": "2/5/2027",
         "square_footage": "129304",
         "acreage": "14.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Longmont-CO-Sale"
       },
       "geometry": {
         "type": "Point",
@@ -1434,7 +1472,8 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "",
         "acreage": "14.66",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1471,7 +1510,8 @@
         "listing_expiration_date": "7/30/2027",
         "square_footage": "54399",
         "acreage": "14.58",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Waterford-NY"
       },
       "geometry": {
         "type": "Point",
@@ -1508,7 +1548,8 @@
         "listing_expiration_date": "2/11/2027",
         "square_footage": "151220",
         "acreage": "13.69",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1545,7 +1586,8 @@
         "listing_expiration_date": "11/6/2026",
         "square_footage": "240258",
         "acreage": "13.48",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1575942-sale"
       },
       "geometry": {
         "type": "Point",
@@ -1582,7 +1624,8 @@
         "listing_expiration_date": "12/14/2026",
         "square_footage": "2500",
         "acreage": "12.97",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1588990-lease"
       },
       "geometry": {
         "type": "Point",
@@ -1619,7 +1662,8 @@
         "listing_expiration_date": "9/24/2027",
         "square_footage": "135000",
         "acreage": "12.26",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=281-industrial-dr"
       },
       "geometry": {
         "type": "Point",
@@ -1656,7 +1700,8 @@
         "listing_expiration_date": "2/25/2027",
         "square_footage": "94660",
         "acreage": "11.37",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +1738,8 @@
         "listing_expiration_date": "8/18/2027",
         "square_footage": "200000",
         "acreage": "11.14",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Palmetto-Florence-Lease"
       },
       "geometry": {
         "type": "Point",
@@ -1730,7 +1776,8 @@
         "listing_expiration_date": "6/1/2027",
         "square_footage": "57783",
         "acreage": "11",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1767,7 +1814,8 @@
         "listing_expiration_date": "6/22/2027",
         "square_footage": "100000",
         "acreage": "10.8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=juncos-pr"
       },
       "geometry": {
         "type": "Point",
@@ -1804,7 +1852,8 @@
         "listing_expiration_date": "5/18/2027",
         "square_footage": "109498",
         "acreage": "10.73",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1657239-sale"
       },
       "geometry": {
         "type": "Point",
@@ -1841,7 +1890,8 @@
         "listing_expiration_date": "7/22/2026",
         "square_footage": "",
         "acreage": "10.6",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=2412-Eulaton-Road"
       },
       "geometry": {
         "type": "Point",
@@ -1878,7 +1928,8 @@
         "listing_expiration_date": "3/5/2027",
         "square_footage": "",
         "acreage": "10",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1620063-sale"
       },
       "geometry": {
         "type": "Point",
@@ -1915,7 +1966,8 @@
         "listing_expiration_date": "4/8/2027",
         "square_footage": "170216",
         "acreage": "10",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1952,7 +2004,8 @@
         "listing_expiration_date": "10/13/2026",
         "square_footage": "235560",
         "acreage": "9.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -1989,7 +2042,8 @@
         "listing_expiration_date": "8/9/2027",
         "square_footage": "140020",
         "acreage": "9.55",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1678281-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2026,7 +2080,8 @@
         "listing_expiration_date": "11/13/2026",
         "square_footage": "56523",
         "acreage": "9.35",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1646641-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2063,7 +2118,8 @@
         "listing_expiration_date": "4/30/2027",
         "square_footage": "74707",
         "acreage": "9.12",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=HumboldtTN-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2100,7 +2156,8 @@
         "listing_expiration_date": "3/1/2027",
         "square_footage": "575000",
         "acreage": "9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=kirchentellinsfurt"
       },
       "geometry": {
         "type": "Point",
@@ -2137,7 +2194,8 @@
         "listing_expiration_date": "2/12/2027",
         "square_footage": "102000",
         "acreage": "8.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -2174,7 +2232,8 @@
         "listing_expiration_date": "5/19/2027",
         "square_footage": "204250",
         "acreage": "8.39",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=745-South-Gardner-Street"
       },
       "geometry": {
         "type": "Point",
@@ -2211,7 +2270,8 @@
         "listing_expiration_date": "1/22/2027",
         "square_footage": "6000",
         "acreage": "8.23",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -2248,7 +2308,8 @@
         "listing_expiration_date": "10/21/2026",
         "square_footage": "900",
         "acreage": "8.19",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1800-new-jersey-23"
       },
       "geometry": {
         "type": "Point",
@@ -2285,7 +2346,8 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "",
         "acreage": "8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1669659-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2322,7 +2384,8 @@
         "listing_expiration_date": "10/16/2026",
         "square_footage": "180000",
         "acreage": "8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -2359,7 +2422,8 @@
         "listing_expiration_date": "12/1/2026",
         "square_footage": "132962",
         "acreage": "7.3",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -2396,7 +2460,8 @@
         "listing_expiration_date": "4/4/2027",
         "square_footage": "181012",
         "acreage": "7.24",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -2433,7 +2498,8 @@
         "listing_expiration_date": "11/3/2026",
         "square_footage": "214891",
         "acreage": "6.7",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1410494-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2470,7 +2536,8 @@
         "listing_expiration_date": "11/17/2026",
         "square_footage": "93020",
         "acreage": "6.66",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1678451-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2507,7 +2574,8 @@
         "listing_expiration_date": "9/16/2026",
         "square_footage": "128529",
         "acreage": "6.47",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1471618-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2544,7 +2612,8 @@
         "listing_expiration_date": "8/1/2026",
         "square_footage": "132000",
         "acreage": "6.13",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1199730-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2581,7 +2650,8 @@
         "listing_expiration_date": "10/31/2026",
         "square_footage": "63000",
         "acreage": "5.84",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1642680-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2618,7 +2688,8 @@
         "listing_expiration_date": "12/22/2026",
         "square_footage": "30458",
         "acreage": "5.52",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -2655,7 +2726,8 @@
         "listing_expiration_date": "10/1/2026",
         "square_footage": "26620",
         "acreage": "5.34",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -2692,7 +2764,8 @@
         "listing_expiration_date": "6/16/2027",
         "square_footage": "34000",
         "acreage": "5.11",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1660672-lease"
       },
       "geometry": {
         "type": "Point",
@@ -2729,7 +2802,8 @@
         "listing_expiration_date": "2/17/2027",
         "square_footage": "45460",
         "acreage": "5",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1673175-lease"
       },
       "geometry": {
         "type": "Point",
@@ -2766,7 +2840,8 @@
         "listing_expiration_date": "10/15/2026",
         "square_footage": "29550",
         "acreage": "4.67",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=2225-Ronald-Avenue"
       },
       "geometry": {
         "type": "Point",
@@ -2803,7 +2878,8 @@
         "listing_expiration_date": "1/5/2027",
         "square_footage": "252000",
         "acreage": "4.52",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1600458-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2840,7 +2916,8 @@
         "listing_expiration_date": "7/10/2026",
         "square_footage": "119008",
         "acreage": "4.41",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -2877,7 +2954,8 @@
         "listing_expiration_date": "7/13/2027",
         "square_footage": "43000",
         "acreage": "4.27",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1475875-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2914,7 +2992,8 @@
         "listing_expiration_date": "12/17/2026",
         "square_footage": "67000",
         "acreage": "4.19",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1671989-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2951,7 +3030,8 @@
         "listing_expiration_date": "7/30/2027",
         "square_footage": "4879",
         "acreage": "4.04",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1656193-sale"
       },
       "geometry": {
         "type": "Point",
@@ -2988,7 +3068,8 @@
         "listing_expiration_date": "2/11/2027",
         "square_footage": "22000",
         "acreage": "4",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1583584-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3025,7 +3106,8 @@
         "listing_expiration_date": "3/8/2027",
         "square_footage": "55026",
         "acreage": "4",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3062,7 +3144,8 @@
         "listing_expiration_date": "8/20/2027",
         "square_footage": "24400",
         "acreage": "3.72",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1685756-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3099,7 +3182,8 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "9800",
         "acreage": "3.7",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1667852-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3136,7 +3220,8 @@
         "listing_expiration_date": "12/10/2026",
         "square_footage": "45878",
         "acreage": "3.62",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1659784-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3173,7 +3258,8 @@
         "listing_expiration_date": "1/29/2027",
         "square_footage": "",
         "acreage": "3.54",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1686736-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3210,7 +3296,8 @@
         "listing_expiration_date": "12/31/2026",
         "square_footage": "",
         "acreage": "3.42",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1662196-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3247,7 +3334,8 @@
         "listing_expiration_date": "12/17/2026",
         "square_footage": "81322",
         "acreage": "3.22",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1669050-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3284,7 +3372,8 @@
         "listing_expiration_date": "7/30/2026",
         "square_footage": "20682",
         "acreage": "3.13",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3321,7 +3410,8 @@
         "listing_expiration_date": "2/23/2027",
         "square_footage": "",
         "acreage": "3.13",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1688500-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3358,7 +3448,8 @@
         "listing_expiration_date": "12/14/2026",
         "square_footage": "13516",
         "acreage": "3.1",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3395,7 +3486,8 @@
         "listing_expiration_date": "7/15/2027",
         "square_footage": "6067",
         "acreage": "3.02",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1670191-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3432,7 +3524,8 @@
         "listing_expiration_date": "8/20/2027",
         "square_footage": "2702",
         "acreage": "2.98",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1685757-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3469,7 +3562,8 @@
         "listing_expiration_date": "8/26/2026",
         "square_footage": "39415",
         "acreage": "2.94",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3506,7 +3600,8 @@
         "listing_expiration_date": "8/23/2026",
         "square_footage": "55000",
         "acreage": "2.89",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3543,7 +3638,8 @@
         "listing_expiration_date": "8/31/2026",
         "square_footage": "",
         "acreage": "2.8",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3580,7 +3676,8 @@
         "listing_expiration_date": "1/5/2027",
         "square_footage": "47898",
         "acreage": "2.4288",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Denver-CO"
       },
       "geometry": {
         "type": "Point",
@@ -3617,7 +3714,8 @@
         "listing_expiration_date": "9/14/2027",
         "square_footage": "10000",
         "acreage": "2.36",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1555139-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3654,7 +3752,8 @@
         "listing_expiration_date": "8/25/2026",
         "square_footage": "24000",
         "acreage": "2.2",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1623874-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3691,7 +3790,8 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "85064",
         "acreage": "2.04",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3728,7 +3828,8 @@
         "listing_expiration_date": "11/30/2026",
         "square_footage": "40000",
         "acreage": "2",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1513170-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3765,7 +3866,8 @@
         "listing_expiration_date": "9/1/2026",
         "square_footage": "21252",
         "acreage": "2",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1623874-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3802,7 +3904,8 @@
         "listing_expiration_date": "3/17/2027",
         "square_footage": "22000",
         "acreage": "1.97",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1623824-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3839,7 +3942,8 @@
         "listing_expiration_date": "12/2/2026",
         "square_footage": "32000",
         "acreage": "1.91",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3876,7 +3980,8 @@
         "listing_expiration_date": "11/17/2026",
         "square_footage": "40000",
         "acreage": "1.62",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1614340-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3913,7 +4018,8 @@
         "listing_expiration_date": "2/11/2027",
         "square_footage": "",
         "acreage": "1.53",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1609763-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3950,7 +4056,8 @@
         "listing_expiration_date": "7/26/2027",
         "square_footage": "16913",
         "acreage": "1.53",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=6717-Essington-lease"
       },
       "geometry": {
         "type": "Point",
@@ -3987,7 +4094,8 @@
         "listing_expiration_date": "6/16/2027",
         "square_footage": "14022",
         "acreage": "1.49",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1659712-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4024,7 +4132,8 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "",
         "acreage": "1.37",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1669673-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4061,7 +4170,8 @@
         "listing_expiration_date": "10/28/2026",
         "square_footage": "26045",
         "acreage": "1.329",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1691201-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4098,7 +4208,8 @@
         "listing_expiration_date": "8/2/2027",
         "square_footage": "34155",
         "acreage": "1.32",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1675944-lease"
       },
       "geometry": {
         "type": "Point",
@@ -4135,7 +4246,8 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "9000",
         "acreage": "1.18",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1520380-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4172,7 +4284,8 @@
         "listing_expiration_date": "2/2/2027",
         "square_footage": "68430",
         "acreage": "1.18",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1680450-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4209,7 +4322,8 @@
         "listing_expiration_date": "3/28/2027",
         "square_footage": "7600",
         "acreage": "1.11",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1692302-lease"
       },
       "geometry": {
         "type": "Point",
@@ -4246,7 +4360,8 @@
         "listing_expiration_date": "11/8/2026",
         "square_footage": "62220",
         "acreage": "1.07",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1645209-lease"
       },
       "geometry": {
         "type": "Point",
@@ -4283,7 +4398,8 @@
         "listing_expiration_date": "10/1/2027",
         "square_footage": "53800",
         "acreage": "1.05",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4320,7 +4436,8 @@
         "listing_expiration_date": "8/10/2027",
         "square_footage": "12000",
         "acreage": "1.04",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4357,7 +4474,8 @@
         "listing_expiration_date": "12/1/2026",
         "square_footage": "53616",
         "acreage": "1.036",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1585514-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4394,7 +4512,8 @@
         "listing_expiration_date": "3/15/2027",
         "square_footage": "45600",
         "acreage": "1",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4431,7 +4550,8 @@
         "listing_expiration_date": "3/2/2027",
         "square_footage": "3700",
         "acreage": "0.92",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1617080-lease"
       },
       "geometry": {
         "type": "Point",
@@ -4468,7 +4588,8 @@
         "listing_expiration_date": "2/10/2027",
         "square_footage": "31552",
         "acreage": "0.9",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1680456-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4505,7 +4626,8 @@
         "listing_expiration_date": "9/8/2026",
         "square_footage": "10347",
         "acreage": "0.88",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1549955-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4542,7 +4664,8 @@
         "listing_expiration_date": "6/28/2027",
         "square_footage": "9020",
         "acreage": "0.793",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1661840-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4579,7 +4702,8 @@
         "listing_expiration_date": "2/2/2027",
         "square_footage": "50126",
         "acreage": "0.77",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1679847-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4616,7 +4740,8 @@
         "listing_expiration_date": "7/31/2026",
         "square_footage": "",
         "acreage": "0.76",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4653,7 +4778,8 @@
         "listing_expiration_date": "2/2/2027",
         "square_footage": "37183",
         "acreage": "0.75",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1680441-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4690,7 +4816,8 @@
         "listing_expiration_date": "8/11/2026",
         "square_footage": "6235",
         "acreage": "0.63",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1613029-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4727,7 +4854,8 @@
         "listing_expiration_date": "11/3/2026",
         "square_footage": "12213",
         "acreage": "0.63",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1642706-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4764,7 +4892,8 @@
         "listing_expiration_date": "12/3/2026",
         "square_footage": "8070",
         "acreage": "0.62",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1403984-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4801,7 +4930,8 @@
         "listing_expiration_date": "8/11/2027",
         "square_footage": "32815",
         "acreage": "0.6",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1680224-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4838,7 +4968,8 @@
         "listing_expiration_date": "3/10/2027",
         "square_footage": "6335",
         "acreage": "0.59",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1690492-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4875,7 +5006,8 @@
         "listing_expiration_date": "8/31/2027",
         "square_footage": "77000",
         "acreage": "0.57",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4912,7 +5044,8 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "9172",
         "acreage": "0.57",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1520394-lease"
       },
       "geometry": {
         "type": "Point",
@@ -4949,7 +5082,8 @@
         "listing_expiration_date": "7/18/2026",
         "square_footage": "",
         "acreage": "0.53",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1698058-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4986,7 +5120,8 @@
         "listing_expiration_date": "9/8/2027",
         "square_footage": "32096",
         "acreage": "0.52",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1680238-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5023,7 +5158,8 @@
         "listing_expiration_date": "5/5/2027",
         "square_footage": "15837",
         "acreage": "0.5",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1647497-GermantownAve"
       },
       "geometry": {
         "type": "Point",
@@ -5060,7 +5196,8 @@
         "listing_expiration_date": "10/5/2026",
         "square_footage": "9000",
         "acreage": "0.5",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -5097,7 +5234,8 @@
         "listing_expiration_date": "3/17/2027",
         "square_footage": "96000",
         "acreage": "0.48",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -5134,7 +5272,8 @@
         "listing_expiration_date": "11/25/2026",
         "square_footage": "39204",
         "acreage": "0.47",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=3108EThompson"
       },
       "geometry": {
         "type": "Point",
@@ -5171,7 +5310,8 @@
         "listing_expiration_date": "1/8/2027",
         "square_footage": "28262",
         "acreage": "0.46",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1694807-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5208,7 +5348,8 @@
         "listing_expiration_date": "7/22/2026",
         "square_footage": "6000",
         "acreage": "0.45",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=19-lemon-st-pottstown"
       },
       "geometry": {
         "type": "Point",
@@ -5245,7 +5386,8 @@
         "listing_expiration_date": "5/25/2027",
         "square_footage": "",
         "acreage": "0.44",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1427079-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5282,7 +5424,8 @@
         "listing_expiration_date": "11/20/2026",
         "square_footage": "",
         "acreage": "0.43",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -5319,7 +5462,8 @@
         "listing_expiration_date": "4/27/2027",
         "square_footage": "8295",
         "acreage": "0.39",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1659669-lease"
       },
       "geometry": {
         "type": "Point",
@@ -5356,7 +5500,8 @@
         "listing_expiration_date": "7/18/2026",
         "square_footage": "",
         "acreage": "0.39",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1694807-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5393,7 +5538,8 @@
         "listing_expiration_date": "3/31/2027",
         "square_footage": "",
         "acreage": "0.27",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1698058-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5430,7 +5576,8 @@
         "listing_expiration_date": "1/28/2027",
         "square_footage": "7434",
         "acreage": "0.24",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1520394-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5467,7 +5614,8 @@
         "listing_expiration_date": "3/27/2027",
         "square_footage": "4800",
         "acreage": "0.24",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1644579-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5504,7 +5652,8 @@
         "listing_expiration_date": "9/2/2027",
         "square_footage": "6900",
         "acreage": "0.19",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1698137-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5541,7 +5690,8 @@
         "listing_expiration_date": "1/6/2027",
         "square_footage": "16500",
         "acreage": "0.19",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1427079-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5578,7 +5728,8 @@
         "listing_expiration_date": "2/17/2027",
         "square_footage": "40000",
         "acreage": "0.06",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1691842-Business-Center"
       },
       "geometry": {
         "type": "Point",
@@ -5615,7 +5766,8 @@
         "listing_expiration_date": "12/15/2026",
         "square_footage": "1410",
         "acreage": "0.03",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1659882-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5652,7 +5804,8 @@
         "listing_expiration_date": "1/30/2027",
         "square_footage": "2664",
         "acreage": "0.03",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1681226-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5689,7 +5842,8 @@
         "listing_expiration_date": "3/9/2027",
         "square_footage": "277237",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1111-Magnolia-Bluff-Way"
       },
       "geometry": {
         "type": "Point",
@@ -5726,7 +5880,8 @@
         "listing_expiration_date": "1/7/2027",
         "square_footage": "1300000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1800-Crawford-Road"
       },
       "geometry": {
         "type": "Point",
@@ -5763,7 +5918,8 @@
         "listing_expiration_date": "10/31/2026",
         "square_footage": "812000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Frazeysburg-OH"
       },
       "geometry": {
         "type": "Point",
@@ -5800,7 +5956,8 @@
         "listing_expiration_date": "8/31/2027",
         "square_footage": "54000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1687317-lease"
       },
       "geometry": {
         "type": "Point",
@@ -5837,7 +5994,8 @@
         "listing_expiration_date": "9/2/2026",
         "square_footage": "492000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=840-complex-st"
       },
       "geometry": {
         "type": "Point",
@@ -5874,7 +6032,8 @@
         "listing_expiration_date": "7/29/2026",
         "square_footage": "108960",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=212QualityDrive-Mocksville"
       },
       "geometry": {
         "type": "Point",
@@ -5911,7 +6070,8 @@
         "listing_expiration_date": "9/21/2027",
         "square_footage": "628000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -5948,7 +6108,8 @@
         "listing_expiration_date": "1/13/2027",
         "square_footage": "7342",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=100-north-18th-street"
       },
       "geometry": {
         "type": "Point",
@@ -5985,7 +6146,8 @@
         "listing_expiration_date": "9/2/2026",
         "square_footage": "6796",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=901443-lease"
       },
       "geometry": {
         "type": "Point",
@@ -6022,7 +6184,8 @@
         "listing_expiration_date": "10/21/2026",
         "square_footage": "130000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1687968-lease"
       },
       "geometry": {
         "type": "Point",
@@ -6059,7 +6222,8 @@
         "listing_expiration_date": "11/13/2026",
         "square_footage": "53584",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1471618-sale"
       },
       "geometry": {
         "type": "Point",
@@ -6096,7 +6260,8 @@
         "listing_expiration_date": "3/9/2027",
         "square_footage": "7595",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1701-Loretta"
       },
       "geometry": {
         "type": "Point",
@@ -6133,7 +6298,8 @@
         "listing_expiration_date": "8/18/2026",
         "square_footage": "150000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1195-n-6550-w"
       },
       "geometry": {
         "type": "Point",
@@ -6170,7 +6336,8 @@
         "listing_expiration_date": "1/22/2027",
         "square_footage": "512728",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1673948-sale"
       },
       "geometry": {
         "type": "Point",
@@ -6207,7 +6374,8 @@
         "listing_expiration_date": "3/13/2027",
         "square_footage": "88000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=250-Canal-Rd-lease"
       },
       "geometry": {
         "type": "Point",
@@ -6244,7 +6412,8 @@
         "listing_expiration_date": "6/4/2027",
         "square_footage": "66314",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -6281,7 +6450,8 @@
         "listing_expiration_date": "1/5/2027",
         "square_footage": "145000",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -6318,7 +6488,8 @@
         "listing_expiration_date": "7/22/2027",
         "square_footage": "3116",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1682351-sale"
       },
       "geometry": {
         "type": "Point",
@@ -6355,7 +6526,8 @@
         "listing_expiration_date": "5/21/2027",
         "square_footage": "",
         "acreage": "",
-        "lease_square_footage": ""
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1655908-sale"
       },
       "geometry": {
         "type": "Point",
