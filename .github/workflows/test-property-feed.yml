@@ -1,0 +1,73 @@
+name: Test property listing feed
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  test_feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Fetch and create properties.json
+        run: |
+          python3 - <<'PY'
+          import json
+          import math
+          from urllib.parse import parse_qs, urlparse
+          from urllib.request import Request, urlopen
+
+          API = (
+              "https://buildout.com/plugins/"
+              "56d259d694cdeb44b7c2fd4781d039fe754bc021/"
+              "inventory.json?page={page}"
+          )
+
+          headers = {
+              "User-Agent": "Mozilla/5.0",
+              "Referer": "https://www.binswanger.com/",
+          }
+
+          def fetch(page):
+              request = Request(API.format(page=page), headers=headers)
+              with urlopen(request, timeout=30) as response:
+                  return json.load(response)
+
+          first = fetch(0)
+          pages = math.ceil(first["meta"]["total"] / first["meta"]["limit"])
+          properties = []
+
+          for page in range(pages):
+              data = first if page == 0 else fetch(page)
+
+              for item in data["inventory"]:
+                  url = item["show_link"]
+                  property_id = parse_qs(urlparse(url).query).get(
+                      "propertyId", [None]
+                  )[0]
+
+                  properties.append({
+                      "name": item["display_name"],
+                      "url": url,
+                      "property_id": property_id,
+                  })
+
+          with open("properties.json", "w") as output:
+              json.dump(properties, output, indent=2)
+
+          print(f"Created valid JSON with {len(properties)} listings.")
+          print(json.dumps(properties[:3], indent=2))
+          PY
+
+      - name: Validate JSON
+        run: |
+          python3 -m json.tool properties.json > /dev/null
+          test "$(python3 -c 'import json; print(len(json.load(open("properties.json"))))')" -gt 0
+
+      - name: Upload result for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: properties-json
+          path: properties.json
+          retention-days: 1
