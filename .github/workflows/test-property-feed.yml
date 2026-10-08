@@ -43,7 +43,6 @@ jobs:
           first_page = fetch_page(0)
           meta = first_page["meta"]
           pages = math.ceil(meta["total"] / meta["limit"])
-
           properties = []
 
           for page in range(pages):
@@ -55,8 +54,26 @@ jobs:
                       urlparse(url).query
                   ).get("propertyId", [None])[0]
 
+                  if listing.get("sale"):
+                      listing_type = "Sale"
+                  elif listing.get("sublease"):
+                      listing_type = "Sublease"
+                  else:
+                      listing_type = "Lease"
+
                   properties.append({
-                      "name": listing["display_name"],
+                      "name": listing.get("display_name"),
+                      "address": listing.get("address"),
+                      "city": listing.get("city"),
+                      "state": listing.get("state"),
+                      "city_state": listing.get("city_state"),
+                      "latitude": listing.get("latitude"),
+                      "longitude": listing.get("longitude"),
+                      "listing_type": listing_type,
+                      "sale": listing.get("sale", False),
+                      "sublease": listing.get("sublease", False),
+                      "property_type": listing.get("property_sub_type_name"),
+                      "size_summary": listing.get("size_summary"),
                       "url": url,
                       "property_id": property_id,
                   })
@@ -75,12 +92,9 @@ jobs:
           from pathlib import Path
           from urllib.parse import urlparse
 
-          path = Path("properties.json")
-
-          if not path.exists():
-              raise SystemExit("properties.json was not created")
-
-          properties = json.loads(path.read_text(encoding="utf-8"))
+          properties = json.loads(
+              Path("properties.json").read_text(encoding="utf-8")
+          )
 
           if not isinstance(properties, list) or not properties:
               raise SystemExit("Expected a non-empty JSON list")
