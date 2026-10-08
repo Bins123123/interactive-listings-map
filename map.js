@@ -415,6 +415,18 @@
         "listing_expiration_date",
         "Listing Expiration Date"
       ]);
+      const dateRange = [effectiveDate, expirationDate].filter(Boolean).join(" – ");
+      const rawListingUrl = pickFirstNonEmpty(properties, ["listing_url"]);
+      let listingUrl = "";
+
+      try {
+        const parsedUrl = new URL(rawListingUrl);
+        if (parsedUrl.protocol === "https:" && parsedUrl.hostname === "www.binswanger.com") {
+          listingUrl = parsedUrl.href;
+        }
+      } catch {
+        // Leave the call-to-action hidden when a feature has no valid listing URL.
+      }
       const isLandListing = !String(squareFootage).trim() && String(acreage).trim();
       const popupMetaValue = isLandListing
         ? `${popupAcreage} AC`
@@ -428,14 +440,13 @@
         ["Record Type", recordType],
         ["Asking Price", askingPrice],
         ["Acreage", popupAcreage],
-        ["Effective Date", effectiveDate],
-        ["Expiration Date", expirationDate]
+        ["Date Range", dateRange]
       ];
 
       if (isLease) {
         fields.splice(2, 1);
         fields.splice(3, 0, ["Lease Rate", leaseRate]);
-        fields.splice(6, 0, ["Lease Sq Ft", leaseSquareFootage]);
+        fields.splice(4, 0, ["Lease Sq Ft", leaseSquareFootage]);
       }
 
       return `
@@ -451,6 +462,11 @@
               <dd>${isHtml ? value : escapeHtml(value || "N/A")}</dd>
             `).join("")}
           </dl>
+          ${listingUrl ? `
+            <a class="view-listing" href="${escapeHtml(listingUrl)}" target="_blank" rel="noopener noreferrer">
+              View Listing <span class="view-listing-arrow" aria-hidden="true">→</span>
+            </a>
+          ` : ""}
         </div>
       `;
     }
@@ -1073,6 +1089,7 @@
         bindFilterToggle();
 
         const response = await fetch("./locations.geojson", {
+          cache: "no-store",
           mode: "same-origin",
           credentials: "same-origin",
           referrerPolicy: "strict-origin-when-cross-origin"
