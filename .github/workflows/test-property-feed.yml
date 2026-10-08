@@ -1,16 +1,22 @@
-name: Test property listing feed
+name: Update property listings
 
 on:
   workflow_dispatch:
 
-permissions: {}
+permissions:
+  contents: write
 
 jobs:
-  test_feed:
+  update_property_json:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Fetch and create properties.json
+      - name: Check out main
+        uses: actions/checkout@v6
+        with:
+          ref: main
+
+      - name: Fetch listings and create properties.json
         run: |
           python3 - <<'PY'
           import json
@@ -29,45 +35,79 @@ jobs:
               "Referer": "https://www.binswanger.com/",
           }
 
-          def fetch(page):
+          def fetch_page(page):
               request = Request(API.format(page=page), headers=headers)
               with urlopen(request, timeout=30) as response:
                   return json.load(response)
 
-          first = fetch(0)
-          pages = math.ceil(first["meta"]["total"] / first["meta"]["limit"])
+          first_page = fetch_page(0)
+          meta = first_page["meta"]
+          pages = math.ceil(meta["total"] / meta["limit"])
+
           properties = []
 
           for page in range(pages):
-              data = first if page == 0 else fetch(page)
+              data = first_page if page == 0 else fetch_page(page)
 
-              for item in data["inventory"]:
-                  url = item["show_link"]
-                  property_id = parse_qs(urlparse(url).query).get(
-                      "propertyId", [None]
-                  )[0]
+              for listing in data["inventory"]:
+                  url = listing["show_link"]
+                  property_id = parse_qs(
+                      urlparse(url).query
+                  ).get("propertyId", [None])[0]
 
                   properties.append({
-                      "name": item["display_name"],
+                      "name": listing["display_name"],
                       "url": url,
                       "property_id": property_id,
                   })
 
-          with open("properties.json", "w") as output:
-              json.dump(properties, output, indent=2)
+          with open("properties.json", "w", encoding="utf-8") as output:
+              json.dump(properties, output, indent=2, ensure_ascii=False)
+              output.write("\n")
 
-          print(f"Created valid JSON with {len(properties)} listings.")
-          print(json.dumps(properties[:3], indent=2))
+          print(f"Created properties.json with {len(properties)} listings.")
           PY
 
-      - name: Validate JSON
+      - name: Validate properties.json
         run: |
-          python3 -m json.tool properties.json > /dev/null
-          test "$(python3 -c 'import json; print(len(json.load(open("properties.json"))))')" -gt 0
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from urllib.parse import urlparse
 
-      - name: Upload result for review
-        uses: actions/upload-artifact@v4
-        with:
-          name: properties-json
-          path: properties.json
-          retention-days: 1
+          path = Path("properties.json")
+
+          if not path.exists():
+              raise SystemExit("properties.json was not created")
+
+          properties = json.loads(path.read_text(encoding="utf-8"))
+
+          if not isinstance(properties, list) or not properties:
+              raise SystemExit("Expected a non-empty JSON list")
+
+          for index, item in enumerate(properties):
+              if not item.get("name"):
+                  raise SystemExit(f"Record {index} is missing a name")
+
+              if urlparse(item.get("url", "")).netloc != "www.binswanger.com":
+                  raise SystemExit(f"Record {index} has an invalid URL")
+
+              if not item.get("property_id"):
+                  raise SystemExit(f"Record {index} is missing a property ID")
+
+          print(f"Validated {len(properties)} listings.")
+          PY
+
+      - name: Commit updated listings
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add properties.json
+
+          if git diff --cached --quiet; then
+            echo "No listing changes to commit."
+          else
+            git commit -m "Update property listings"
+            git push origin main
+          fi
