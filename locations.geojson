@@ -353,7 +353,7 @@
         "Asking Price": "37500000",
         "Lease Rate": "",
         "Listing Effective Date": "10/13/2025",
-        "Listing Expiration Date": "4/12/2027",
+        "Listing Expiration Date": "10/12/2027",
         "Square Footage": "515654",
         "Acreage": "70",
         "Lease Square Footage": "",
@@ -367,7 +367,7 @@
         "asking_price": "37500000",
         "lease_rate": "",
         "listing_effective_date": "10/13/2025",
-        "listing_expiration_date": "4/12/2027",
+        "listing_expiration_date": "10/12/2027",
         "square_footage": "515654",
         "acreage": "70",
         "lease_square_footage": "",
@@ -454,6 +454,44 @@
         "coordinates": [
           -80.177384,
           33.685991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Shaun Kirchin",
+        "Property": "Scranton, SC -127 East W Lee Road - Listing 26",
+        "Deal: Deal Name": "Scranton, SC -127 East W Lee Road - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/2/2026",
+        "Listing Expiration Date": "10/1/2027",
+        "Square Footage": "406650",
+        "Acreage": "47.56",
+        "Lease Square Footage": "",
+        "broker_name": "Shaun Kirchin",
+        "broker_email": "skirchin@binswanger.com",
+        "address": "Listing 26, Scranton, SC -127 East W Lee Road",
+        "city_state": "Scranton, SC -127 East W Lee Road",
+        "street_address": "Listing 26",
+        "deal_name": "Scranton, SC -127 East W Lee Road - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/2/2026",
+        "listing_expiration_date": "10/1/2027",
+        "square_footage": "406650",
+        "acreage": "47.56",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.74407,
+          33.933085
         ]
       }
     },
@@ -878,44 +916,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Tim Pennington",
-        "Property": "Hamburg, PA - 100 Industrial Drive - Listing 25",
-        "Deal: Deal Name": "Hamburg, PA - 100 Industrial Drive - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "7/16/2025",
-        "Listing Expiration Date": "7/15/2026",
-        "Square Footage": "252448",
-        "Acreage": "24.3",
-        "Lease Square Footage": "",
-        "broker_name": "Tim Pennington",
-        "broker_email": "tpennington@binswanger.com",
-        "address": "100 Industrial Drive, Hamburg, PA",
-        "city_state": "Hamburg, PA",
-        "street_address": "100 Industrial Drive",
-        "deal_name": "Hamburg, PA - 100 Industrial Drive - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "7/16/2025",
-        "listing_expiration_date": "7/15/2026",
-        "square_footage": "252448",
-        "acreage": "24.3",
-        "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1537666-sale"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.005188,
-          40.565389
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Owner": "Jim Medbery",
         "Property": "McDonough, GA - 55 Liberty Industrial Parkway - Listing 26",
         "Deal: Deal Name": "McDonough, GA - 55 Liberty Industrial Parkway - Listing 26",
@@ -1138,44 +1138,6 @@
         "coordinates": [
           -75.139496,
           39.907097
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Tim Pennington",
-        "Property": "Weisenberg, PA - 9775 Commerce Circle - Listing 25",
-        "Deal: Deal Name": "Weisenberg, PA - 9775 Commerce Circle - Listing 25",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "7/14/2025",
-        "Listing Expiration Date": "7/13/2026",
-        "Square Footage": "226417",
-        "Acreage": "17.28",
-        "Lease Square Footage": "",
-        "broker_name": "Tim Pennington",
-        "broker_email": "tpennington@binswanger.com",
-        "address": "9775 Commerce Circle, Weisenberg, PA",
-        "city_state": "Weisenberg, PA",
-        "street_address": "9775 Commerce Circle",
-        "deal_name": "Weisenberg, PA - 9775 Commerce Circle - Listing 25",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "7/14/2025",
-        "listing_expiration_date": "7/13/2026",
-        "square_footage": "226417",
-        "acreage": "17.28",
-        "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1516357-lease"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.711128,
-          40.581641
         ]
       }
     },
@@ -1448,44 +1410,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Brooke Oldt",
-        "Property": "Ashland, VA - Tax Parcel   7788-59-3427 14.66 acres -  Listing 26",
-        "Deal: Deal Name": "Ashland, VA - Tax Parcel   7788-59-3427 14.66 acres -  Listing 26",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "1/8/2026",
-        "Listing Expiration Date": "1/7/2027",
-        "Square Footage": "",
-        "Acreage": "14.66",
-        "Lease Square Footage": "",
-        "broker_name": "Brooke Oldt",
-        "broker_email": "boldt@binswanger.com",
-        "address": "Tax Parcel   7788-59-3427 14.66 acres, Ashland, VA",
-        "city_state": "Ashland, VA",
-        "street_address": "Tax Parcel   7788-59-3427 14.66 acres",
-        "deal_name": "Ashland, VA - Tax Parcel   7788-59-3427 14.66 acres -  Listing 26",
-        "record_type": "Sale",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "1/8/2026",
-        "listing_expiration_date": "1/7/2027",
-        "square_footage": "",
-        "acreage": "14.66",
-        "lease_square_footage": "",
-        "listing_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.481403,
-          37.75886
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Owner": "Nick Biedron",
         "Property": "Waterford, NY - 7 Schoolhouse Lane - Listing 25",
         "Deal: Deal Name": "Waterford, NY - 7 Schoolhouse Lane - Listing 25",
@@ -1569,7 +1493,7 @@
         "Asking Price": "10500000",
         "Lease Rate": "",
         "Listing Effective Date": "11/7/2025",
-        "Listing Expiration Date": "11/6/2026",
+        "Listing Expiration Date": "11/6/2027",
         "Square Footage": "240258",
         "Acreage": "13.48",
         "Lease Square Footage": "",
@@ -1583,7 +1507,7 @@
         "asking_price": "10500000",
         "lease_rate": "",
         "listing_effective_date": "11/7/2025",
-        "listing_expiration_date": "11/6/2026",
+        "listing_expiration_date": "11/6/2027",
         "square_footage": "240258",
         "acreage": "13.48",
         "lease_square_footage": "",
@@ -1600,7 +1524,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Matthew Fennelly",
+        "Owner": "Michael Torsiello",
         "Property": "Lawrence Township, NJ - 239-241 Bakers Basin Road - Listing 25",
         "Deal: Deal Name": "Lawrence Township, NJ - 239-241 Bakers Basin Road - Listing 25",
         "Deal: Record Type": "Lease",
@@ -1611,8 +1535,8 @@
         "Square Footage": "2500",
         "Acreage": "12.97",
         "Lease Square Footage": "",
-        "broker_name": "Matthew Fennelly",
-        "broker_email": "MFennelly@binswanger.com",
+        "broker_name": "Michael Torsiello",
+        "broker_email": "mtorsiello@binswanger.com",
         "address": "239-241 Bakers Basin Road, Lawrence Township, NJ",
         "city_state": "Lawrence Township, NJ",
         "street_address": "239-241 Bakers Basin Road",
@@ -1676,7 +1600,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Matthew Fennelly",
+        "Owner": "Michael Torsiello",
         "Property": "Monmouth Junction, NJ - 2000 Cornwall Road - Listing 26",
         "Deal: Deal Name": "Monmouth Junction, NJ - 2000 Cornwall Road - Listing 26",
         "Deal: Record Type": "Lease",
@@ -1687,8 +1611,8 @@
         "Square Footage": "94660",
         "Acreage": "11.37",
         "Lease Square Footage": "",
-        "broker_name": "Matthew Fennelly",
-        "broker_email": "MFennelly@binswanger.com",
+        "broker_name": "Michael Torsiello",
+        "broker_email": "mtorsiello@binswanger.com",
         "address": "2000 Cornwall Road, Monmouth Junction, NJ",
         "city_state": "Monmouth Junction, NJ",
         "street_address": "2000 Cornwall Road",
@@ -2094,6 +2018,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 3401 Casper & 3111 East Ontario Street - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 3401 Casper & 3111 East Ontario Street - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/29/2026",
+        "Listing Expiration Date": "2/22/2027",
+        "Square Footage": "",
+        "Acreage": "9.23",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "3401 Casper & 3111 East Ontario Street, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "3401 Casper & 3111 East Ontario Street",
+        "deal_name": "Philadelphia, PA - 3401 Casper & 3111 East Ontario Street - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/29/2026",
+        "listing_expiration_date": "2/22/2027",
+        "square_footage": "",
+        "acreage": "9.23",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.10369,
+          39.993361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Crawford Standard",
         "Property": "Humboldt, TN - 7 American Woodmark Drive - Listing 26",
         "Deal: Deal Name": "Humboldt, TN - 7 American Woodmark Drive - Listing 26",
@@ -2276,8 +2238,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.137869,
-          40.984761
+          -74.13785,
+          40.984789
         ]
       }
     },
@@ -2816,6 +2778,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Michael Torsiello",
+        "Property": "Winslow Township, NJ - 134 North Route 73 - Listing 26",
+        "Deal: Deal Name": "Winslow Township, NJ - 134 North Route 73 - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "700000",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/12/2026",
+        "Listing Expiration Date": "10/11/2027",
+        "Square Footage": "",
+        "Acreage": "4.93",
+        "Lease Square Footage": "",
+        "broker_name": "Michael Torsiello",
+        "broker_email": "mtorsiello@binswanger.com",
+        "address": "134 North Route 73, Winslow Township, NJ",
+        "city_state": "Winslow Township, NJ",
+        "street_address": "134 North Route 73",
+        "deal_name": "Winslow Township, NJ - 134 North Route 73 - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "700000",
+        "lease_rate": "",
+        "listing_effective_date": "10/12/2026",
+        "listing_expiration_date": "10/11/2027",
+        "square_footage": "",
+        "acreage": "4.93",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.90462,
+          39.73009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "David Barber",
         "Property": "Macon, GA - 2225 Ronald Avenue - Listing 25",
         "Deal: Deal Name": "Macon, GA - 2225 Ronald Avenue - Listing 25",
@@ -2886,44 +2886,6 @@
         "coordinates": [
           -75.10958,
           40.042327
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Jeff Binswanger",
-        "Property": "Medley, FL - 7321 NW 75th Street - Listing 25",
-        "Deal: Deal Name": "Medley, FL - 7321 NW 75th Street - Listing 25",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "14.95",
-        "Listing Effective Date": "7/11/2025",
-        "Listing Expiration Date": "7/10/2026",
-        "Square Footage": "119008",
-        "Acreage": "4.41",
-        "Lease Square Footage": "",
-        "broker_name": "Jeff Binswanger",
-        "broker_email": "",
-        "address": "7321 NW 75th Street, Medley, FL",
-        "city_state": "Medley, FL",
-        "street_address": "7321 NW 75th Street",
-        "deal_name": "Medley, FL - 7321 NW 75th Street - Listing 25",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "14.95",
-        "listing_effective_date": "7/11/2025",
-        "listing_expiration_date": "7/10/2026",
-        "square_footage": "119008",
-        "acreage": "4.41",
-        "lease_square_footage": "",
-        "listing_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.317323,
-          25.842095
         ]
       }
     },
@@ -3310,6 +3272,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 3360-98 North Delaware Avenue - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 3360-98 North Delaware Avenue - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "9/29/2026",
+        "Listing Expiration Date": "2/22/2027",
+        "Square Footage": "60000",
+        "Acreage": "3.39",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "3360-98 North Delaware Avenue, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "3360-98 North Delaware Avenue",
+        "deal_name": "Philadelphia, PA - 3360-98 North Delaware Avenue - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "9/29/2026",
+        "listing_expiration_date": "2/22/2027",
+        "square_footage": "60000",
+        "acreage": "3.39",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.09064,
+          39.98029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Michael Torsiello",
         "Property": "Royersford, PA - 18 Railroad Street - Listing 26",
         "Deal: Deal Name": "Royersford, PA - 18 Railroad Street - Listing 26",
@@ -3418,44 +3418,6 @@
         "coordinates": [
           -75.622871,
           39.649838
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Chad Ackerley",
-        "Property": "Apache Junction, AZ - 870 West Apache Trail - Listing 26",
-        "Deal: Deal Name": "Apache Junction, AZ - 870 West Apache Trail - Listing 26",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "3850000",
-        "Lease Rate": "",
-        "Listing Effective Date": "6/15/2026",
-        "Listing Expiration Date": "12/14/2026",
-        "Square Footage": "13516",
-        "Acreage": "3.1",
-        "Lease Square Footage": "",
-        "broker_name": "Chad Ackerley",
-        "broker_email": "cackerley@binswanger.com",
-        "address": "870 West Apache Trail, Apache Junction, AZ",
-        "city_state": "Apache Junction, AZ",
-        "street_address": "870 West Apache Trail",
-        "deal_name": "Apache Junction, AZ - 870 West Apache Trail - Listing 26",
-        "record_type": "Sale",
-        "asking_price": "3850000",
-        "lease_rate": "",
-        "listing_effective_date": "6/15/2026",
-        "listing_expiration_date": "12/14/2026",
-        "square_footage": "13516",
-        "acreage": "3.1",
-        "lease_square_footage": "",
-        "listing_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -111.555336,
-          33.41643
         ]
       }
     },
@@ -3956,6 +3918,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Michael Torsiello",
+        "Property": "Camden, NJ - 135 Kaighns Avenue - Listing 26",
+        "Deal: Deal Name": "Camden, NJ - 135 Kaighns Avenue - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "7/20/2026",
+        "Listing Expiration Date": "7/19/2027",
+        "Square Footage": "6700",
+        "Acreage": "1.78",
+        "Lease Square Footage": "",
+        "broker_name": "Michael Torsiello",
+        "broker_email": "mtorsiello@binswanger.com",
+        "address": "135 Kaighns Avenue, Camden, NJ",
+        "city_state": "Camden, NJ",
+        "street_address": "135 Kaighns Avenue",
+        "deal_name": "Camden, NJ - 135 Kaighns Avenue - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "7/20/2026",
+        "listing_expiration_date": "7/19/2027",
+        "square_footage": "6700",
+        "acreage": "1.78",
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1670128-lease"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.128142,
+          39.93035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Chris Pennington",
         "Property": "Philadelphia, PA - 1500 South Christopher Columbus Boulevard - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 1500 South Christopher Columbus Boulevard - Listing 26",
@@ -4222,6 +4222,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Josh Krantz",
+        "Property": "Fairview, NJ - 175 Broad Avenue - Listing 26",
+        "Deal: Deal Name": "Fairview, NJ - 175 Broad Avenue - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/8/2026",
+        "Listing Expiration Date": "7/7/2027",
+        "Square Footage": "25597",
+        "Acreage": "1.2",
+        "Lease Square Footage": "",
+        "broker_name": "Josh Krantz",
+        "broker_email": "jkrantz@binswanger.com",
+        "address": "175 Broad Avenue, Fairview, NJ",
+        "city_state": "Fairview, NJ",
+        "street_address": "175 Broad Avenue",
+        "deal_name": "Fairview, NJ - 175 Broad Avenue - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/8/2026",
+        "listing_expiration_date": "7/7/2027",
+        "square_footage": "25597",
+        "acreage": "1.2",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00904,
+          40.820466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Nicholas Maras",
         "Property": "Tinicum, PA - 0 Powhattan Avenue - Listing 25",
         "Deal: Deal Name": "Tinicum, PA - 0 Powhattan Avenue - Listing 25",
@@ -4382,7 +4420,7 @@
         "Lease Rate": "",
         "Listing Effective Date": "10/2/2026",
         "Listing Expiration Date": "10/1/2027",
-        "Square Footage": "53800",
+        "Square Footage": "52674",
         "Acreage": "1.05",
         "Lease Square Footage": "",
         "broker_name": "Chris Pennington",
@@ -4396,7 +4434,7 @@
         "lease_rate": "",
         "listing_effective_date": "10/2/2026",
         "listing_expiration_date": "10/1/2027",
-        "square_footage": "53800",
+        "square_footage": "52674",
         "acreage": "1.05",
         "lease_square_footage": "",
         "listing_url": ""
@@ -6268,6 +6306,82 @@
         "coordinates": [
           -75.004703,
           40.166059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Bensalem, PA - 2260 State Road - Listing 26",
+        "Deal: Deal Name": "Bensalem, PA - 2260 State Road - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/13/2026",
+        "Listing Expiration Date": "4/11/2027",
+        "Square Footage": "85256",
+        "Acreage": "",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "2260 State Road, Bensalem, PA",
+        "city_state": "Bensalem, PA",
+        "street_address": "2260 State Road",
+        "deal_name": "Bensalem, PA - 2260 State Road - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/13/2026",
+        "listing_expiration_date": "4/11/2027",
+        "square_footage": "85256",
+        "acreage": "",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.944711,
+          40.070231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Tim Pennington",
+        "Property": "Allentown, PA - 1810 E Race Street - Listing 25",
+        "Deal: Deal Name": "Allentown, PA - 1810 E Race Street - Listing 25",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "3/19/2025",
+        "Listing Expiration Date": "12/1/2026",
+        "Square Footage": "11750",
+        "Acreage": "",
+        "Lease Square Footage": "",
+        "broker_name": "Tim Pennington",
+        "broker_email": "tpennington@binswanger.com",
+        "address": "1810 E Race Street, Allentown, PA",
+        "city_state": "Allentown, PA",
+        "street_address": "1810 E Race Street",
+        "deal_name": "Allentown, PA - 1810 E Race Street - Listing 25",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "3/19/2025",
+        "listing_expiration_date": "12/1/2026",
+        "square_footage": "11750",
+        "acreage": "",
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1810-E-Race-St-sale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.43316,
+          40.661817
         ]
       }
     },
