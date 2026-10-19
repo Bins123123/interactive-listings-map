@@ -2238,8 +2238,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.13785,
-          40.984789
+          -74.138076,
+          40.984951
         ]
       }
     },
@@ -2537,7 +2537,7 @@
         "square_footage": "128529",
         "acreage": "6.47",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1471618-sale"
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1575997-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3715,7 +3715,7 @@
         "square_footage": "24000",
         "acreage": "2.2",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1623874-lease"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -3753,7 +3753,7 @@
         "square_footage": "85064",
         "acreage": "2.04",
         "lease_square_footage": "",
-        "listing_url": ""
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1629708-sale"
       },
       "geometry": {
         "type": "Point",
@@ -3829,7 +3829,7 @@
         "square_footage": "21252",
         "acreage": "2",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1623874-lease"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4969,7 +4969,7 @@
         "square_footage": "32815",
         "acreage": "0.6",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1680224-sale"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -6570,8 +6570,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -66.266522,
-          18.473576
+          -66.266621,
+          18.472421
         ]
       }
     },
