@@ -1744,8 +1744,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -65.789324,
-          18.145863
+          -65.913795,
+          18.227141
         ]
       }
     },
@@ -2271,7 +2271,7 @@
         "square_footage": "900",
         "acreage": "8.19",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1800-new-jersey-23"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4057,7 +4057,7 @@
         "square_footage": "16913",
         "acreage": "1.53",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=6717-Essington-lease"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4399,7 +4399,7 @@
         "square_footage": "62220",
         "acreage": "1.07",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1645209-lease"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4437,7 +4437,7 @@
         "square_footage": "52674",
         "acreage": "1.05",
         "lease_square_footage": "",
-        "listing_url": ""
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1702543-sale"
       },
       "geometry": {
         "type": "Point",
@@ -4969,7 +4969,7 @@
         "square_footage": "32815",
         "acreage": "0.6",
         "lease_square_footage": "",
-        "listing_url": ""
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1680224-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5273,7 +5273,7 @@
         "square_footage": "96000",
         "acreage": "0.48",
         "lease_square_footage": "",
-        "listing_url": ""
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1703087-sale"
       },
       "geometry": {
         "type": "Point",
@@ -5957,7 +5957,7 @@
         "square_footage": "812000",
         "acreage": "",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Frazeysburg-OH"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -6033,7 +6033,7 @@
         "square_footage": "492000",
         "acreage": "",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=840-complex-st"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -6451,7 +6451,7 @@
         "square_footage": "512728",
         "acreage": "",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1673948-sale"
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=41501-wolverine-rd"
       },
       "geometry": {
         "type": "Point",
