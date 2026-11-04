@@ -80,6 +80,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Jason Kramer",
+        "Property": "Manatí, PR - State Road 686 Km 2.3 (Portfollio) - Listing 26",
+        "Deal: Deal Name": "Manatí, PR - State Road 686 Km 2.3 (Portfollio) - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/15/2026",
+        "Listing Expiration Date": "10/14/2027",
+        "Square Footage": "284387",
+        "Acreage": "347.92",
+        "Lease Square Footage": "",
+        "broker_name": "Jason Kramer",
+        "broker_email": "jkramer@binswanger.com",
+        "address": "State Road 686 Km 2.3 (Portfollio), Manatí, PR",
+        "city_state": "Manatí, PR",
+        "street_address": "State Road 686 Km 2.3 (Portfollio)",
+        "deal_name": "Manatí, PR - State Road 686 Km 2.3 (Portfollio) - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/15/2026",
+        "listing_expiration_date": "10/14/2027",
+        "square_footage": "284387",
+        "acreage": "347.92",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.492948,
+          18.427137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Nick Biedron",
         "Property": "Waterford, NY - 260 Hudson River Road - Listing 26",
         "Deal: Deal Name": "Waterford, NY - 260 Hudson River Road - Listing 26",
@@ -125,7 +163,7 @@
         "Asking Price": "",
         "Lease Rate": "",
         "Listing Effective Date": "1/22/2026",
-        "Listing Expiration Date": "10/21/2026",
+        "Listing Expiration Date": "4/21/2027",
         "Square Footage": "1033470",
         "Acreage": "134",
         "Lease Square Footage": "",
@@ -139,7 +177,7 @@
         "asking_price": "",
         "lease_rate": "",
         "listing_effective_date": "1/22/2026",
-        "listing_expiration_date": "10/21/2026",
+        "listing_expiration_date": "4/21/2027",
         "square_footage": "1033470",
         "acreage": "134",
         "lease_square_footage": "",
@@ -376,8 +414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -96.623198,
-          33.588084
+          -96.623747,
+          33.589363
         ]
       }
     },
@@ -460,6 +498,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Rob Gemerchak",
+        "Property": "Upper Sandusky, OH - 1200 North Warpole Street  - Listing 26",
+        "Deal: Deal Name": "Upper Sandusky, OH - 1200 North Warpole Street  - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "7750000",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/15/2026",
+        "Listing Expiration Date": "10/14/2027",
+        "Square Footage": "132735",
+        "Acreage": "50.84",
+        "Lease Square Footage": "",
+        "broker_name": "Rob Gemerchak",
+        "broker_email": "rgemerchak@binswanger.com",
+        "address": "1200 North Warpole Street, Upper Sandusky, OH",
+        "city_state": "Upper Sandusky, OH",
+        "street_address": "1200 North Warpole Street",
+        "deal_name": "Upper Sandusky, OH - 1200 North Warpole Street  - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "7750000",
+        "lease_rate": "",
+        "listing_effective_date": "10/15/2026",
+        "listing_expiration_date": "10/14/2027",
+        "square_footage": "132735",
+        "acreage": "50.84",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.300823,
+          40.851757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Shaun Kirchin",
         "Property": "Scranton, SC -127 East W Lee Road - Listing 26",
         "Deal: Deal Name": "Scranton, SC -127 East W Lee Road - Listing 26",
@@ -492,6 +568,44 @@
         "coordinates": [
           -79.74407,
           33.933085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Ken Anthony",
+        "Property": "Richmond Hill, GA - 1 Caesarstone Drive - Listing 26",
+        "Deal: Deal Name": "Richmond Hill, GA - 1 Caesarstone Drive - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "25000000",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/30/2026",
+        "Listing Expiration Date": "7/30/2027",
+        "Square Footage": "286000",
+        "Acreage": "45.21",
+        "Lease Square Footage": "",
+        "broker_name": "Ken Anthony",
+        "broker_email": "kanthony@binswanger.com",
+        "address": "1 Caesarstone Drive, Richmond Hill, GA",
+        "city_state": "Richmond Hill, GA",
+        "street_address": "1 Caesarstone Drive",
+        "deal_name": "Richmond Hill, GA - 1 Caesarstone Drive - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "25000000",
+        "lease_rate": "",
+        "listing_effective_date": "10/30/2026",
+        "listing_expiration_date": "7/30/2027",
+        "square_footage": "286000",
+        "acreage": "45.21",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.35338,
+          31.87561
         ]
       }
     },
@@ -1031,82 +1145,6 @@
       "type": "Feature",
       "properties": {
         "Owner": "Chris Pennington",
-        "Property": "Philadelphia, PA - 4101 N Delaware Avenue - Listing 26",
-        "Deal: Deal Name": "Philadelphia, PA - 4101 N Delaware Avenue - Listing 26",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "2/4/2026",
-        "Listing Expiration Date": "8/3/2026",
-        "Square Footage": "271600",
-        "Acreage": "19.27",
-        "Lease Square Footage": "",
-        "broker_name": "Chris Pennington",
-        "broker_email": "Cpennington@binswanger.com",
-        "address": "4101 N Delaware Avenue, Philadelphia, PA",
-        "city_state": "Philadelphia, PA",
-        "street_address": "4101 N Delaware Avenue",
-        "deal_name": "Philadelphia, PA - 4101 N Delaware Avenue - Listing 26",
-        "record_type": "Sale",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "2/4/2026",
-        "listing_expiration_date": "8/3/2026",
-        "square_footage": "271600",
-        "acreage": "19.27",
-        "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=4101-N-Delaware-Avenue"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.07532,
-          39.98435
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Doug Faris",
-        "Property": "Conover, NC - 1405 Deborah Herman Road - Listing 25",
-        "Deal: Deal Name": "Conover, NC - 1405 Deborah Herman Road - Listing 25",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "10/24/2025",
-        "Listing Expiration Date": "7/23/2026",
-        "Square Footage": "120000",
-        "Acreage": "18.68",
-        "Lease Square Footage": "",
-        "broker_name": "Doug Faris",
-        "broker_email": "DFaris@binswanger.com",
-        "address": "1405 Deborah Herman Road, Conover, NC",
-        "city_state": "Conover, NC",
-        "street_address": "1405 Deborah Herman Road",
-        "deal_name": "Conover, NC - 1405 Deborah Herman Road - Listing 25",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "10/24/2025",
-        "listing_expiration_date": "7/23/2026",
-        "square_footage": "120000",
-        "acreage": "18.68",
-        "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1405DeborahHermanRd"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.248863,
-          35.714061
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Chris Pennington",
         "Property": "Philadelphia, PA - 2904, 2906 & 2906R S Christopher Columbus Blvd - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 2904, 2906 & 2906R S Christopher Columbus Blvd - Listing 26",
         "Deal: Record Type": "Lease",
@@ -1524,6 +1562,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Doug Kelly",
+        "Property": "Horsham, PA - 700 and 800 Business Center Drive - Listing 26",
+        "Deal: Deal Name": "Horsham, PA - 700 and 800 Business Center Drive - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/22/2026",
+        "Listing Expiration Date": "4/21/2027",
+        "Square Footage": "82000",
+        "Acreage": "13.2",
+        "Lease Square Footage": "",
+        "broker_name": "Doug Kelly",
+        "broker_email": "dkelly@binswanger.com",
+        "address": "700 and 800 Business Center Drive, Horsham, PA",
+        "city_state": "Horsham, PA",
+        "street_address": "700 and 800 Business Center Drive",
+        "deal_name": "Horsham, PA - 700 and 800 Business Center Drive - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/22/2026",
+        "listing_expiration_date": "4/21/2027",
+        "square_footage": "82000",
+        "acreage": "13.2",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.152897,
+          40.168872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Michael Torsiello",
         "Property": "Lawrence Township, NJ - 239-241 Bakers Basin Road - Listing 25",
         "Deal: Deal Name": "Lawrence Township, NJ - 239-241 Bakers Basin Road - Listing 25",
@@ -1625,7 +1701,7 @@
         "square_footage": "94660",
         "acreage": "11.37",
         "lease_square_footage": "",
-        "listing_url": ""
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1630362-lease"
       },
       "geometry": {
         "type": "Point",
@@ -1784,44 +1860,6 @@
         "coordinates": [
           -77.362584,
           37.238568
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "David Barber",
-        "Property": "Anniston, AL - 2412 Eulaton Road - Listing 25",
-        "Deal: Deal Name": "Anniston, AL - 2412 Eulaton Road - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "400000",
-        "Lease Rate": "",
-        "Listing Effective Date": "7/23/2025",
-        "Listing Expiration Date": "7/22/2026",
-        "Square Footage": "",
-        "Acreage": "10.6",
-        "Lease Square Footage": "",
-        "broker_name": "David Barber",
-        "broker_email": "DBarber@binswanger.com",
-        "address": "2412 Eulaton Road, Anniston, AL",
-        "city_state": "Anniston, AL",
-        "street_address": "2412 Eulaton Road",
-        "deal_name": "Anniston, AL - 2412 Eulaton Road - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "400000",
-        "lease_rate": "",
-        "listing_effective_date": "7/23/2025",
-        "listing_expiration_date": "7/22/2026",
-        "square_footage": "",
-        "acreage": "10.6",
-        "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=2412-Eulaton-Road"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -85.864543,
-          33.654151
         ]
       }
     },
@@ -2132,38 +2170,38 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Jonathan Elkins",
-        "Property": "Shelton, CT - 1 Parrott Drive - Listing 26",
-        "Deal: Deal Name": "Shelton, CT - 1 Parrott Drive - Listing 26",
+        "Owner": "Tim Pennington",
+        "Property": "Emmaus, PA - 803-927 Broad Street - Listing 26",
+        "Deal: Deal Name": "Emmaus, PA - 803-927 Broad Street - Listing 26",
         "Deal: Record Type": "Sale",
         "Asking Price": "",
         "Lease Rate": "",
-        "Listing Effective Date": "5/13/2026",
-        "Listing Expiration Date": "2/12/2027",
-        "Square Footage": "102000",
-        "Acreage": "8.9",
+        "Listing Effective Date": "11/3/2026",
+        "Listing Expiration Date": "5/2/2027",
+        "Square Footage": "10600",
+        "Acreage": "8.63",
         "Lease Square Footage": "",
-        "broker_name": "Jonathan Elkins",
-        "broker_email": "JElkins@binswanger.com",
-        "address": "1 Parrott Drive, Shelton, CT",
-        "city_state": "Shelton, CT",
-        "street_address": "1 Parrott Drive",
-        "deal_name": "Shelton, CT - 1 Parrott Drive - Listing 26",
+        "broker_name": "Tim Pennington",
+        "broker_email": "tpennington@binswanger.com",
+        "address": "803-927 Broad Street, Emmaus, PA",
+        "city_state": "Emmaus, PA",
+        "street_address": "803-927 Broad Street",
+        "deal_name": "Emmaus, PA - 803-927 Broad Street - Listing 26",
         "record_type": "Sale",
         "asking_price": "",
         "lease_rate": "",
-        "listing_effective_date": "5/13/2026",
-        "listing_expiration_date": "2/12/2027",
-        "square_footage": "102000",
-        "acreage": "8.9",
+        "listing_effective_date": "11/3/2026",
+        "listing_expiration_date": "5/2/2027",
+        "square_footage": "10600",
+        "acreage": "8.63",
         "lease_square_footage": "",
         "listing_url": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -73.129598,
-          41.272539
+          -75.494881,
+          40.531241
         ]
       }
     },
@@ -2238,8 +2276,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.13785,
-          40.984789
+          -74.138076,
+          40.984951
         ]
       }
     },
@@ -2550,38 +2588,38 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Chris Pennington",
-        "Property": "Philadelphia, PA - 3780-3800 Frankford Avenue - Listing 26",
-        "Deal: Deal Name": "Philadelphia, PA - 3780-3800 Frankford Avenue - Listing 26",
-        "Deal: Record Type": "Sale",
+        "Owner": "Michael Torsiello",
+        "Property": "Egg Harbor City, NJ - 545 Tilton Road - Listing 26",
+        "Deal: Deal Name": "Egg Harbor City, NJ - 545 Tilton Road - Listing 26",
+        "Deal: Record Type": "Lease",
         "Asking Price": "",
         "Lease Rate": "",
-        "Listing Effective Date": "2/2/2026",
-        "Listing Expiration Date": "8/1/2026",
-        "Square Footage": "132000",
-        "Acreage": "6.13",
+        "Listing Effective Date": "10/20/2026",
+        "Listing Expiration Date": "10/19/2027",
+        "Square Footage": "407700",
+        "Acreage": "5.98",
         "Lease Square Footage": "",
-        "broker_name": "Chris Pennington",
-        "broker_email": "Cpennington@binswanger.com",
-        "address": "3780-3800 Frankford Avenue, Philadelphia, PA",
-        "city_state": "Philadelphia, PA",
-        "street_address": "3780-3800 Frankford Avenue",
-        "deal_name": "Philadelphia, PA - 3780-3800 Frankford Avenue - Listing 26",
-        "record_type": "Sale",
+        "broker_name": "Michael Torsiello",
+        "broker_email": "mtorsiello@binswanger.com",
+        "address": "545 Tilton Road, Egg Harbor City, NJ",
+        "city_state": "Egg Harbor City, NJ",
+        "street_address": "545 Tilton Road",
+        "deal_name": "Egg Harbor City, NJ - 545 Tilton Road - Listing 26",
+        "record_type": "Lease",
         "asking_price": "",
         "lease_rate": "",
-        "listing_effective_date": "2/2/2026",
-        "listing_expiration_date": "8/1/2026",
-        "square_footage": "132000",
-        "acreage": "6.13",
+        "listing_effective_date": "10/20/2026",
+        "listing_expiration_date": "10/19/2027",
+        "square_footage": "407700",
+        "acreage": "5.98",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1199730-sale"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.032025,
-          40.040001
+          -74.600893,
+          39.487483
         ]
       }
     },
@@ -2823,7 +2861,7 @@
         "Asking Price": "",
         "Lease Rate": "",
         "Listing Effective Date": "10/16/2025",
-        "Listing Expiration Date": "10/15/2026",
+        "Listing Expiration Date": "10/31/2027",
         "Square Footage": "29550",
         "Acreage": "4.67",
         "Lease Square Footage": "",
@@ -2837,7 +2875,7 @@
         "asking_price": "",
         "lease_rate": "",
         "listing_effective_date": "10/16/2025",
-        "listing_expiration_date": "10/15/2026",
+        "listing_expiration_date": "10/31/2027",
         "square_footage": "29550",
         "acreage": "4.67",
         "lease_square_footage": "",
@@ -3076,6 +3114,44 @@
         "coordinates": [
           -72.965046,
           41.87492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Doug Kelly",
+        "Property": "Horsham, PA - 508 Prudential Road - Listing 26",
+        "Deal: Deal Name": "Horsham, PA - 508 Prudential Road - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/22/2026",
+        "Listing Expiration Date": "4/21/2027",
+        "Square Footage": "11500",
+        "Acreage": "3.78",
+        "Lease Square Footage": "",
+        "broker_name": "Doug Kelly",
+        "broker_email": "dkelly@binswanger.com",
+        "address": "508 Prudential Road, Horsham, PA",
+        "city_state": "Horsham, PA",
+        "street_address": "508 Prudential Road",
+        "deal_name": "Horsham, PA - 508 Prudential Road - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/22/2026",
+        "listing_expiration_date": "4/21/2027",
+        "square_footage": "11500",
+        "acreage": "3.78",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.136213,
+          40.170031
         ]
       }
     },
@@ -3348,44 +3424,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Chris Pennington",
-        "Property": "Bethlehem, PA - 330 Stoke Park Road - Listing 25",
-        "Deal: Deal Name": "Bethlehem, PA - 330 Stoke Park Road - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "4500000",
-        "Lease Rate": "",
-        "Listing Effective Date": "7/31/2025",
-        "Listing Expiration Date": "7/30/2026",
-        "Square Footage": "20682",
-        "Acreage": "3.13",
-        "Lease Square Footage": "",
-        "broker_name": "Chris Pennington",
-        "broker_email": "Cpennington@binswanger.com",
-        "address": "330 Stoke Park Road, Bethlehem, PA",
-        "city_state": "Bethlehem, PA",
-        "street_address": "330 Stoke Park Road",
-        "deal_name": "Bethlehem, PA - 330 Stoke Park Road - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "4500000",
-        "lease_rate": "",
-        "listing_effective_date": "7/31/2025",
-        "listing_expiration_date": "7/30/2026",
-        "square_footage": "20682",
-        "acreage": "3.13",
-        "lease_square_footage": "",
-        "listing_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.389989,
-          40.6616
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Owner": "Nicholas Giganti",
         "Property": "New Castle, DE - 317 Old State Road - Listing 26",
         "Deal: Deal Name": "New Castle, DE - 317 Old State Road - Listing 26",
@@ -3614,6 +3652,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 2202-14 East Allegheny Avenue - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 2202-14 East Allegheny Avenue - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/27/2026",
+        "Listing Expiration Date": "10/26/2027",
+        "Square Footage": "",
+        "Acreage": "2.8",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "2202-14 East Allegheny Avenue, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "2202-14 East Allegheny Avenue",
+        "deal_name": "Philadelphia, PA - 2202-14 East Allegheny Avenue - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/27/2026",
+        "listing_expiration_date": "10/26/2027",
+        "square_footage": "",
+        "acreage": "2.8",
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1680224-lease"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.10972,
+          39.9903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Carson Erard",
         "Property": "Denver, CO - 11001 East 53rd Avenue- Listing 26",
         "Deal: Deal Name": "Denver, CO - 11001 East 53rd Avenue- Listing 26",
@@ -3639,7 +3715,7 @@
         "square_footage": "47898",
         "acreage": "2.4288",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=Denver-CO"
+        "listing_url": ""
       },
       "geometry": {
         "type": "Point",
@@ -4374,6 +4450,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Michael Torsiello",
+        "Property": "Hamilton, NJ - 390 Whitehead Road - Listing 26",
+        "Deal: Deal Name": "Hamilton, NJ - 390 Whitehead Road - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "2500000",
+        "Lease Rate": "",
+        "Listing Effective Date": "8/18/2026",
+        "Listing Expiration Date": "8/17/2027",
+        "Square Footage": "8900",
+        "Acreage": "1.1",
+        "Lease Square Footage": "",
+        "broker_name": "Michael Torsiello",
+        "broker_email": "mtorsiello@binswanger.com",
+        "address": "390 Whitehead Road, Hamilton, NJ",
+        "city_state": "Hamilton, NJ",
+        "street_address": "390 Whitehead Road",
+        "deal_name": "Hamilton, NJ - 390 Whitehead Road - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "2500000",
+        "lease_rate": "",
+        "listing_effective_date": "8/18/2026",
+        "listing_expiration_date": "8/17/2027",
+        "square_footage": "8900",
+        "acreage": "1.1",
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1690616-sale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.726258,
+          40.24331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Jason Ostach",
         "Property": "Philadelphia, PA - 505 Knorr Street - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 505 Knorr Street - Listing 26",
@@ -4416,7 +4530,7 @@
         "Property": "Philadelphia, PA - 7520-50 State Road - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 7520-50 State Road - Listing 26",
         "Deal: Record Type": "Sale",
-        "Asking Price": "",
+        "Asking Price": "5750000",
         "Lease Rate": "",
         "Listing Effective Date": "10/2/2026",
         "Listing Expiration Date": "10/1/2027",
@@ -4430,7 +4544,7 @@
         "street_address": "7520-50 State Road",
         "deal_name": "Philadelphia, PA - 7520-50 State Road - Listing 26",
         "record_type": "Sale",
-        "asking_price": "",
+        "asking_price": "5750000",
         "lease_rate": "",
         "listing_effective_date": "10/2/2026",
         "listing_expiration_date": "10/1/2027",
@@ -4556,8 +4670,46 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.98991,
-          40.043155
+          -74.99084,
+          40.042609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Tim Pennington",
+        "Property": "Allentown, PA - 1810 East Race Street - Listing 25",
+        "Deal: Deal Name": "Allentown, PA - 1810 East Race Street - Listing 25",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "3/19/2025",
+        "Listing Expiration Date": "12/1/2026",
+        "Square Footage": "11750",
+        "Acreage": "1",
+        "Lease Square Footage": "",
+        "broker_name": "Tim Pennington",
+        "broker_email": "tpennington@binswanger.com",
+        "address": "1810 East Race Street, Allentown, PA",
+        "city_state": "Allentown, PA",
+        "street_address": "1810 East Race Street",
+        "deal_name": "Allentown, PA - 1810 East Race Street - Listing 25",
+        "record_type": "Sale",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "3/19/2025",
+        "listing_expiration_date": "12/1/2026",
+        "square_footage": "11750",
+        "acreage": "1",
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1810-E-Race-St-sale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.43316,
+          40.661817
         ]
       }
     },
@@ -4678,6 +4830,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 4009 Palmetto Street - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 4009 Palmetto Street - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/6/2026",
+        "Listing Expiration Date": "4/5/2027",
+        "Square Footage": "6488",
+        "Acreage": "0.85",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "4009 Palmetto Street, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "4009 Palmetto Street",
+        "deal_name": "Philadelphia, PA - 4009 Palmetto Street - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/6/2026",
+        "listing_expiration_date": "4/5/2027",
+        "square_footage": "6488",
+        "acreage": "0.85",
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1703450-lease"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.107509,
+          40.008945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Michael Pennington",
         "Property": "Philadelphia, PA - 8400 Enterprise Avenue - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 8400 Enterprise Avenue - Listing 26",
@@ -4748,44 +4938,6 @@
         "coordinates": [
           -75.104168,
           40.005836
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Bob Corr",
-        "Property": "Freehold, NJ - 1 Bannard Street - Listing 25",
-        "Deal: Deal Name": "Freehold, NJ - 1 Bannard Street - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "8/1/2025",
-        "Listing Expiration Date": "7/31/2026",
-        "Square Footage": "",
-        "Acreage": "0.76",
-        "Lease Square Footage": "",
-        "broker_name": "Bob Corr",
-        "broker_email": "Rcorr@binswanger.com",
-        "address": "1 Bannard Street, Freehold, NJ",
-        "city_state": "Freehold, NJ",
-        "street_address": "1 Bannard Street",
-        "deal_name": "Freehold, NJ - 1 Bannard Street - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "8/1/2025",
-        "listing_expiration_date": "7/31/2026",
-        "square_footage": "",
-        "acreage": "0.76",
-        "lease_square_footage": "",
-        "listing_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.282186,
-          40.262923
         ]
       }
     },
@@ -5097,37 +5249,37 @@
       "type": "Feature",
       "properties": {
         "Owner": "Chris Pennington",
-        "Property": "Philadelphia, PA - 1540 Hamilton Street - Listing 26",
-        "Deal: Deal Name": "Philadelphia, PA - 1540 Hamilton Street - Listing 26",
-        "Deal: Record Type": "Sale",
+        "Property": "Philadelphia, PA - 7326-30 State Road - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 7326-30 State Road - Listing 26",
+        "Deal: Record Type": "Lease",
         "Asking Price": "",
         "Lease Rate": "",
-        "Listing Effective Date": "3/19/2026",
-        "Listing Expiration Date": "7/18/2026",
-        "Square Footage": "",
-        "Acreage": "0.53",
+        "Listing Effective Date": "10/19/2026",
+        "Listing Expiration Date": "10/18/2027",
+        "Square Footage": "6883",
+        "Acreage": "0.546",
         "Lease Square Footage": "",
         "broker_name": "Chris Pennington",
         "broker_email": "Cpennington@binswanger.com",
-        "address": "1540 Hamilton Street, Philadelphia, PA",
+        "address": "7326-30 State Road, Philadelphia, PA",
         "city_state": "Philadelphia, PA",
-        "street_address": "1540 Hamilton Street",
-        "deal_name": "Philadelphia, PA - 1540 Hamilton Street - Listing 26",
-        "record_type": "Sale",
+        "street_address": "7326-30 State Road",
+        "deal_name": "Philadelphia, PA - 7326-30 State Road - Listing 26",
+        "record_type": "Lease",
         "asking_price": "",
         "lease_rate": "",
-        "listing_effective_date": "3/19/2026",
-        "listing_expiration_date": "7/18/2026",
-        "square_footage": "",
-        "acreage": "0.53",
+        "listing_effective_date": "10/19/2026",
+        "listing_expiration_date": "10/18/2027",
+        "square_footage": "6883",
+        "acreage": "0.546",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1698058-sale"
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1704691-lease"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.16479,
-          39.961063
+          -75.03091,
+          40.02653
         ]
       }
     },
@@ -5172,6 +5324,44 @@
     {
       "type": "Feature",
       "properties": {
+        "Owner": "Chris Pennington",
+        "Property": "Philadelphia, PA - 3720 Jasper Street - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 3720 Jasper Street - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "4/6/2026",
+        "Listing Expiration Date": "10/5/2026",
+        "Square Footage": "28330",
+        "Acreage": "0.51",
+        "Lease Square Footage": "",
+        "broker_name": "Chris Pennington",
+        "broker_email": "Cpennington@binswanger.com",
+        "address": "3720 Jasper Street, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "3720 Jasper Street",
+        "deal_name": "Philadelphia, PA - 3720 Jasper Street - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "4/6/2026",
+        "listing_expiration_date": "10/5/2026",
+        "square_footage": "28330",
+        "acreage": "0.51",
+        "lease_square_footage": "",
+        "listing_url": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.099099,
+          40.003225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "Owner": "Doug Kelly",
         "Property": "East Norriton, PA - 342 West Germantown Pike - Listing 26",
         "Deal: Deal Name": "East Norriton, PA - 342 West Germantown Pike - Listing 26",
@@ -5204,44 +5394,6 @@
         "coordinates": [
           -75.33178,
           40.14806
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Chris Pennington",
-        "Property": "Philadelphia, PA - 3720 Jasper Street - Listing 26",
-        "Deal: Deal Name": "Philadelphia, PA - 3720 Jasper Street - Listing 26",
-        "Deal: Record Type": "Lease",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "4/6/2026",
-        "Listing Expiration Date": "10/5/2026",
-        "Square Footage": "9000",
-        "Acreage": "0.5",
-        "Lease Square Footage": "",
-        "broker_name": "Chris Pennington",
-        "broker_email": "Cpennington@binswanger.com",
-        "address": "3720 Jasper Street, Philadelphia, PA",
-        "city_state": "Philadelphia, PA",
-        "street_address": "3720 Jasper Street",
-        "deal_name": "Philadelphia, PA - 3720 Jasper Street - Listing 26",
-        "record_type": "Lease",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "4/6/2026",
-        "listing_expiration_date": "10/5/2026",
-        "square_footage": "9000",
-        "acreage": "0.5",
-        "lease_square_footage": "",
-        "listing_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.099099,
-          40.003225
         ]
       }
     },
@@ -5362,38 +5514,76 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Sean Stitz",
-        "Property": "Pottstown, PA - 19 Lemon Street - Listing 26",
-        "Deal: Deal Name": "Pottstown, PA - 19 Lemon Street - Listing 26",
+        "Owner": "Nicholas Maras",
+        "Property": "Philadelphia, PA - 2930 Snyder Avenue - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 2930 Snyder Avenue - Listing 26",
         "Deal: Record Type": "Sale",
-        "Asking Price": "",
+        "Asking Price": "750000",
         "Lease Rate": "",
-        "Listing Effective Date": "1/23/2026",
-        "Listing Expiration Date": "7/22/2026",
-        "Square Footage": "6000",
+        "Listing Effective Date": "10/22/2026",
+        "Listing Expiration Date": "4/21/2027",
+        "Square Footage": "2540",
         "Acreage": "0.45",
         "Lease Square Footage": "",
-        "broker_name": "Sean Stitz",
-        "broker_email": "sstitz@binswanger.com",
-        "address": "19 Lemon Street, Pottstown, PA",
-        "city_state": "Pottstown, PA",
-        "street_address": "19 Lemon Street",
-        "deal_name": "Pottstown, PA - 19 Lemon Street - Listing 26",
+        "broker_name": "Nicholas Maras",
+        "broker_email": "NMaras@binswanger.com",
+        "address": "2930 Snyder Avenue, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "2930 Snyder Avenue",
+        "deal_name": "Philadelphia, PA - 2930 Snyder Avenue - Listing 26",
         "record_type": "Sale",
-        "asking_price": "",
+        "asking_price": "750000",
         "lease_rate": "",
-        "listing_effective_date": "1/23/2026",
-        "listing_expiration_date": "7/22/2026",
-        "square_footage": "6000",
+        "listing_effective_date": "10/22/2026",
+        "listing_expiration_date": "4/21/2027",
+        "square_footage": "2540",
         "acreage": "0.45",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=19-lemon-st-pottstown"
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1710758-sale"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.682404,
-          40.248522
+          -75.19475,
+          39.927353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Jason Ostach",
+        "Property": "Philadelphia, PA - 2149-73 East Rush Street - Listing 26",
+        "Deal: Deal Name": "Philadelphia, PA - 2149-73 East Rush Street - Listing 26",
+        "Deal: Record Type": "Sale",
+        "Asking Price": "1250000",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/22/2026",
+        "Listing Expiration Date": "10/21/2027",
+        "Square Footage": "",
+        "Acreage": "0.45",
+        "Lease Square Footage": "",
+        "broker_name": "Jason Ostach",
+        "broker_email": "jostach@binswanger.com",
+        "address": "2149-73 East Rush Street, Philadelphia, PA",
+        "city_state": "Philadelphia, PA",
+        "street_address": "2149-73 East Rush Street",
+        "deal_name": "Philadelphia, PA - 2149-73 East Rush Street - Listing 26",
+        "record_type": "Sale",
+        "asking_price": "1250000",
+        "lease_rate": "",
+        "listing_effective_date": "10/22/2026",
+        "listing_expiration_date": "10/21/2027",
+        "square_footage": "",
+        "acreage": "0.45",
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1704684-sale"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.11728,
+          39.98682
         ]
       }
     },
@@ -5515,44 +5705,6 @@
       "type": "Feature",
       "properties": {
         "Owner": "Chris Pennington",
-        "Property": "Philadelphia, PA - 513 North 15th Street- Listing 26",
-        "Deal: Deal Name": "Philadelphia, PA - 513 North 15th Street- Listing 26",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "",
-        "Lease Rate": "",
-        "Listing Effective Date": "3/19/2026",
-        "Listing Expiration Date": "7/18/2026",
-        "Square Footage": "",
-        "Acreage": "0.39",
-        "Lease Square Footage": "",
-        "broker_name": "Chris Pennington",
-        "broker_email": "Cpennington@binswanger.com",
-        "address": "513 North 15th Street- Listing 26, Philadelphia, PA",
-        "city_state": "Philadelphia, PA",
-        "street_address": "513 North 15th Street- Listing 26",
-        "deal_name": "Philadelphia, PA - 513 North 15th Street- Listing 26",
-        "record_type": "Sale",
-        "asking_price": "",
-        "lease_rate": "",
-        "listing_effective_date": "3/19/2026",
-        "listing_expiration_date": "7/18/2026",
-        "square_footage": "",
-        "acreage": "0.39",
-        "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1694807-sale"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.16291,
-          39.9621
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Chris Pennington",
         "Property": "Philadelphia, PA - 1428 Callowhill Street - Listing 26",
         "Deal: Deal Name": "Philadelphia, PA - 1428 Callowhill Street - Listing 26",
         "Deal: Record Type": "Sale",
@@ -5584,6 +5736,44 @@
         "coordinates": [
           -75.163409,
           39.959533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Owner": "Nicholas Maras",
+        "Property": "Lansdowne, PA - 25 South 2nd Street - Listing 26",
+        "Deal: Deal Name": "Lansdowne, PA - 25 South 2nd Street - Listing 26",
+        "Deal: Record Type": "Lease",
+        "Asking Price": "",
+        "Lease Rate": "",
+        "Listing Effective Date": "10/20/2026",
+        "Listing Expiration Date": "4/19/2027",
+        "Square Footage": "7760",
+        "Acreage": "0.25",
+        "Lease Square Footage": "",
+        "broker_name": "Nicholas Maras",
+        "broker_email": "NMaras@binswanger.com",
+        "address": "25 South 2nd Street, Lansdowne, PA",
+        "city_state": "Lansdowne, PA",
+        "street_address": "25 South 2nd Street",
+        "deal_name": "Lansdowne, PA - 25 South 2nd Street - Listing 26",
+        "record_type": "Lease",
+        "asking_price": "",
+        "lease_rate": "",
+        "listing_effective_date": "10/20/2026",
+        "listing_expiration_date": "4/19/2027",
+        "square_footage": "7760",
+        "acreage": "0.25",
+        "lease_square_footage": "",
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=25-S-2nd-lease"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.258225,
+          39.939712
         ]
       }
     },
@@ -5932,44 +6122,6 @@
     {
       "type": "Feature",
       "properties": {
-        "Owner": "Zach Binswanger",
-        "Property": "Frazeysburg, OH - 5685 Eco Parkway - Listing 24",
-        "Deal: Deal Name": "Frazeysburg, OH - 5685 Eco Parkway - Listing 24",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "44660000",
-        "Lease Rate": "",
-        "Listing Effective Date": "9/10/2024",
-        "Listing Expiration Date": "10/31/2026",
-        "Square Footage": "812000",
-        "Acreage": "",
-        "Lease Square Footage": "",
-        "broker_name": "Zach Binswanger",
-        "broker_email": "zbinswanger@binswanger.com",
-        "address": "5685 Eco Parkway, Frazeysburg, OH",
-        "city_state": "Frazeysburg, OH",
-        "street_address": "5685 Eco Parkway",
-        "deal_name": "Frazeysburg, OH - 5685 Eco Parkway - Listing 24",
-        "record_type": "Sale",
-        "asking_price": "44660000",
-        "lease_rate": "",
-        "listing_effective_date": "9/10/2024",
-        "listing_expiration_date": "10/31/2026",
-        "square_footage": "812000",
-        "acreage": "",
-        "lease_square_footage": "",
-        "listing_url": ""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.083455,
-          40.142497
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "Owner": "Bob Corr",
         "Property": "West Deptford, NJ - 1571 Imperial Way - Listing 26",
         "Deal: Deal Name": "West Deptford, NJ - 1571 Imperial Way - Listing 26",
@@ -6040,44 +6192,6 @@
         "coordinates": [
           -81.56978,
           35.88588
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Owner": "Doug Faris",
-        "Property": "Mocksville, NC - 212 Quality Drive - Listing 25",
-        "Deal: Deal Name": "Mocksville, NC - 212 Quality Drive - Listing 25",
-        "Deal: Record Type": "Sale",
-        "Asking Price": "10895000",
-        "Lease Rate": "",
-        "Listing Effective Date": "7/29/2025",
-        "Listing Expiration Date": "7/29/2026",
-        "Square Footage": "108960",
-        "Acreage": "",
-        "Lease Square Footage": "",
-        "broker_name": "Doug Faris",
-        "broker_email": "DFaris@binswanger.com",
-        "address": "212 Quality Drive, Mocksville, NC",
-        "city_state": "Mocksville, NC",
-        "street_address": "212 Quality Drive",
-        "deal_name": "Mocksville, NC - 212 Quality Drive - Listing 25",
-        "record_type": "Sale",
-        "asking_price": "10895000",
-        "lease_rate": "",
-        "listing_effective_date": "7/29/2025",
-        "listing_expiration_date": "7/29/2026",
-        "square_footage": "108960",
-        "acreage": "",
-        "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=212QualityDrive-Mocksville"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -80.60514,
-          35.935844
         ]
       }
     },
@@ -6337,7 +6451,7 @@
         "square_footage": "85256",
         "acreage": "",
         "lease_square_footage": "",
-        "listing_url": ""
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1703456-lease"
       },
       "geometry": {
         "type": "Point",
@@ -6351,37 +6465,37 @@
       "type": "Feature",
       "properties": {
         "Owner": "Tim Pennington",
-        "Property": "Allentown, PA - 1810 E Race Street - Listing 25",
-        "Deal: Deal Name": "Allentown, PA - 1810 E Race Street - Listing 25",
+        "Property": "Chambersburg, PA - 1050 Superior Avenue and Lot 5-111 - Listing 25",
+        "Deal: Deal Name": "Chambersburg, PA - 1050 Superior Avenue and Lot 5-111 - Listing 25",
         "Deal: Record Type": "Sale",
-        "Asking Price": "",
+        "Asking Price": "2750000",
         "Lease Rate": "",
-        "Listing Effective Date": "3/19/2025",
-        "Listing Expiration Date": "12/1/2026",
-        "Square Footage": "11750",
+        "Listing Effective Date": "2/27/2025",
+        "Listing Expiration Date": "4/8/2027",
+        "Square Footage": "180880",
         "Acreage": "",
         "Lease Square Footage": "",
         "broker_name": "Tim Pennington",
         "broker_email": "tpennington@binswanger.com",
-        "address": "1810 E Race Street, Allentown, PA",
-        "city_state": "Allentown, PA",
-        "street_address": "1810 E Race Street",
-        "deal_name": "Allentown, PA - 1810 E Race Street - Listing 25",
+        "address": "1050 Superior Avenue and Lot 5-111, Chambersburg, PA",
+        "city_state": "Chambersburg, PA",
+        "street_address": "1050 Superior Avenue and Lot 5-111",
+        "deal_name": "Chambersburg, PA - 1050 Superior Avenue and Lot 5-111 - Listing 25",
         "record_type": "Sale",
-        "asking_price": "",
+        "asking_price": "2750000",
         "lease_rate": "",
-        "listing_effective_date": "3/19/2025",
-        "listing_expiration_date": "12/1/2026",
-        "square_footage": "11750",
+        "listing_effective_date": "2/27/2025",
+        "listing_expiration_date": "4/8/2027",
+        "square_footage": "180880",
         "acreage": "",
         "lease_square_footage": "",
-        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1810-E-Race-St-sale"
+        "listing_url": "https://www.binswanger.com/who-we-are/featured-properties/?propertyId=1500233-sale"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.43316,
-          40.661817
+          -77.634762,
+          39.98728
         ]
       }
     },
